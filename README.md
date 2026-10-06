@@ -2,7 +2,7 @@
 
 Musik-Rate-Spiel für zwei Teams nach dem Vorbild von **Hitster**: Ein Lied läuft, das Team am Zug ordnet es nach Erscheinungsjahr in seine Zeitleiste ein. Wer zuerst die festgelegte Anzahl an Karten hat, gewinnt.
 
-Die App ist eine PWA für das Tablet. Die Musik läuft über **Spotify Connect** auf einem beliebigen Gerät (Handy, Laptop, Box, TV, Tablet). Die Hintergründe zu Spiel und Technik stehen in [STORY.md](STORY.md).
+Die App ist eine PWA für das Tablet. Die Musik läuft über **Spotify Connect** auf einem beliebigen Gerät (Handy, Laptop, Box, TV, Tablet). Hintergründe, Entscheidungen und Backlog stehen in [CLAUDE.md](CLAUDE.md).
 
 **Live:** https://0x646f6d.github.io/MyMusicQuest/
 
