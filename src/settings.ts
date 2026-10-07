@@ -1,3 +1,4 @@
+import { allSongs, listGenres } from './data/pool';
 import { DEFAULT_TARGET } from './game/engine';
 import { readJson, writeJson } from './storage';
 
@@ -27,5 +28,11 @@ export const defaultSettings: Settings = {
   layout: 'table',
 };
 
-export const loadSettings = (): Settings => ({ ...defaultSettings, ...readJson<Settings>(KEY) });
+export function loadSettings(): Settings {
+  const settings = { ...defaultSettings, ...readJson<Settings>(KEY) };
+  // Drop genres that no longer exist in songs.json (e.g. after the song list changed).
+  const known = listGenres(allSongs);
+  return { ...settings, genres: settings.genres.filter((g) => known.includes(g)) };
+}
+
 export const saveSettings = (settings: Settings): void => writeJson(KEY, settings);

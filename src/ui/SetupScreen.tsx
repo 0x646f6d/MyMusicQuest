@@ -1,7 +1,8 @@
 import { useMemo, useReducer } from 'react';
 import { createSpotifyProvider } from '../audio/spotifyConnect';
 import { isLoggedIn, isSpotifyConfigured, login, logout } from '../auth/spotifyAuth';
-import { allSongs, filterSongs, listDecades, listGenres, shuffle } from '../data/pool';
+import { clearPlayed, loadPlayed, orderForDeck } from '../data/history';
+import { allSongs, filterSongs, listDecades, listGenres } from '../data/pool';
 import type { Song } from '../game/types';
 import type { Settings } from '../settings';
 import { DevicePicker } from './DevicePicker';
@@ -32,6 +33,8 @@ export function SetupScreen({
   const genres = useMemo(() => listGenres(allSongs), []);
   const decades = useMemo(() => listDecades(allSongs), []);
   const available = filterSongs(allSongs, settings);
+  const played = new Set(loadPlayed());
+  const unplayed = available.filter((s) => !played.has(s.id)).length;
   const set = (patch: Partial<Settings>) => onChange({ ...settings, ...patch });
 
   const spotifyReady = settings.audio === 'mock' || (loggedIn && settings.deviceId !== null);
@@ -116,8 +119,20 @@ export function SetupScreen({
           ))}
         </div>
         <p className={available.length < 2 ? 'error' : 'hint'}>
-          {available.length} Lieder verfügbar
+          {available.length} Lieder verfügbar, davon {unplayed} auf diesem Gerät noch nicht gespielt
         </p>
+        {played.size > 0 && (
+          <button
+            type="button"
+            className="btn secondary"
+            onClick={() => {
+              clearPlayed();
+              rerender();
+            }}
+          >
+            Verlauf zurücksetzen
+          </button>
+        )}
       </section>
 
       <section className="panel">
@@ -206,7 +221,7 @@ export function SetupScreen({
           type="button"
           className="btn primary big"
           disabled={!canStart}
-          onClick={() => onStart(shuffle(available))}
+          onClick={() => onStart(orderForDeck(available, loadPlayed()))}
         >
           Spiel starten
         </button>

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useReducer, useState } from 'react';
 import { createMockProvider } from './audio/mockProvider';
 import { createSpotifyProvider } from './audio/spotifyConnect';
 import { handleRedirect, isSpotifyConfigured } from './auth/spotifyAuth';
+import { markPlayed } from './data/history';
 import { createInitialState, gameReducer } from './game/engine';
 import type { GameState, Song } from './game/types';
 import { loadSettings, saveSettings, type Settings } from './settings';
@@ -36,6 +37,12 @@ export default function App() {
 
   useEffect(() => saveSettings(settings), [settings]);
   useEffect(() => writeJson(GAME_KEY, game), [game]);
+
+  // Remember every song this device has played, so new games prefer unheard songs.
+  const currentId = game.current?.id;
+  useEffect(() => {
+    if (currentId) markPlayed(currentId);
+  }, [currentId]);
 
   const provider = useMemo(() => {
     const p = settings.audio === 'spotify' ? createSpotifyProvider() : createMockProvider();

@@ -13,7 +13,7 @@ Hitster-artiges Musik-Rate-Spiel (2 Teams, Lieder nach Jahr in eine Zeitleiste e
 3. **Aufdecken:** Richtig, wenn `linker Nachbar.year <= year <= rechter Nachbar.year` (gleiches Jahr zählt als richtig) → Karte bleibt; sonst verworfen.
 4. Teams wechseln sich ab. Sieg: erstes Team mit N Karten (Standard 10, einstellbar 2–30). Pool leer → mehr Karten gewinnt, sonst unentschieden.
 
-Liedauswahl: vor jedem Spiel zufällig gemischt, filterbar nach Genre und Jahrzehnt.
+Liedauswahl: filterbar nach Genre (nur Rock und Pop) und Jahrzehnt. Jedes Gerät merkt sich gespielte Lieder (`mmq.played` in localStorage). Beim Spielstart kommen erst noch nie gespielte Lieder (zufällig gemischt), danach bereits gespielte, das am längsten nicht gespielte zuerst. Verlauf in der Einrichtung zurücksetzbar.
 
 ## Stack & Befehle
 
@@ -30,7 +30,7 @@ Vor jedem Commit: `npx prettier --write . && npx tsc -b && npm run lint && npm t
 ## Architektur
 
 - `src/game/`: reine, framework-freie Spiellogik. `engine.ts` ist ein Reducer (`start`, `claimOpening`, `place`, `next`), `rules.ts` enthält `isPlacementCorrect` (>= / <=). Phasen: `opening → revealed → placing → revealed → … → finished`. Timelines sind immer nach Jahr sortiert.
-- `src/data/`: `songs.json` (kuratiert, 40 Songs), `pool.ts` (Filter Genre/Jahrzehnt, `shuffle`), `validate.ts`.
+- `src/data/`: `songs.json` (~1900 Songs, Genres nur `Rock` und `Pop`, jedes Lied nur einmal), `pool.ts` (Filter Genre/Jahrzehnt, `shuffle`), `history.ts` (Verlauf gespielter Lieder, `orderForDeck`), `validate.ts`. `loadSettings` verwirft Genres, die es in `songs.json` nicht mehr gibt.
 - `src/audio/`: `AudioProvider`-Interface; `spotifyConnect.ts` steuert ein Spotify-Connect-Gerät über die Web API (Track-URI per Suche, gecacht in localStorage); `mockProvider.ts` = ohne Ton.
 - `src/auth/spotifyAuth.ts`: OAuth PKCE rein im Client. Redirect-URI = App-Basis-URL, `handleRedirect()` läuft beim App-Start.
 - `src/ui/`: `SetupScreen`, `DevicePicker`, `GameScreen`, `TableLayout`, `Timeline`, `useWakeLock`. Zwei Ansichten (Setting `layout`): `table` (Standard; Tablet liegt quer zwischen den Teams, obere Hälfte um 180° gedreht, Steuerung in der Mitte, Texte aus Sicht des jeweiligen Teams) und `classic`. `App.tsx` hält Settings und Spielzustand (beides in localStorage persistiert, `src/storage.ts` fängt Fehler ab).
@@ -67,7 +67,7 @@ Die Tablet-Plattform betrifft nur die Bedienoberfläche:
 
 - Automatisierte Liedauswahl: Import aus Spotify-Playlists, Jahr über MusicBrainz verifizieren.
 - Bonus für richtig genannten Titel/Interpret; Joker/Tokens wie bei Hitster.
-- Jahreszahlen und Spotify-Treffer der 40 Test-Songs stichprobenartig prüfen, ggf. `spotifyUri` pinnen.
+- Jahreszahlen und Spotify-Treffer stichprobenartig prüfen, ggf. `spotifyUri` pinnen. Bei manchen Liedern liegen Album- und Single-Jahr auseinander.
 - Optional weiterer `AudioProvider` (z. B. YouTube), falls Spotify nicht verfügbar.
 
 ## Workflow

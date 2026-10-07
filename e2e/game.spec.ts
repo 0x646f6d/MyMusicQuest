@@ -4,13 +4,18 @@ for (const layout of ['Tisch (Teams sitzen gegenüber)', 'Klassisch']) {
   test(`plays a complete game without audio (${layout})`, async ({ page }) => {
     await page.goto('./');
     await expect(page.getByRole('heading', { name: 'MyMusicQuest' })).toBeVisible();
-    await expect(page.getByText('40 Lieder verfügbar')).toBeVisible();
+    await expect(
+      page.getByText('1926 Lieder verfügbar, davon 1926', { exact: false }),
+    ).toBeVisible();
 
     await page.getByLabel('Team 1').fill('Füchse');
     await page.getByLabel('Team 2').fill('Eulen');
     for (let i = 0; i < 7; i++) await page.getByRole('button', { name: 'weniger' }).click();
     await expect(page.locator('.stepper output')).toHaveText('3');
     await page.getByRole('button', { name: 'Ohne Ton' }).click();
+    // small pool so the game ends at the latest when it runs out of songs
+    await page.getByRole('button', { name: '50er' }).click();
+    await expect(page.getByText('38 Lieder verfügbar', { exact: false })).toBeVisible();
     await page.getByRole('button', { name: layout }).click();
     await page.getByRole('button', { name: 'Spiel starten' }).click();
 
@@ -24,7 +29,7 @@ for (const layout of ['Tisch (Teams sitzen gegenüber)', 'Klassisch']) {
     await page.getByRole('button', { name: 'Hier einordnen' }).click();
     await expect(page.getByText('Richtig! Eulen behält die Karte.')).toBeVisible();
 
-    for (let i = 0; i < 60; i++) {
+    for (let i = 0; i < 200; i++) {
       if (
         await page
           .getByText(/gewinnt!|Unentschieden!/)

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { allSongs, filterSongs, listDecades, shuffle } from './pool';
+import { allSongs, filterSongs, listDecades, listGenres, shuffle } from './pool';
 import { validateSongs } from './validate';
 
 describe('songs.json', () => {
@@ -7,9 +7,19 @@ describe('songs.json', () => {
     expect(validateSongs(allSongs)).toEqual([]);
   });
 
-  it('has 40 songs spread over several decades', () => {
-    expect(allSongs).toHaveLength(40);
+  it('has only Rock and Pop songs spread over several decades', () => {
+    expect(allSongs.length).toBeGreaterThan(1000);
+    expect(listGenres(allSongs)).toEqual(['Pop', 'Rock']);
     expect(listDecades(allSongs).length).toBeGreaterThanOrEqual(6);
+  });
+
+  it('has no song twice (same title and artist)', () => {
+    const key = (s: (typeof allSongs)[number]) =>
+      `${s.title}|${s.artist}`
+        .toLowerCase()
+        .replace(/&/g, 'and')
+        .replace(/[^a-z0-9|]/g, '');
+    expect(new Set(allSongs.map(key)).size).toBe(allSongs.length);
   });
 });
 
@@ -25,11 +35,9 @@ describe('validateSongs', () => {
 
 describe('pool', () => {
   it('filters by genre and decade', () => {
-    const result = filterSongs(allSongs, { genres: ['Austropop'], decades: [1980] });
+    const result = filterSongs(allSongs, { genres: ['Rock'], decades: [1980] });
     expect(result.length).toBeGreaterThan(0);
-    expect(result.every((s) => s.genre === 'Austropop' && s.year >= 1980 && s.year < 1990)).toBe(
-      true,
-    );
+    expect(result.every((s) => s.genre === 'Rock' && s.year >= 1980 && s.year < 1990)).toBe(true);
     expect(filterSongs(allSongs, { genres: [], decades: [] })).toHaveLength(allSongs.length);
   });
 
