@@ -1,6 +1,8 @@
 import { useEffect, useState, type Dispatch } from 'react';
 import type { AudioProvider } from '../audio/AudioProvider';
 import type { GameAction, GameState, TeamIndex } from '../game/types';
+import type { Layout } from '../settings';
+import { TableLayout } from './TableLayout';
 import { Timeline } from './Timeline';
 import { useWakeLock } from './useWakeLock';
 
@@ -8,10 +10,11 @@ interface Props {
   game: GameState;
   dispatch: Dispatch<GameAction>;
   provider: AudioProvider;
+  layout: Layout;
   onExit: () => void;
 }
 
-export function GameScreen({ game, dispatch, provider, onExit }: Props) {
+export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) {
   useWakeLock();
   const { phase, current, teams, activeTeam, result } = game;
   const [audioError, setAudioError] = useState<string | null>(null);
@@ -62,6 +65,43 @@ export function GameScreen({ game, dispatch, provider, onExit }: Props) {
       onExit();
     }
   };
+
+  if (layout === 'table') {
+    return (
+      <TableLayout
+        game={game}
+        dispatch={dispatch}
+        hidden={hidden}
+        onNext={next}
+        onExit={onExit}
+        controls={
+          <>
+            <button type="button" className="btn" onClick={play}>
+              ▶ Von vorne
+            </button>
+            <button type="button" className="btn" onClick={pause}>
+              ❚❚ Pause
+            </button>
+            {provider.kind === 'mock' && current && hidden && (
+              <button type="button" className="btn link" onClick={() => setShowHost((v) => !v)}>
+                {showHost
+                  ? `${current.artist} – ${current.title}`
+                  : 'Titel für Spielleitung zeigen'}
+              </button>
+            )}
+            <button type="button" className="btn small" onClick={exit}>
+              Menü
+            </button>
+            {audioError && (
+              <p className="error" role="alert">
+                {audioError}
+              </p>
+            )}
+          </>
+        }
+      />
+    );
+  }
 
   return (
     <main className="game">

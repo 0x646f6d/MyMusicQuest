@@ -33,7 +33,7 @@ Vor jedem Commit: `npx prettier --write . && npx tsc -b && npm run lint && npm t
 - `src/data/`: `songs.json` (kuratiert, 40 Songs), `pool.ts` (Filter Genre/Jahrzehnt, `shuffle`), `validate.ts`.
 - `src/audio/`: `AudioProvider`-Interface; `spotifyConnect.ts` steuert ein Spotify-Connect-Gerät über die Web API (Track-URI per Suche, gecacht in localStorage); `mockProvider.ts` = ohne Ton.
 - `src/auth/spotifyAuth.ts`: OAuth PKCE rein im Client. Redirect-URI = App-Basis-URL, `handleRedirect()` läuft beim App-Start.
-- `src/ui/`: `SetupScreen`, `DevicePicker`, `GameScreen`, `Timeline`, `useWakeLock`. `App.tsx` hält Settings und Spielzustand (beides in localStorage persistiert, `src/storage.ts` fängt Fehler ab).
+- `src/ui/`: `SetupScreen`, `DevicePicker`, `GameScreen`, `TableLayout`, `Timeline`, `useWakeLock`. Zwei Ansichten (Setting `layout`): `table` (Standard; Tablet liegt quer zwischen den Teams, obere Hälfte um 180° gedreht, Steuerung in der Mitte, Texte aus Sicht des jeweiligen Teams) und `classic`. `App.tsx` hält Settings und Spielzustand (beides in localStorage persistiert, `src/storage.ts` fängt Fehler ab).
 
 ## Konventionen & Fallstricke
 

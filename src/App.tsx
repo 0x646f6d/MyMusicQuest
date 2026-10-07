@@ -54,6 +54,7 @@ export default function App() {
         game={game}
         dispatch={dispatch}
         provider={provider}
+        layout={settings.layout}
         onExit={() => setScreen('setup')}
       />
     );

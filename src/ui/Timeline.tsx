@@ -7,9 +7,11 @@ interface Props {
   /** If set, gaps between cards become buttons. */
   onPick?: (index: number) => void;
   compact?: boolean;
+  /** Wrap cards onto several rows instead of scrolling horizontally. */
+  wrap?: boolean;
 }
 
-export function Timeline({ songs, highlightId, onPick, compact }: Props) {
+export function Timeline({ songs, highlightId, onPick, compact, wrap }: Props) {
   const gap = (index: number) =>
     onPick && (
       <button
@@ -24,7 +26,7 @@ export function Timeline({ songs, highlightId, onPick, compact }: Props) {
     );
 
   return (
-    <ol className={`timeline ${compact ? 'compact' : ''}`}>
+    <ol className={`timeline ${compact ? 'compact' : ''} ${wrap ? 'wrap' : ''}`}>
       {songs.length === 0 && !onPick && <li className="empty">Noch keine Karten</li>}
       {songs.map((song, i) => (
         <li key={song.id} className="slot">

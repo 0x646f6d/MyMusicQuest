@@ -2,6 +2,8 @@ import { DEFAULT_TARGET } from './game/engine';
 import { readJson, writeJson } from './storage';
 
 export type AudioMode = 'spotify' | 'mock';
+/** 'table': tablet lies between the teams, one screen half per team. */
+export type Layout = 'table' | 'classic';
 
 export interface Settings {
   teamNames: [string, string];
@@ -10,6 +12,7 @@ export interface Settings {
   decades: number[];
   audio: AudioMode;
   deviceId: string | null;
+  layout: Layout;
 }
 
 const KEY = 'mmq.settings';
@@ -21,6 +24,7 @@ export const defaultSettings: Settings = {
   decades: [],
   audio: 'spotify',
   deviceId: null,
+  layout: 'table',
 };
 
 export const loadSettings = (): Settings => ({ ...defaultSettings, ...readJson<Settings>(KEY) });

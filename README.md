@@ -2,7 +2,7 @@
 
 Musik-Zeitleisten-Spiel für zwei Teams: Ein Lied läuft, das Team am Zug ordnet es nach Erscheinungsjahr in seine Zeitleiste ein. Wer zuerst die festgelegte Anzahl an Karten hat, gewinnt.
 
-Die App ist eine PWA für das Tablet. Die Musik läuft über **Spotify Connect** auf einem beliebigen Gerät (Handy, Laptop, Box, TV, Tablet). Hintergründe, Entscheidungen und Backlog stehen in [CLAUDE.md](CLAUDE.md).
+Die App ist eine PWA für das Tablet. Im Tisch-Modus liegt das Tablet quer zwischen den Teams, und jedes Team sieht seine eigene Bildschirmhälfte. Die Musik läuft über **Spotify Connect** auf einem beliebigen Gerät (Handy, Laptop, Box, TV, Tablet). Hintergründe, Entscheidungen und Backlog stehen in [CLAUDE.md](CLAUDE.md).
 
 **Live:** https://0x646f6d.github.io/MyMusicQuest/
 

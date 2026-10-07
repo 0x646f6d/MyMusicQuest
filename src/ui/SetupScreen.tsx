@@ -171,6 +171,31 @@ export function SetupScreen({
           ))}
       </section>
 
+      <section className="panel">
+        <h2>Ansicht</h2>
+        <div className="chips">
+          <button
+            type="button"
+            className={`chip ${settings.layout === 'table' ? 'on' : ''}`}
+            aria-pressed={settings.layout === 'table'}
+            onClick={() => set({ layout: 'table' })}
+          >
+            Tisch (Teams sitzen gegenüber)
+          </button>
+          <button
+            type="button"
+            className={`chip ${settings.layout === 'classic' ? 'on' : ''}`}
+            aria-pressed={settings.layout === 'classic'}
+            onClick={() => set({ layout: 'classic' })}
+          >
+            Klassisch
+          </button>
+        </div>
+        <p className="hint">
+          Tisch: Das Tablet liegt quer in der Mitte, jedes Team sieht seine Bildschirmhälfte.
+        </p>
+      </section>
+
       <div className="actions">
         {onResume && (
           <button type="button" className="btn secondary big" onClick={onResume}>
