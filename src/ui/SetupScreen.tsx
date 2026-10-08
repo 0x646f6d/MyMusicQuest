@@ -6,6 +6,7 @@ import { allSongs, filterSongs, listDecades, listGenres } from '../data/pool';
 import type { Song } from '../game/types';
 import type { Settings } from '../settings';
 import { DevicePicker } from './DevicePicker';
+import { FullscreenButton } from './FullscreenButton';
 
 interface Props {
   settings: Settings;
@@ -45,6 +46,7 @@ export function SetupScreen({
       <header className="setup-header">
         <h1>MyMusicQuest</h1>
         <p>Hört rein, ratet das Jahr und baut eure Zeitleiste.</p>
+        <FullscreenButton className="btn small fullscreen" />
       </header>
 
       <section className="panel">

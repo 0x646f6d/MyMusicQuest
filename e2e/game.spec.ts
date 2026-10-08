@@ -51,3 +51,12 @@ for (const layout of ['Tisch (Teams sitzen gegenüber)', 'Klassisch']) {
     await expect(page.getByLabel('Team 1')).toHaveValue('Füchse');
   });
 }
+
+test('toggles fullscreen', async ({ page }) => {
+  await page.goto('./');
+  await page.getByRole('button', { name: 'Vollbild', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'Vollbild beenden' })).toBeVisible();
+  expect(await page.evaluate('document.fullscreenElement !== null')).toBe(true);
+  await page.getByRole('button', { name: 'Vollbild beenden' }).click();
+  await expect(page.getByRole('button', { name: 'Vollbild', exact: true })).toBeVisible();
+});

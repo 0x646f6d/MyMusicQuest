@@ -2,6 +2,7 @@ import { useEffect, useState, type Dispatch } from 'react';
 import type { AudioProvider } from '../audio/AudioProvider';
 import type { GameAction, GameState, TeamIndex } from '../game/types';
 import type { Layout } from '../settings';
+import { FullscreenButton } from './FullscreenButton';
 import { TableLayout } from './TableLayout';
 import { Timeline } from './Timeline';
 import { useWakeLock } from './useWakeLock';
@@ -89,9 +90,12 @@ export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) 
                   : 'Titel für Spielleitung zeigen'}
               </button>
             )}
-            <button type="button" className="btn small" onClick={exit}>
-              Menü
-            </button>
+            <div className="row">
+              <FullscreenButton />
+              <button type="button" className="btn small" onClick={exit}>
+                Menü
+              </button>
+            </div>
             {audioError && (
               <p className="error" role="alert">
                 {audioError}
@@ -115,9 +119,12 @@ export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) 
             </span>
           </div>
         ))}
-        <button type="button" className="btn small exit" onClick={exit}>
-          Menü
-        </button>
+        <div className="exit row">
+          <FullscreenButton />
+          <button type="button" className="btn small" onClick={exit}>
+            Menü
+          </button>
+        </div>
       </header>
 
       {phase === 'finished' ? (
