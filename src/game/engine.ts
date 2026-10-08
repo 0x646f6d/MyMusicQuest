@@ -17,6 +17,8 @@ export function createInitialState(): GameState {
     target: DEFAULT_TARGET,
     placement: null,
     tokens: [0, 0],
+    challenges: false,
+    bonus: [false, false],
     result: null,
     winner: null,
   };
@@ -34,6 +36,14 @@ export const tokensOf = (state: GameState, team: TeamIndex): number => state.tok
 /** Can the team that is not on turn still challenge? */
 export const canChallenge = (state: GameState): boolean =>
   tokensOf(state, other(state.activeTeam)) > 0;
+
+/** Can `team` still claim the bonus token for naming title and artist of the revealed song? */
+export const canClaimBonus = (state: GameState, team: TeamIndex): boolean =>
+  !!state.challenges &&
+  state.phase === 'revealed' &&
+  // in the opening, knowing the song already earns the card
+  state.result?.type === 'placement' &&
+  !state.bonus?.[team];
 
 /** Team that got the card in this round, or null if it was discarded. */
 export function cardOwner(result: RoundResult): TeamIndex | null {
@@ -105,6 +115,7 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
         ],
         target: action.target,
         tokens: [action.tokens ?? 0, action.tokens ?? 0],
+        challenges: (action.tokens ?? 0) > 0,
       };
       if (!first) return finish(base);
       return { ...base, phase: 'opening', current: first, deck };
@@ -160,6 +171,15 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
       return resolve({ ...state, tokens }, state.placement, action.index);
     }
 
+    case 'bonus': {
+      if (!canClaimBonus(state, action.team)) return state;
+      const tokens: [number, number] = [tokensOf(state, 0), tokensOf(state, 1)];
+      tokens[action.team] += 1;
+      const bonus: [boolean, boolean] = [!!state.bonus?.[0], !!state.bonus?.[1]];
+      bonus[action.team] = true;
+      return { ...state, tokens, bonus };
+    }
+
     case 'next': {
       if (state.phase !== 'revealed' || !state.result) return state;
       if (state.teams.some((t) => t.timeline.length >= state.target)) return finish(state);
@@ -173,6 +193,7 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
         current: next,
         deck,
         placement: null,
+        bonus: [false, false],
         result: null,
       };
     }

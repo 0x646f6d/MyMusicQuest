@@ -55,6 +55,10 @@ export interface GameState {
   placement: number | null;
   /** Challenge tokens left per team. Missing in games saved before challenges existed. */
   tokens?: [number, number];
+  /** Challenges are enabled (tokens at start > 0). Missing in older saved games. */
+  challenges?: boolean;
+  /** Per team: bonus token for naming title and artist already claimed this round. */
+  bonus?: [boolean, boolean];
   result: RoundResult | null;
   winner: TeamIndex | 'draw' | null;
 }
@@ -72,4 +76,6 @@ export type GameAction =
   | { type: 'place'; index: number }
   | { type: 'reveal' }
   | { type: 'challenge'; index: number }
+  /** Team named title and artist: one extra challenge token. */
+  | { type: 'bonus'; team: TeamIndex }
   | { type: 'next' };

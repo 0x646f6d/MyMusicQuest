@@ -31,6 +31,14 @@ for (const layout of ['Tisch (Teams sitzen gegenüber)', 'Klassisch']) {
     await page.getByRole('button', { name: 'Hier einordnen' }).click();
     await expect(page.getByText('Richtig! Eulen behält die Karte.')).toBeVisible();
 
+    // bonus token for naming title and artist, once per team and song
+    const bonus = page.getByRole('button', { name: /Titel & Interpret gewusst/ });
+    await expect(bonus).toHaveCount(2);
+    await page.locator('button.team-0', { hasText: 'Titel & Interpret gewusst' }).click();
+    await expect(bonus).toHaveCount(1);
+    await expect(page.getByText('+1 Jeton!')).toBeVisible();
+    await expect(page.getByText('✋ 4')).toBeVisible();
+
     let challenged = false;
     for (let i = 0; i < 200; i++) {
       if (

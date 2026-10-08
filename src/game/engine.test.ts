@@ -252,3 +252,37 @@ describe('challenges', () => {
     expect(state.phase).toBe('revealed');
   });
 });
+
+describe('bonus token for title and artist', () => {
+  // A: [1980], B places its first card (1990) and it is revealed
+  const revealed = (tokens = 1) =>
+    run(
+      start([1980, 1990, 1970], 10, tokens),
+      { type: 'claimOpening', team: 0 },
+      { type: 'next' },
+      { type: 'place', index: 0 },
+    );
+
+  it('gives each team one extra token per round', () => {
+    let state = run(revealed(), { type: 'bonus', team: 1 }, { type: 'bonus', team: 0 });
+    expect(state.tokens).toEqual([2, 2]);
+    expect(gameReducer(state, { type: 'bonus', team: 1 })).toBe(state);
+
+    state = run(state, { type: 'next' }, { type: 'place', index: 0 }, { type: 'reveal' });
+    expect(gameReducer(state, { type: 'bonus', team: 0 }).tokens).toEqual([3, 2]);
+  });
+
+  it('is only available after a placement was revealed', () => {
+    const opening = start([1980, 1990], 10, 1);
+    expect(gameReducer(opening, { type: 'bonus', team: 0 })).toBe(opening);
+    const claimed = gameReducer(opening, { type: 'claimOpening', team: 0 });
+    expect(gameReducer(claimed, { type: 'bonus', team: 0 })).toBe(claimed);
+    const placing = gameReducer(claimed, { type: 'next' });
+    expect(gameReducer(placing, { type: 'bonus', team: 1 })).toBe(placing);
+  });
+
+  it('is disabled without challenges', () => {
+    const state = revealed(0);
+    expect(gameReducer(state, { type: 'bonus', team: 1 })).toBe(state);
+  });
+});

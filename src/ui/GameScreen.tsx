@@ -1,6 +1,6 @@
 import { useEffect, useState, type Dispatch } from 'react';
 import type { AudioProvider } from '../audio/AudioProvider';
-import { cardOwner, other, tokensOf } from '../game/engine';
+import { canClaimBonus, cardOwner, other, tokensOf } from '../game/engine';
 import type { GameAction, GameState, TeamIndex } from '../game/types';
 import type { Layout } from '../settings';
 import { FullscreenButton } from './FullscreenButton';
@@ -31,7 +31,7 @@ export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) 
     (phase === 'revealed' && result?.type === 'placement')
       ? activeTeam
       : null;
-  const showTokens = tokensOf(game, 0) > 0 || tokensOf(game, 1) > 0;
+  const showTokens = !!game.challenges || tokensOf(game, 0) > 0 || tokensOf(game, 1) > 0;
 
   const reportError = (e: Error) => setAudioError(e.message);
 
@@ -232,6 +232,26 @@ export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) 
                   >
                     {challenging ? 'Abbrechen' : `Einspruch! (${teams[other(activeTeam)].name})`}
                   </button>
+                </div>
+              )}
+              {phase === 'revealed' && game.challenges && result?.type === 'placement' && (
+                <div className="row">
+                  {([0, 1] as TeamIndex[]).map((i) =>
+                    canClaimBonus(game, i) ? (
+                      <button
+                        type="button"
+                        key={i}
+                        className={`btn team-${i}`}
+                        onClick={() => dispatch({ type: 'bonus', team: i })}
+                      >
+                        {teams[i].name}: Titel & Interpret gewusst +1 ✋
+                      </button>
+                    ) : (
+                      <span key={i} className="bonus">
+                        {teams[i].name}: +1 Jeton!
+                      </span>
+                    ),
+                  )}
                 </div>
               )}
               {phase === 'revealed' && (

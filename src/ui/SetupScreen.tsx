@@ -113,7 +113,8 @@ export function SetupScreen({
         </label>
         <p className="hint">
           Mit einem Jeton darf das andere Team Einspruch erheben und selbst eine Lücke wählen. Liegt
-          es richtig und das Team am Zug falsch, bekommt es die Karte.
+          es richtig und das Team am Zug falsch, bekommt es die Karte. Wer Titel und Interpret weiß,
+          bekommt nach dem Aufdecken einen Jeton dazu.
         </p>
       </section>
 

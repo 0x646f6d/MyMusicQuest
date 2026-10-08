@@ -1,5 +1,5 @@
 import { useState, type Dispatch, type ReactNode } from 'react';
-import { cardOwner, other, tokensOf } from '../game/engine';
+import { canClaimBonus, cardOwner, other, tokensOf } from '../game/engine';
 import type { GameAction, GameState, TeamIndex } from '../game/types';
 import { Timeline } from './Timeline';
 
@@ -89,7 +89,7 @@ function TeamHalf({
       (phase === 'revealed' && result?.type === 'placement')) &&
     isActive;
   const tokens = tokensOf(game, team);
-  const showTokens = tokens > 0 || tokensOf(game, other(team)) > 0;
+  const showTokens = !!game.challenges || tokens > 0 || tokensOf(game, other(team)) > 0;
   // the challenging team picks a gap in the active team's timeline, shown on its own half
   const pickForChallenge = challenging && !isActive;
 
@@ -153,6 +153,16 @@ function TeamHalf({
             {challenging ? 'Abbrechen' : 'Einspruch!'}
           </button>
         )}
+        {canClaimBonus(game, team) && (
+          <button
+            type="button"
+            className={`btn team-${team}`}
+            onClick={() => dispatch({ type: 'bonus', team })}
+          >
+            Titel & Interpret gewusst +1 ✋
+          </button>
+        )}
+        {phase === 'revealed' && game.bonus?.[team] && <p className="bonus">+1 Jeton!</p>}
         {phase === 'revealed' && (
           <button type="button" className="btn primary" onClick={onNext}>
             Weiter

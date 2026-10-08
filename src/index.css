@@ -570,6 +570,11 @@ h3 {
   font-weight: 700;
   white-space: nowrap;
 }
+.bonus {
+  margin: 0;
+  color: var(--good);
+  font-weight: 700;
+}
 .challenge-head {
   font-size: 1rem;
   color: var(--muted);
