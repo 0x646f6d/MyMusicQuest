@@ -17,16 +17,32 @@ export interface Team {
   timeline: Song[];
 }
 
-export type Phase = 'opening' | 'placing' | 'revealed' | 'finished';
+/** 'pending': the active team has placed the song tentatively, the other team may challenge. */
+export type Phase = 'opening' | 'placing' | 'pending' | 'revealed' | 'finished';
+
+export interface Challenge {
+  team: TeamIndex;
+  /** Gap in the active team's timeline the challenging team picked. */
+  index: number;
+  correct: boolean;
+}
 
 export type RoundResult =
   | { type: 'opening'; team: TeamIndex | null }
-  | { type: 'placement'; team: TeamIndex; index: number; correct: boolean };
+  | {
+      type: 'placement';
+      team: TeamIndex;
+      index: number;
+      correct: boolean;
+      challenge?: Challenge;
+      /** Team that got the card (missing in results saved before challenges existed). */
+      winner?: TeamIndex | null;
+    };
 
 export interface GameState {
   phase: Phase;
   teams: [Team, Team];
-  /** Team whose turn it is (only meaningful in 'placing' and 'revealed'). */
+  /** Team whose turn it is (only meaningful in 'placing', 'pending' and 'revealed'). */
   activeTeam: TeamIndex;
   /** Song currently being played, null when the game is over. */
   current: Song | null;
@@ -35,12 +51,25 @@ export interface GameState {
   discarded: Song[];
   /** Number of cards needed to win. */
   target: number;
+  /** Tentative gap picked by the active team (phase 'pending'). */
+  placement: number | null;
+  /** Challenge tokens left per team. Missing in games saved before challenges existed. */
+  tokens?: [number, number];
   result: RoundResult | null;
   winner: TeamIndex | 'draw' | null;
 }
 
 export type GameAction =
-  | { type: 'start'; teamNames: [string, string]; songs: Song[]; target: number }
+  | {
+      type: 'start';
+      teamNames: [string, string];
+      songs: Song[];
+      target: number;
+      /** Challenge tokens per team (0 = no challenges). */
+      tokens?: number;
+    }
   | { type: 'claimOpening'; team: TeamIndex | null }
   | { type: 'place'; index: number }
+  | { type: 'reveal' }
+  | { type: 'challenge'; index: number }
   | { type: 'next' };

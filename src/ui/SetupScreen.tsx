@@ -89,6 +89,32 @@ export function SetupScreen({
             </button>
           </div>
         </label>
+        <label className="field inline">
+          <span>Einspruch-Jetons pro Team</span>
+          <div className="stepper">
+            <button
+              type="button"
+              className="btn small"
+              aria-label="weniger Jetons"
+              onClick={() => set({ challengeTokens: Math.max(0, settings.challengeTokens - 1) })}
+            >
+              −
+            </button>
+            <output>{settings.challengeTokens || 'aus'}</output>
+            <button
+              type="button"
+              className="btn small"
+              aria-label="mehr Jetons"
+              onClick={() => set({ challengeTokens: Math.min(10, settings.challengeTokens + 1) })}
+            >
+              +
+            </button>
+          </div>
+        </label>
+        <p className="hint">
+          Mit einem Jeton darf das andere Team Einspruch erheben und selbst eine Lücke wählen. Liegt
+          es richtig und das Team am Zug falsch, bekommt es die Karte.
+        </p>
       </section>
 
       <section className="panel">

@@ -6,23 +6,31 @@ interface Props {
   highlightId?: string;
   /** If set, gaps between cards become buttons. */
   onPick?: (index: number) => void;
+  /** Gap holding a tentatively placed (still hidden) card, shown as "?". */
+  markedGap?: number;
   compact?: boolean;
   /** Wrap cards onto several rows instead of scrolling horizontally. */
   wrap?: boolean;
 }
 
-export function Timeline({ songs, highlightId, onPick, compact, wrap }: Props) {
+export function Timeline({ songs, highlightId, onPick, markedGap, compact, wrap }: Props) {
   const gap = (index: number) =>
-    onPick && (
-      <button
-        type="button"
-        key={`gap-${index}`}
-        className="gap"
-        aria-label={gapLabel(songs, index)}
-        onClick={() => onPick(index)}
-      >
-        +
-      </button>
+    index === markedGap ? (
+      <div key={`gap-${index}`} className="card marked" aria-label="Vorläufig eingeordnet">
+        ?
+      </div>
+    ) : (
+      onPick && (
+        <button
+          type="button"
+          key={`gap-${index}`}
+          className="gap"
+          aria-label={gapLabel(songs, index)}
+          onClick={() => onPick(index)}
+        >
+          +
+        </button>
+      )
     );
 
   return (
@@ -42,7 +50,7 @@ export function Timeline({ songs, highlightId, onPick, compact, wrap }: Props) {
           </div>
         </li>
       ))}
-      {onPick && <li className="slot">{gap(songs.length)}</li>}
+      {(onPick || markedGap === songs.length) && <li className="slot">{gap(songs.length)}</li>}
     </ol>
   );
 }

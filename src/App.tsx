@@ -51,7 +51,13 @@ export default function App() {
   }, [settings.audio, settings.deviceId]);
 
   const startGame = (songs: Song[]) => {
-    dispatch({ type: 'start', teamNames: settings.teamNames, songs, target: settings.target });
+    dispatch({
+      type: 'start',
+      teamNames: settings.teamNames,
+      songs,
+      target: settings.target,
+      tokens: settings.challengeTokens,
+    });
     setScreen('game');
   };
 

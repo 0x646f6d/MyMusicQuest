@@ -474,6 +474,22 @@ h3 {
 .gap:active {
   background: color-mix(in srgb, var(--accent) 35%, transparent);
 }
+.card.marked {
+  width: 52px;
+  min-height: 72px;
+  place-content: center;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #1b1500;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.timeline.compact .card.marked {
+  width: auto;
+  min-height: 0;
+  font-size: 1rem;
+}
 
 .finished {
   display: grid;
@@ -547,6 +563,16 @@ h3 {
   padding: 0.15rem 0.6rem;
   font-size: 0.85rem;
   font-weight: 700;
+}
+.half-head .tokens,
+.score .tokens {
+  color: var(--muted);
+  font-weight: 700;
+  white-space: nowrap;
+}
+.challenge-head {
+  font-size: 1rem;
+  color: var(--muted);
 }
 .half-head .count {
   margin-left: auto;

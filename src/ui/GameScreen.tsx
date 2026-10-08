@@ -1,5 +1,6 @@
 import { useEffect, useState, type Dispatch } from 'react';
 import type { AudioProvider } from '../audio/AudioProvider';
+import { cardOwner, other, tokensOf } from '../game/engine';
 import type { GameAction, GameState, TeamIndex } from '../game/types';
 import type { Layout } from '../settings';
 import { FullscreenButton } from './FullscreenButton';
@@ -17,14 +18,20 @@ interface Props {
 
 export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) {
   useWakeLock();
-  const { phase, current, teams, activeTeam, result } = game;
+  const { phase, current, teams, activeTeam, result, placement } = game;
   const [audioError, setAudioError] = useState<string | null>(null);
   const [showHost, setShowHost] = useState(false);
-  const hidden = phase === 'opening' || phase === 'placing';
+  // id of the song the other team is challenging (classic layout), so the mode ends with the round
+  const [challengedId, setChallengedId] = useState<string | null>(null);
+  const challenging = phase === 'pending' && challengedId === current?.id;
+  const hidden = phase === 'opening' || phase === 'placing' || phase === 'pending';
   const turnOf =
-    phase === 'placing' || (phase === 'revealed' && result?.type === 'placement')
+    phase === 'placing' ||
+    phase === 'pending' ||
+    (phase === 'revealed' && result?.type === 'placement')
       ? activeTeam
       : null;
+  const showTokens = tokensOf(game, 0) > 0 || tokensOf(game, 1) > 0;
 
   const reportError = (e: Error) => setAudioError(e.message);
 
@@ -112,7 +119,15 @@ export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) 
       <header className="scoreboard">
         {([0, 1] as TeamIndex[]).map((i) => (
           <div key={i} className={`score team-${i} ${turnOf === i ? 'active' : ''}`}>
-            <span className="name">{teams[i].name}</span>
+            <span className="name">
+              {teams[i].name}
+              {showTokens && (
+                <small className="tokens" title="Einspruch-Jetons">
+                  {' '}
+                  ✋ {tokensOf(game, i)}
+                </small>
+              )}
+            </span>
             <span className="count">
               {teams[i].timeline.length}
               <small>/{game.target}</small>
@@ -167,7 +182,7 @@ export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) 
               )}
             </div>
             <div className="instructions">
-              <Instructions game={game} />
+              <Instructions game={game} challenging={challenging} />
               {audioError && (
                 <p className="error" role="alert">
                   {audioError}{' '}
@@ -197,6 +212,28 @@ export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) 
                   </button>
                 </div>
               )}
+              {phase === 'pending' && (
+                <div className="row">
+                  {!challenging && (
+                    <button
+                      type="button"
+                      className="btn primary big"
+                      onClick={() => dispatch({ type: 'reveal' })}
+                    >
+                      Aufdecken
+                    </button>
+                  )}
+                  <button
+                    type="button"
+                    className={
+                      challenging ? 'btn big secondary' : `btn big team-${other(activeTeam)}`
+                    }
+                    onClick={() => setChallengedId(challenging ? null : (current?.id ?? null))}
+                  >
+                    {challenging ? 'Abbrechen' : `Einspruch! (${teams[other(activeTeam)].name})`}
+                  </button>
+                </div>
+              )}
               {phase === 'revealed' && (
                 <button type="button" className="btn primary big" onClick={next}>
                   Weiter
@@ -212,10 +249,21 @@ export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) 
                 <Timeline
                   songs={teams[i].timeline}
                   compact={order !== 0}
-                  highlightId={phase === 'revealed' && result?.team === i ? current?.id : undefined}
+                  highlightId={
+                    phase === 'revealed' && result && cardOwner(result) === i
+                      ? current?.id
+                      : undefined
+                  }
+                  markedGap={
+                    phase === 'pending' && order === 0 ? (placement ?? undefined) : undefined
+                  }
                   onPick={
-                    phase === 'placing' && order === 0
-                      ? (index) => dispatch({ type: 'place', index })
+                    (phase === 'placing' || phase === 'pending') && order === 0
+                      ? (index) => {
+                          if (!challenging) return dispatch({ type: 'place', index });
+                          setChallengedId(null);
+                          dispatch({ type: 'challenge', index });
+                        }
                       : undefined
                   }
                 />
@@ -228,7 +276,7 @@ export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) 
   );
 }
 
-function Instructions({ game }: { game: GameState }) {
+function Instructions({ game, challenging }: { game: GameState; challenging: boolean }) {
   const { phase, teams, activeTeam, result, current } = game;
   if (phase === 'opening') {
     return (
@@ -243,6 +291,20 @@ function Instructions({ game }: { game: GameState }) {
       </p>
     );
   }
+  if (phase === 'pending') {
+    const challenger = teams[other(activeTeam)].name;
+    return challenging ? (
+      <p className="lead">
+        <strong>{challenger}</strong> erhebt Einspruch: Tippt auf die Stelle in der Zeitleiste von{' '}
+        {teams[activeTeam].name}, an der das Lied eurer Meinung nach liegt.
+      </p>
+    ) : (
+      <p className="lead">
+        <strong>{teams[activeTeam].name}</strong> hat eingeordnet (die Stelle kann noch geändert
+        werden). {challenger} kann mit einem Jeton Einspruch erheben.
+      </p>
+    );
+  }
   if (phase === 'revealed' && result) {
     if (result.type === 'opening') {
       return (
@@ -253,11 +315,26 @@ function Instructions({ game }: { game: GameState }) {
         </p>
       );
     }
-    return result.correct ? (
-      <p className="lead good">Richtig! {teams[result.team].name} behält die Karte.</p>
-    ) : (
-      <p className="lead bad">
-        Leider falsch – das Lied ist von {current?.year}. Die Karte wird verworfen.
+    const owner = cardOwner(result);
+    if (owner === null) {
+      return (
+        <p className="lead bad">
+          {result.challenge ? 'Beide falsch' : 'Leider falsch'} – das Lied ist von {current?.year}.
+          Die Karte wird verworfen.
+        </p>
+      );
+    }
+    if (owner !== result.team) {
+      return (
+        <p className="lead good">
+          Einspruch erfolgreich! Das Lied ist von {current?.year}, {teams[owner].name} bekommt die
+          Karte.
+        </p>
+      );
+    }
+    return (
+      <p className="lead good">
+        Richtig!{result.challenge && ' Einspruch abgewiesen.'} {teams[owner].name} behält die Karte.
       </p>
     );
   }

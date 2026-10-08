@@ -11,7 +11,8 @@ Die App ist eine PWA für das Tablet. Im Tisch-Modus liegt das Tablet quer zwisc
 1. **Eröffnung:** Das erste Lied läuft. Das Team, das zuerst Titel oder Interpret nennt, bekommt die Karte (Tipp auf „… wusste es“). Weiß es keiner, kommt das nächste Lied. Danach ist das andere Team dran.
 2. **Zug:** Ein Lied läuft verdeckt. Das Team am Zug tippt auf die Lücke (`+`) in seiner Zeitleiste, an der das Lied seiner Meinung nach liegt.
 3. **Aufdecken:** Liegt das Lied richtig (Jahr ≥ linker Nachbar und ≤ rechter Nachbar), bleibt die Karte. Sonst wird sie verworfen.
-4. Die Teams wechseln sich ab. Das erste Team mit N Karten (Standard 10) gewinnt. Sind alle Lieder gespielt, gewinnt das Team mit mehr Karten.
+4. **Einspruch:** Jedes Team hat Einspruch-Jetons (Standard 3, in der Einrichtung einstellbar, 0 = aus). Nach dem Einordnen kann das Team am Zug die Stelle noch ändern und dann „Aufdecken“ tippen. Vorher darf das andere Team „Einspruch!“ tippen und mit einem Jeton selbst eine Lücke in der Zeitleiste des Teams am Zug wählen. Liegt das Team am Zug falsch und der Einspruch richtig, bekommt das einsprechende Team die Karte. Der Jeton ist in jedem Fall verbraucht.
+5. Die Teams wechseln sich ab. Das erste Team mit N Karten (Standard 10) gewinnt. Sind alle Lieder gespielt, gewinnt das Team mit mehr Karten.
 
 ## Spotify einrichten (einmalig)
 

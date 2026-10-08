@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { insertAt, isPlacementCorrect } from './rules';
+import { insertAt, insertSorted, isPlacementCorrect } from './rules';
 import type { Song } from './types';
 
 const song = (year: number): Song => ({
@@ -44,5 +44,15 @@ describe('insertAt', () => {
     const result = insertAt(timeline, 1, song(1977));
     expect(result.map((s) => s.year)).toEqual([1970, 1977, 1985, 2000]);
     expect(timeline).toHaveLength(3);
+  });
+});
+
+describe('insertSorted', () => {
+  it('inserts by year, after cards of the same year', () => {
+    expect(insertSorted(timeline, song(1990)).map((s) => s.year)).toEqual([1970, 1985, 1990, 2000]);
+    expect(insertSorted(timeline, song(1960))[0].year).toBe(1960);
+    expect(insertSorted(timeline, song(2010))[3].year).toBe(2010);
+    const same = { ...song(1985), id: 'other' };
+    expect(insertSorted(timeline, same)[2].id).toBe('other');
   });
 });

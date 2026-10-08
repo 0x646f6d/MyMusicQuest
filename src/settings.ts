@@ -9,6 +9,8 @@ export type Layout = 'table' | 'classic';
 export interface Settings {
   teamNames: [string, string];
   target: number;
+  /** Challenge tokens per team (0 = no challenges). */
+  challengeTokens: number;
   genres: string[];
   decades: number[];
   audio: AudioMode;
@@ -21,6 +23,7 @@ const KEY = 'mmq.settings';
 export const defaultSettings: Settings = {
   teamNames: ['Team A', 'Team B'],
   target: DEFAULT_TARGET,
+  challengeTokens: 3,
   genres: [],
   decades: [],
   audio: 'spotify',
