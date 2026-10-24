@@ -9,7 +9,7 @@ describe('songs.json', () => {
 
   it('has only Rock and Pop songs spread over several decades', () => {
     expect(allSongs.length).toBeGreaterThan(1000);
-    expect(listGenres(allSongs)).toEqual(['Pop', 'Rock']);
+    expect(listGenres(allSongs)).toEqual(['Austropop', 'Pop', 'Rock']);
     expect(listDecades(allSongs).length).toBeGreaterThanOrEqual(6);
   });
 

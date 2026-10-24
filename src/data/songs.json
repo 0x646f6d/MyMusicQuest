@@ -13480,5 +13480,390 @@
     "artist": "Sophie Ellis-Bextor",
     "year": 2001,
     "genre": "Pop"
+  },
+  {
+    "id": "falco-der-kommissar",
+    "title": "Der Kommissar",
+    "artist": "Falco",
+    "year": 1981,
+    "genre": "Austropop"
+  },
+  {
+    "id": "falco-maschine-brennt",
+    "title": "Maschine brennt",
+    "artist": "Falco",
+    "year": 1982,
+    "genre": "Austropop"
+  },
+  {
+    "id": "falco-junge-roemer",
+    "title": "Junge Römer",
+    "artist": "Falco",
+    "year": 1984,
+    "genre": "Austropop"
+  },
+  {
+    "id": "falco-rock-me-amadeus",
+    "title": "Rock Me Amadeus",
+    "artist": "Falco",
+    "year": 1985,
+    "genre": "Austropop"
+  },
+  {
+    "id": "falco-vienna-calling",
+    "title": "Vienna Calling",
+    "artist": "Falco",
+    "year": 1985,
+    "genre": "Austropop"
+  },
+  {
+    "id": "falco-jeanny",
+    "title": "Jeanny",
+    "artist": "Falco",
+    "year": 1985,
+    "genre": "Austropop"
+  },
+  {
+    "id": "falco-coming-home-jeanny-part-ii-ein-jahr-danach",
+    "title": "Coming Home (Jeanny Part II, ein Jahr danach)",
+    "artist": "Falco",
+    "year": 1986,
+    "genre": "Austropop"
+  },
+  {
+    "id": "falco-the-sound-of-musik",
+    "title": "The Sound of Musik",
+    "artist": "Falco",
+    "year": 1986,
+    "genre": "Austropop"
+  },
+  {
+    "id": "falco-wiener-blut",
+    "title": "Wiener Blut",
+    "artist": "Falco",
+    "year": 1988,
+    "genre": "Austropop"
+  },
+  {
+    "id": "falco-titanic",
+    "title": "Titanic",
+    "artist": "Falco",
+    "year": 1992,
+    "genre": "Austropop"
+  },
+  {
+    "id": "falco-out-of-the-dark",
+    "title": "Out of the Dark",
+    "artist": "Falco",
+    "year": 1998,
+    "genre": "Austropop"
+  },
+  {
+    "id": "opus-live-is-life",
+    "title": "Live Is Life",
+    "artist": "Opus",
+    "year": 1984,
+    "genre": "Austropop"
+  },
+  {
+    "id": "wolfgang-ambros-da-hofa",
+    "title": "Da Hofa",
+    "artist": "Wolfgang Ambros",
+    "year": 1971,
+    "genre": "Austropop"
+  },
+  {
+    "id": "wolfgang-ambros-zwickts-mi",
+    "title": "Zwickt's mi",
+    "artist": "Wolfgang Ambros",
+    "year": 1975,
+    "genre": "Austropop"
+  },
+  {
+    "id": "wolfgang-ambros-es-lebe-der-zentralfriedhof",
+    "title": "Es lebe der Zentralfriedhof",
+    "artist": "Wolfgang Ambros",
+    "year": 1975,
+    "genre": "Austropop"
+  },
+  {
+    "id": "wolfgang-ambros-schifoan",
+    "title": "Schifoan",
+    "artist": "Wolfgang Ambros",
+    "year": 1976,
+    "genre": "Austropop"
+  },
+  {
+    "id": "rainhard-fendrich-strada-del-sole",
+    "title": "Strada del Sole",
+    "artist": "Rainhard Fendrich",
+    "year": 1981,
+    "genre": "Austropop"
+  },
+  {
+    "id": "rainhard-fendrich-es-lebe-der-sport",
+    "title": "Es lebe der Sport",
+    "artist": "Rainhard Fendrich",
+    "year": 1982,
+    "genre": "Austropop"
+  },
+  {
+    "id": "rainhard-fendrich-macho-macho",
+    "title": "Macho Macho",
+    "artist": "Rainhard Fendrich",
+    "year": 1988,
+    "genre": "Austropop"
+  },
+  {
+    "id": "rainhard-fendrich-i-am-from-austria",
+    "title": "I Am from Austria",
+    "artist": "Rainhard Fendrich",
+    "year": 1989,
+    "genre": "Austropop"
+  },
+  {
+    "id": "georg-danzer-joe-schau",
+    "title": "Jö schau",
+    "artist": "Georg Danzer",
+    "year": 1975,
+    "genre": "Austropop"
+  },
+  {
+    "id": "sts-fuerstenfeld",
+    "title": "Fürstenfeld",
+    "artist": "STS",
+    "year": 1984,
+    "genre": "Austropop"
+  },
+  {
+    "id": "sts-grossvater",
+    "title": "Großvater",
+    "artist": "STS",
+    "year": 1985,
+    "genre": "Austropop"
+  },
+  {
+    "id": "erste-allgemeine-verunsicherung-ba-ba-bankueberfall",
+    "title": "Ba-Ba-Banküberfall",
+    "artist": "Erste Allgemeine Verunsicherung",
+    "year": 1985,
+    "genre": "Austropop"
+  },
+  {
+    "id": "erste-allgemeine-verunsicherung-maerchenprinz",
+    "title": "Märchenprinz",
+    "artist": "Erste Allgemeine Verunsicherung",
+    "year": 1985,
+    "genre": "Austropop"
+  },
+  {
+    "id": "erste-allgemeine-verunsicherung-das-boese-ist-immer-und-ueberall",
+    "title": "Das Böse ist immer und überall",
+    "artist": "Erste Allgemeine Verunsicherung",
+    "year": 1985,
+    "genre": "Austropop"
+  },
+  {
+    "id": "udo-juergens-siebzehn-jahr-blondes-haar",
+    "title": "Siebzehn Jahr, blondes Haar",
+    "artist": "Udo Jürgens",
+    "year": 1965,
+    "genre": "Austropop"
+  },
+  {
+    "id": "udo-juergens-merci-cherie",
+    "title": "Merci, Chérie",
+    "artist": "Udo Jürgens",
+    "year": 1966,
+    "genre": "Austropop"
+  },
+  {
+    "id": "udo-juergens-immer-wieder-geht-die-sonne-auf",
+    "title": "Immer wieder geht die Sonne auf",
+    "artist": "Udo Jürgens",
+    "year": 1967,
+    "genre": "Austropop"
+  },
+  {
+    "id": "udo-juergens-griechischer-wein",
+    "title": "Griechischer Wein",
+    "artist": "Udo Jürgens",
+    "year": 1974,
+    "genre": "Austropop"
+  },
+  {
+    "id": "udo-juergens-aber-bitte-mit-sahne",
+    "title": "Aber bitte mit Sahne",
+    "artist": "Udo Jürgens",
+    "year": 1976,
+    "genre": "Austropop"
+  },
+  {
+    "id": "udo-juergens-mit-66-jahren",
+    "title": "Mit 66 Jahren",
+    "artist": "Udo Jürgens",
+    "year": 1977,
+    "genre": "Austropop"
+  },
+  {
+    "id": "udo-juergens-buenos-dias-argentina",
+    "title": "Buenos Días, Argentina",
+    "artist": "Udo Jürgens",
+    "year": 1978,
+    "genre": "Austropop"
+  },
+  {
+    "id": "udo-juergens-vielen-dank-fuer-die-blumen",
+    "title": "Vielen Dank für die Blumen",
+    "artist": "Udo Jürgens",
+    "year": 1981,
+    "genre": "Austropop"
+  },
+  {
+    "id": "udo-juergens-ich-war-noch-niemals-in-new-york",
+    "title": "Ich war noch niemals in New York",
+    "artist": "Udo Jürgens",
+    "year": 1982,
+    "genre": "Austropop"
+  },
+  {
+    "id": "marianne-mendt-wie-a-glockn",
+    "title": "Wie a Glock'n",
+    "artist": "Marianne Mendt",
+    "year": 1970,
+    "genre": "Austropop"
+  },
+  {
+    "id": "ludwig-hirsch-komm-grosser-schwarzer-vogel",
+    "title": "Komm großer schwarzer Vogel",
+    "artist": "Ludwig Hirsch",
+    "year": 1979,
+    "genre": "Austropop"
+  },
+  {
+    "id": "peter-cornelius-du-entschuldige-i-kenn-di",
+    "title": "Du entschuldige – i kenn di",
+    "artist": "Peter Cornelius",
+    "year": 1980,
+    "genre": "Austropop"
+  },
+  {
+    "id": "edelweiss-bring-me-edelweiss",
+    "title": "Bring Me Edelweiss",
+    "artist": "Edelweiss",
+    "year": 1988,
+    "genre": "Austropop"
+  },
+  {
+    "id": "hubert-von-goisern-und-die-alpinkatzen-koa-hiatamadl",
+    "title": "Koa Hiatamadl",
+    "artist": "Hubert von Goisern und die Alpinkatzen",
+    "year": 1992,
+    "genre": "Austropop"
+  },
+  {
+    "id": "hubert-von-goisern-und-die-alpinkatzen-heast-as-nit",
+    "title": "Heast as nit",
+    "artist": "Hubert von Goisern und die Alpinkatzen",
+    "year": 1992,
+    "genre": "Austropop"
+  },
+  {
+    "id": "hubert-von-goisern-und-die-alpinkatzen-weit-weit-weg",
+    "title": "Weit, weit weg",
+    "artist": "Hubert von Goisern und die Alpinkatzen",
+    "year": 1994,
+    "genre": "Austropop"
+  },
+  {
+    "id": "hubert-von-goisern-brenna-tuats-guat",
+    "title": "Brenna tuat's guat",
+    "artist": "Hubert von Goisern",
+    "year": 2011,
+    "genre": "Austropop"
+  },
+  {
+    "id": "dj-oetzi-anton-aus-tirol",
+    "title": "Anton aus Tirol",
+    "artist": "DJ Ötzi",
+    "year": 1999,
+    "genre": "Austropop"
+  },
+  {
+    "id": "dj-oetzi-hey-baby-uhh-ahh",
+    "title": "Hey Baby (Uhh, Ahh)",
+    "artist": "DJ Ötzi",
+    "year": 2000,
+    "genre": "Austropop"
+  },
+  {
+    "id": "dj-oetzi-nik-p-ein-stern-der-deinen-namen-traegt",
+    "title": "Ein Stern (… der deinen Namen trägt)",
+    "artist": "DJ Ötzi & Nik P.",
+    "year": 2007,
+    "genre": "Austropop"
+  },
+  {
+    "id": "christina-stuermer-ich-lebe",
+    "title": "Ich lebe",
+    "artist": "Christina Stürmer",
+    "year": 2003,
+    "genre": "Austropop"
+  },
+  {
+    "id": "christina-stuermer-mama-ana-ahabak",
+    "title": "Mama (Ana Ahabak)",
+    "artist": "Christina Stürmer",
+    "year": 2003,
+    "genre": "Austropop"
+  },
+  {
+    "id": "christina-stuermer-nie-genug",
+    "title": "Nie genug",
+    "artist": "Christina Stürmer",
+    "year": 2005,
+    "genre": "Austropop"
+  },
+  {
+    "id": "bilderbuch-maschin",
+    "title": "Maschin",
+    "artist": "Bilderbuch",
+    "year": 2013,
+    "genre": "Austropop"
+  },
+  {
+    "id": "bilderbuch-bungalow",
+    "title": "Bungalow",
+    "artist": "Bilderbuch",
+    "year": 2015,
+    "genre": "Austropop"
+  },
+  {
+    "id": "wanda-bologna",
+    "title": "Bologna",
+    "artist": "Wanda",
+    "year": 2014,
+    "genre": "Austropop"
+  },
+  {
+    "id": "wanda-bussi-baby",
+    "title": "Bussi Baby",
+    "artist": "Wanda",
+    "year": 2015,
+    "genre": "Austropop"
+  },
+  {
+    "id": "conchita-wurst-rise-like-a-phoenix",
+    "title": "Rise Like a Phoenix",
+    "artist": "Conchita Wurst",
+    "year": 2014,
+    "genre": "Austropop"
+  },
+  {
+    "id": "josh-cordula-gruen",
+    "title": "Cordula Grün",
+    "artist": "Josh.",
+    "year": 2018,
+    "genre": "Austropop"
   }
 ]
