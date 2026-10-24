@@ -166,8 +166,17 @@ describe('challenges', () => {
     expect(state.tokens).toEqual([1, 1]);
   });
 
-  it('reveals immediately without tokens', () => {
+  it('reveals immediately when challenges are off', () => {
     const state = gameReducer(ready(undefined, undefined, 0), { type: 'place', index: 1 });
+    expect(state.phase).toBe('revealed');
+  });
+
+  it('still places tentatively when the other team is out of tokens', () => {
+    const noTokens = { ...ready(), tokens: [1, 0] as [number, number] };
+    let state = gameReducer(noTokens, { type: 'place', index: 1 });
+    expect(state.phase).toBe('pending');
+    expect(gameReducer(state, { type: 'challenge', index: 0 })).toBe(state);
+    state = gameReducer(state, { type: 'reveal' });
     expect(state.phase).toBe('revealed');
   });
 
@@ -246,8 +255,9 @@ describe('challenges', () => {
   });
 
   it('treats games saved without tokens as having none', () => {
-    const { tokens: _, ...old } = ready(undefined, undefined, 1);
+    const { tokens: _, challenges: __, ...old } = ready(undefined, undefined, 1);
     void _;
+    void __;
     const state = gameReducer(old, { type: 'place', index: 1 });
     expect(state.phase).toBe('revealed');
   });

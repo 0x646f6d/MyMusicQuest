@@ -145,8 +145,10 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
       if ((state.phase !== 'placing' && state.phase !== 'pending') || !state.current) return state;
       const { timeline } = state.teams[state.activeTeam];
       if (action.index < 0 || action.index > timeline.length) return state;
-      // first card of a team can't be wrong, so there is nothing to challenge
-      if (canChallenge(state) && timeline.length > 0) {
+      // With challenges on, a placement stays tentative even if the other team is out of
+      // tokens, so every turn works the same way and a mis-tap can still be corrected.
+      // The first card of a team can't be wrong, so there is nothing to challenge.
+      if (state.challenges && timeline.length > 0) {
         return { ...state, phase: 'pending', placement: action.index };
       }
       return resolve(state, action.index, null);

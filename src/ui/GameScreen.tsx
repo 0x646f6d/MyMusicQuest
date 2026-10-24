@@ -1,6 +1,6 @@
 import { useEffect, useState, type Dispatch } from 'react';
 import type { AudioProvider } from '../audio/AudioProvider';
-import { canClaimBonus, cardOwner, other, tokensOf } from '../game/engine';
+import { canChallenge, canClaimBonus, cardOwner, other, tokensOf } from '../game/engine';
 import type { GameAction, GameState, TeamIndex } from '../game/types';
 import type { Layout } from '../settings';
 import { FullscreenButton } from './FullscreenButton';
@@ -228,9 +228,14 @@ export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) 
                     className={
                       challenging ? 'btn big secondary' : `btn big team-${other(activeTeam)}`
                     }
+                    disabled={!challenging && !canChallenge(game)}
                     onClick={() => setChallengedId(challenging ? null : (current?.id ?? null))}
                   >
-                    {challenging ? 'Abbrechen' : `Einspruch! (${teams[other(activeTeam)].name})`}
+                    {challenging
+                      ? 'Abbrechen'
+                      : canChallenge(game)
+                        ? `Einspruch! (${teams[other(activeTeam)].name})`
+                        : `${teams[other(activeTeam)].name}: keine Jetons`}
                   </button>
                 </div>
               )}
@@ -321,7 +326,10 @@ function Instructions({ game, challenging }: { game: GameState; challenging: boo
     ) : (
       <p className="lead">
         <strong>{teams[activeTeam].name}</strong> hat eingeordnet (die Stelle kann noch geändert
-        werden). {challenger} kann mit einem Jeton Einspruch erheben.
+        werden).{' '}
+        {canChallenge(game)
+          ? `${challenger} kann mit einem Jeton Einspruch erheben.`
+          : `${challenger} hat keine Einspruch-Jetons mehr.`}
       </p>
     );
   }

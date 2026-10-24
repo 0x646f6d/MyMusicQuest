@@ -1,5 +1,5 @@
 import { useState, type Dispatch, type ReactNode } from 'react';
-import { canClaimBonus, cardOwner, other, tokensOf } from '../game/engine';
+import { canChallenge, canClaimBonus, cardOwner, other, tokensOf } from '../game/engine';
 import type { GameAction, GameState, TeamIndex } from '../game/types';
 import { Timeline } from './Timeline';
 
@@ -148,9 +148,10 @@ function TeamHalf({
           <button
             type="button"
             className={challenging ? 'btn secondary' : `btn big team-${team}`}
+            disabled={!challenging && !canChallenge(game)}
             onClick={() => setChallenging(!challenging)}
           >
-            {challenging ? 'Abbrechen' : 'Einspruch!'}
+            {challenging ? 'Abbrechen' : canChallenge(game) ? 'Einspruch!' : 'Keine Jetons'}
           </button>
         )}
         {canClaimBonus(game, team) && (
@@ -232,9 +233,12 @@ function statusText(game: GameState, team: TeamIndex, challenging: boolean): str
           ? `${teams[other(team)].name} erhebt Einspruch …`
           : 'Eingeordnet! Ihr könnt die Stelle noch ändern, dann aufdecken.';
       }
-      return challenging
-        ? `Tippt auf die Stelle bei ${activeName}, an der das Lied eurer Meinung nach liegt.`
-        : `${activeName} hat eingeordnet. Liegen sie falsch? Mit einem Einspruch-Jeton könnt ihr die Karte holen.`;
+      if (challenging) {
+        return `Tippt auf die Stelle bei ${activeName}, an der das Lied eurer Meinung nach liegt.`;
+      }
+      return canChallenge(game)
+        ? `${activeName} hat eingeordnet. Liegen sie falsch? Mit einem Einspruch-Jeton könnt ihr die Karte holen.`
+        : `${activeName} hat eingeordnet. Ihr habt keine Einspruch-Jetons mehr.`;
     case 'revealed': {
       if (!result) return '';
       if (result.type === 'opening') {
