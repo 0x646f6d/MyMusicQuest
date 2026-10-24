@@ -296,3 +296,74 @@ describe('bonus token for title and artist', () => {
     expect(gameReducer(state, { type: 'bonus', team: 1 })).toBe(state);
   });
 });
+
+describe('tokens for the exact year', () => {
+  // A: [1980], B places its first card (1990) and it is revealed
+  const revealed = (tokens = 1) =>
+    run(
+      start([1980, 1990, 1970], 10, tokens),
+      { type: 'claimOpening', team: 0 },
+      { type: 'next' },
+      { type: 'place', index: 0 },
+    );
+
+  it('gives each team two extra tokens once per round, independent of the bonus', () => {
+    const state = run(revealed(), { type: 'exactYear', team: 1 }, { type: 'bonus', team: 1 });
+    expect(state.tokens).toEqual([1, 4]);
+    expect(gameReducer(state, { type: 'exactYear', team: 1 })).toBe(state);
+    expect(gameReducer(state, { type: 'exactYear', team: 0 }).tokens).toEqual([3, 4]);
+    expect(gameReducer(state, { type: 'next' }).exact).toEqual([false, false]);
+  });
+
+  it('is only available after a placement was revealed and with challenges', () => {
+    const claimed = run(start([1980, 1990], 10, 1), { type: 'claimOpening', team: 0 });
+    expect(gameReducer(claimed, { type: 'exactYear', team: 0 })).toBe(claimed);
+    const off = revealed(0);
+    expect(gameReducer(off, { type: 'exactYear', team: 1 })).toBe(off);
+  });
+});
+
+describe('skipping a song', () => {
+  // A: [1980], B on turn with 1990 in placing
+  const placing = (tokens = 3, songs = [1980, 1990, 1970]) =>
+    run(start(songs, 10, tokens), { type: 'claimOpening', team: 0 }, { type: 'next' });
+
+  it('costs three tokens and gives the same team the next song', () => {
+    const state = gameReducer(placing(4), { type: 'skip' });
+    expect(state.phase).toBe('placing');
+    expect(state.activeTeam).toBe(1);
+    expect(state.current?.year).toBe(1970);
+    expect(state.tokens).toEqual([4, 1]);
+    expect(state.discarded.map((s) => s.year)).toEqual([1990]);
+  });
+
+  it('works on a tentative placement too', () => {
+    const state = run(
+      start([1980, 2000, 1990, 1970], 10, 3),
+      { type: 'claimOpening', team: 0 },
+      { type: 'next' },
+      { type: 'place', index: 0 },
+      { type: 'next' },
+      { type: 'place', index: 0 },
+    );
+    expect(state.phase).toBe('pending');
+    const skipped = gameReducer(state, { type: 'skip' });
+    expect(skipped.phase).toBe('placing');
+    expect(skipped.placement).toBeNull();
+    expect(skipped.current?.year).toBe(1970);
+    expect(skipped.tokens).toEqual([0, 3]);
+  });
+
+  it('needs enough tokens and challenges', () => {
+    const poor = placing(2);
+    expect(gameReducer(poor, { type: 'skip' })).toBe(poor);
+    const off = placing(0);
+    expect(gameReducer(off, { type: 'skip' })).toBe(off);
+  });
+
+  it('finishes the game when the pool is empty', () => {
+    const state = gameReducer(placing(3, [1980, 1990]), { type: 'skip' });
+    expect(state.phase).toBe('finished');
+    expect(state.winner).toBe(0);
+  });
+});

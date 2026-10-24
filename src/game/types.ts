@@ -59,6 +59,8 @@ export interface GameState {
   challenges?: boolean;
   /** Per team: bonus token for naming title and artist already claimed this round. */
   bonus?: [boolean, boolean];
+  /** Per team: tokens for naming the exact year already claimed this round. */
+  exact?: [boolean, boolean];
   result: RoundResult | null;
   winner: TeamIndex | 'draw' | null;
 }
@@ -78,4 +80,8 @@ export type GameAction =
   | { type: 'challenge'; index: number }
   /** Team named title and artist: one extra challenge token. */
   | { type: 'bonus'; team: TeamIndex }
+  /** Team named the exact year: two extra challenge tokens. */
+  | { type: 'exactYear'; team: TeamIndex }
+  /** Active team trades tokens to skip the current song and get the next one. */
+  | { type: 'skip' }
   | { type: 'next' };

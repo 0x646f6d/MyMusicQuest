@@ -1,6 +1,16 @@
 import { useEffect, useState, type Dispatch } from 'react';
 import type { AudioProvider } from '../audio/AudioProvider';
-import { canChallenge, canClaimBonus, cardOwner, other, tokensOf } from '../game/engine';
+import {
+  canChallenge,
+  canClaimBonus,
+  canClaimExactYear,
+  canSkip,
+  cardOwner,
+  EXACT_YEAR_TOKENS,
+  other,
+  SKIP_COST,
+  tokensOf,
+} from '../game/engine';
 import type { GameAction, GameState, TeamIndex } from '../game/types';
 import type { Layout } from '../settings';
 import { FullscreenButton } from './FullscreenButton';
@@ -237,6 +247,36 @@ export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) 
                         ? `Einspruch! (${teams[other(activeTeam)].name})`
                         : `${teams[other(activeTeam)].name}: keine Jetons`}
                   </button>
+                </div>
+              )}
+              {(phase === 'placing' || phase === 'pending') && game.challenges && !challenging && (
+                <button
+                  type="button"
+                  className={`btn team-${activeTeam}`}
+                  disabled={!canSkip(game)}
+                  onClick={() => dispatch({ type: 'skip' })}
+                >
+                  {teams[activeTeam].name}: Lied überspringen −{SKIP_COST} ✋
+                </button>
+              )}
+              {phase === 'revealed' && game.challenges && result?.type === 'placement' && (
+                <div className="row">
+                  {([0, 1] as TeamIndex[]).map((i) =>
+                    canClaimExactYear(game, i) ? (
+                      <button
+                        type="button"
+                        key={i}
+                        className={`btn team-${i}`}
+                        onClick={() => dispatch({ type: 'exactYear', team: i })}
+                      >
+                        {teams[i].name}: Jahr genau gewusst +{EXACT_YEAR_TOKENS} ✋
+                      </button>
+                    ) : (
+                      <span key={i} className="bonus">
+                        {teams[i].name}: +{EXACT_YEAR_TOKENS} Jetons!
+                      </span>
+                    ),
+                  )}
                 </div>
               )}
               {phase === 'revealed' && game.challenges && result?.type === 'placement' && (

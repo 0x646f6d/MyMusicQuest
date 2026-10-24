@@ -1,5 +1,15 @@
 import { useState, type Dispatch, type ReactNode } from 'react';
-import { canChallenge, canClaimBonus, cardOwner, other, tokensOf } from '../game/engine';
+import {
+  canChallenge,
+  canClaimBonus,
+  canClaimExactYear,
+  canSkip,
+  cardOwner,
+  EXACT_YEAR_TOKENS,
+  other,
+  SKIP_COST,
+  tokensOf,
+} from '../game/engine';
 import type { GameAction, GameState, TeamIndex } from '../game/types';
 import { Timeline } from './Timeline';
 
@@ -153,6 +163,31 @@ function TeamHalf({
           >
             {challenging ? 'Abbrechen' : canChallenge(game) ? 'Einspruch!' : 'Keine Jetons'}
           </button>
+        )}
+        {(phase === 'placing' || phase === 'pending') &&
+          isActive &&
+          !challenging &&
+          game.challenges && (
+            <button
+              type="button"
+              className="btn secondary"
+              disabled={!canSkip(game)}
+              onClick={() => dispatch({ type: 'skip' })}
+            >
+              Lied überspringen −{SKIP_COST} ✋
+            </button>
+          )}
+        {canClaimExactYear(game, team) && (
+          <button
+            type="button"
+            className={`btn team-${team}`}
+            onClick={() => dispatch({ type: 'exactYear', team })}
+          >
+            Jahr genau gewusst +{EXACT_YEAR_TOKENS} ✋
+          </button>
+        )}
+        {phase === 'revealed' && game.exact?.[team] && (
+          <p className="bonus">+{EXACT_YEAR_TOKENS} Jetons!</p>
         )}
         {canClaimBonus(game, team) && (
           <button

@@ -2,6 +2,10 @@ import { insertAt, insertSorted, isPlacementCorrect } from './rules';
 import type { Challenge, GameAction, GameState, RoundResult, TeamIndex, Team } from './types';
 
 export const DEFAULT_TARGET = 10;
+/** Tokens the active team pays to skip a song. */
+export const SKIP_COST = 3;
+/** Tokens a team gets for naming the exact year. */
+export const EXACT_YEAR_TOKENS = 2;
 
 export function createInitialState(): GameState {
   return {
@@ -19,6 +23,7 @@ export function createInitialState(): GameState {
     tokens: [0, 0],
     challenges: false,
     bonus: [false, false],
+    exact: [false, false],
     result: null,
     winner: null,
   };
@@ -44,6 +49,19 @@ export const canClaimBonus = (state: GameState, team: TeamIndex): boolean =>
   // in the opening, knowing the song already earns the card
   state.result?.type === 'placement' &&
   !state.bonus?.[team];
+
+/** Can `team` still claim the tokens for naming the exact year of the revealed song? */
+export const canClaimExactYear = (state: GameState, team: TeamIndex): boolean =>
+  !!state.challenges &&
+  state.phase === 'revealed' &&
+  state.result?.type === 'placement' &&
+  !state.exact?.[team];
+
+/** Can the active team trade tokens to skip the current song? */
+export const canSkip = (state: GameState): boolean =>
+  !!state.challenges &&
+  (state.phase === 'placing' || state.phase === 'pending') &&
+  tokensOf(state, state.activeTeam) >= SKIP_COST;
 
 /** Team that got the card in this round, or null if it was discarded. */
 export function cardOwner(result: RoundResult): TeamIndex | null {
@@ -182,6 +200,34 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
       return { ...state, tokens, bonus };
     }
 
+    case 'exactYear': {
+      if (!canClaimExactYear(state, action.team)) return state;
+      const tokens: [number, number] = [tokensOf(state, 0), tokensOf(state, 1)];
+      tokens[action.team] += EXACT_YEAR_TOKENS;
+      const exact: [boolean, boolean] = [!!state.exact?.[0], !!state.exact?.[1]];
+      exact[action.team] = true;
+      return { ...state, tokens, exact };
+    }
+
+    case 'skip': {
+      if (!canSkip(state) || !state.current) return state;
+      const tokens: [number, number] = [tokensOf(state, 0), tokensOf(state, 1)];
+      tokens[state.activeTeam] -= SKIP_COST;
+      const discarded = [...state.discarded, state.current];
+      const [next, ...deck] = state.deck;
+      if (!next) return finish({ ...state, tokens, discarded });
+      // same team stays on turn with a fresh song
+      return {
+        ...state,
+        phase: 'placing',
+        tokens,
+        discarded,
+        current: next,
+        deck,
+        placement: null,
+      };
+    }
+
     case 'next': {
       if (state.phase !== 'revealed' || !state.result) return state;
       if (state.teams.some((t) => t.timeline.length >= state.target)) return finish(state);
@@ -196,6 +242,7 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
         deck,
         placement: null,
         bonus: [false, false],
+        exact: [false, false],
         result: null,
       };
     }
