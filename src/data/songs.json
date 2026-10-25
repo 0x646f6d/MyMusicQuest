@@ -203,13 +203,6 @@
     "genre": "Austropop"
   },
   {
-    "id": "doris-day-a-guy-is-a-guy",
-    "title": "A Guy Is a Guy",
-    "artist": "Doris Day",
-    "year": 1951,
-    "genre": "Pop"
-  },
-  {
     "id": "frank-sinatra-i-m-a-fool-to-want-you",
     "title": "I'm a Fool to Want You",
     "artist": "Frank Sinatra",
@@ -399,6 +392,13 @@
     "genre": "Austropop"
   },
   {
+    "id": "doris-day-a-guy-is-a-guy",
+    "title": "A Guy Is a Guy",
+    "artist": "Doris Day",
+    "year": 1952,
+    "genre": "Pop"
+  },
+  {
     "id": "eddie-fisher-any-time",
     "title": "Any Time",
     "artist": "Eddie Fisher",
@@ -437,13 +437,6 @@
     "id": "leroy-anderson-blue-tango",
     "title": "Blue Tango",
     "artist": "Leroy Anderson",
-    "year": 1952,
-    "genre": "Pop"
-  },
-  {
-    "id": "nat-king-cole-pretend",
-    "title": "Pretend",
-    "artist": "Nat King Cole",
     "year": 1952,
     "genre": "Pop"
   },
@@ -588,6 +581,13 @@
     "genre": "Austropop"
   },
   {
+    "id": "nat-king-cole-pretend",
+    "title": "Pretend",
+    "artist": "Nat King Cole",
+    "year": 1953,
+    "genre": "Pop"
+  },
+  {
     "id": "dean-martin-that-s-amore",
     "title": "That's Amore",
     "artist": "Dean Martin",
@@ -728,6 +728,13 @@
     "genre": "Pop"
   },
   {
+    "id": "doris-day-secret-love",
+    "title": "Secret Love",
+    "artist": "Doris Day",
+    "year": 1953,
+    "genre": "Pop"
+  },
+  {
     "id": "big-joe-turner-honey-hush",
     "title": "Honey Hush",
     "artist": "Big Joe Turner",
@@ -738,13 +745,6 @@
     "id": "bill-haley-his-comets-crazy-man-crazy",
     "title": "Crazy Man Crazy",
     "artist": "Bill Haley & His Comets",
-    "year": 1953,
-    "genre": "Rock"
-  },
-  {
-    "id": "hank-ballard-work-with-me-annie",
-    "title": "Work with Me Annie",
-    "artist": "Hank Ballard",
     "year": 1953,
     "genre": "Rock"
   },
@@ -779,13 +779,6 @@
   {
     "id": "doris-day-if-i-give-my-heart-to-you",
     "title": "If I Give My Heart to You",
-    "artist": "Doris Day",
-    "year": 1954,
-    "genre": "Pop"
-  },
-  {
-    "id": "doris-day-secret-love",
-    "title": "Secret Love",
     "artist": "Doris Day",
     "year": 1954,
     "genre": "Pop"
@@ -908,6 +901,13 @@
     "artist": "The Chordettes",
     "year": 1954,
     "genre": "Pop"
+  },
+  {
+    "id": "hank-ballard-work-with-me-annie",
+    "title": "Work with Me Annie",
+    "artist": "Hank Ballard",
+    "year": 1954,
+    "genre": "Rock"
   },
   {
     "id": "big-joe-turner-shake-rattle-and-roll",
@@ -1064,13 +1064,6 @@
     "genre": "Pop"
   },
   {
-    "id": "the-platters-the-great-pretender",
-    "title": "The Great Pretender",
-    "artist": "The Platters",
-    "year": 1955,
-    "genre": "Pop"
-  },
-  {
     "id": "al-hibbler-unchained-melody",
     "title": "Unchained Melody",
     "artist": "Al Hibbler",
@@ -1106,23 +1099,16 @@
     "genre": "Pop"
   },
   {
-    "id": "bill-haley-his-comets-see-you-later-alligator",
-    "title": "See You Later Alligator",
-    "artist": "Bill Haley & His Comets",
+    "id": "dean-martin-memories-are-made-of-this",
+    "title": "Memories Are Made of This",
+    "artist": "Dean Martin",
     "year": 1955,
-    "genre": "Rock"
+    "genre": "Pop"
   },
   {
     "id": "bo-diddley-bo-diddley",
     "title": "Bo Diddley",
     "artist": "Bo Diddley",
-    "year": 1955,
-    "genre": "Rock"
-  },
-  {
-    "id": "chuck-berry-roll-over-beethoven",
-    "title": "Roll Over Beethoven",
-    "artist": "Chuck Berry",
     "year": 1955,
     "genre": "Rock"
   },
@@ -1137,13 +1123,6 @@
     "id": "fats-domino-i-m-in-love-again",
     "title": "I'm in Love Again",
     "artist": "Fats Domino",
-    "year": 1955,
-    "genre": "Rock"
-  },
-  {
-    "id": "little-richard-good-golly-miss-molly",
-    "title": "Good Golly Miss Molly",
-    "artist": "Little Richard",
     "year": 1955,
     "genre": "Rock"
   },
@@ -1211,20 +1190,6 @@
     "genre": "Rock"
   },
   {
-    "id": "lolita-seemann-deine-heimat-ist-das-meer",
-    "title": "Seemann deine Heimat ist das Meer",
-    "artist": "Lolita",
-    "year": 1956,
-    "genre": "Austropop"
-  },
-  {
-    "id": "peter-alexander-die-kleine-kneipe",
-    "title": "Die kleine Kneipe",
-    "artist": "Peter Alexander",
-    "year": 1956,
-    "genre": "Austropop"
-  },
-  {
     "id": "freddy-quinn-heimweh",
     "title": "Heimweh",
     "artist": "Freddy Quinn",
@@ -1239,9 +1204,9 @@
     "genre": "Austropop"
   },
   {
-    "id": "dean-martin-memories-are-made-of-this",
-    "title": "Memories Are Made of This",
-    "artist": "Dean Martin",
+    "id": "the-platters-the-great-pretender",
+    "title": "The Great Pretender",
+    "artist": "The Platters",
     "year": 1956,
     "genre": "Pop"
   },
@@ -1365,6 +1330,20 @@
     "genre": "Pop"
   },
   {
+    "id": "bill-haley-his-comets-see-you-later-alligator",
+    "title": "See You Later Alligator",
+    "artist": "Bill Haley & His Comets",
+    "year": 1956,
+    "genre": "Rock"
+  },
+  {
+    "id": "chuck-berry-roll-over-beethoven",
+    "title": "Roll Over Beethoven",
+    "artist": "Chuck Berry",
+    "year": 1956,
+    "genre": "Rock"
+  },
+  {
     "id": "carl-perkins-blue-suede-shoes",
     "title": "Blue Suede Shoes",
     "artist": "Carl Perkins",
@@ -1382,13 +1361,6 @@
     "id": "elvis-presley-heartbreak-hotel",
     "title": "Heartbreak Hotel",
     "artist": "Elvis Presley",
-    "year": 1956,
-    "genre": "Rock"
-  },
-  {
-    "id": "jerry-lee-lewis-whole-lotta-shakin-goin-on",
-    "title": "Whole Lotta Shakin' Goin' On",
-    "artist": "Jerry Lee Lewis",
     "year": 1956,
     "genre": "Rock"
   },
@@ -1561,16 +1533,16 @@
     "genre": "Pop"
   },
   {
-    "id": "buddy-holly-oh-boy",
-    "title": "Oh Boy!",
-    "artist": "Buddy Holly",
+    "id": "jerry-lee-lewis-whole-lotta-shakin-goin-on",
+    "title": "Whole Lotta Shakin' Goin' On",
+    "artist": "Jerry Lee Lewis",
     "year": 1957,
     "genre": "Rock"
   },
   {
-    "id": "chuck-berry-johnny-b-goode",
-    "title": "Johnny B. Goode",
-    "artist": "Chuck Berry",
+    "id": "buddy-holly-oh-boy",
+    "title": "Oh Boy!",
+    "artist": "Buddy Holly",
     "year": 1957,
     "genre": "Rock"
   },
@@ -1585,13 +1557,6 @@
     "id": "jerry-lee-lewis-great-balls-of-fire",
     "title": "Great Balls of Fire",
     "artist": "Jerry Lee Lewis",
-    "year": 1957,
-    "genre": "Rock"
-  },
-  {
-    "id": "link-wray-rumble",
-    "title": "Rumble",
-    "artist": "Link Wray",
     "year": 1957,
     "genre": "Rock"
   },
@@ -1662,6 +1627,13 @@
     "id": "little-richard-keep-a-knockin",
     "title": "Keep A-Knockin'",
     "artist": "Little Richard",
+    "year": 1957,
+    "genre": "Rock"
+  },
+  {
+    "id": "buddy-holly-peggy-sue",
+    "title": "Peggy Sue",
+    "artist": "Buddy Holly",
     "year": 1957,
     "genre": "Rock"
   },
@@ -1841,16 +1813,30 @@
     "genre": "Pop"
   },
   {
-    "id": "bobby-freeman-do-you-want-to-dance",
-    "title": "Do You Want to Dance",
-    "artist": "Bobby Freeman",
+    "id": "little-richard-good-golly-miss-molly",
+    "title": "Good Golly Miss Molly",
+    "artist": "Little Richard",
     "year": 1958,
     "genre": "Rock"
   },
   {
-    "id": "buddy-holly-peggy-sue",
-    "title": "Peggy Sue",
-    "artist": "Buddy Holly",
+    "id": "chuck-berry-johnny-b-goode",
+    "title": "Johnny B. Goode",
+    "artist": "Chuck Berry",
+    "year": 1958,
+    "genre": "Rock"
+  },
+  {
+    "id": "link-wray-rumble",
+    "title": "Rumble",
+    "artist": "Link Wray",
+    "year": 1958,
+    "genre": "Rock"
+  },
+  {
+    "id": "bobby-freeman-do-you-want-to-dance",
+    "title": "Do You Want to Dance",
+    "artist": "Bobby Freeman",
     "year": 1958,
     "genre": "Rock"
   },
@@ -2100,6 +2086,13 @@
     "genre": "Pop"
   },
   {
+    "id": "johnny-horton-the-battle-of-new-orleans",
+    "title": "The Battle of New Orleans",
+    "artist": "Johnny Horton",
+    "year": 1959,
+    "genre": "Pop"
+  },
+  {
     "id": "bobby-darin-dream-lover",
     "title": "Dream Lover",
     "artist": "Bobby Darin",
@@ -2212,15 +2205,15 @@
     "genre": "Rock"
   },
   {
-    "id": "peter-alexander-das-mach-nur-die-beine-von-dolores",
-    "title": "Das mach nur die Beine von Dolores",
-    "artist": "Peter Alexander",
+    "id": "lolita-seemann-deine-heimat-ist-das-meer",
+    "title": "Seemann deine Heimat ist das Meer",
+    "artist": "Lolita",
     "year": 1960,
     "genre": "Austropop"
   },
   {
-    "id": "peter-alexander-hier-ist-ein-mensch",
-    "title": "Hier ist ein Mensch",
+    "id": "peter-alexander-das-mach-nur-die-beine-von-dolores",
+    "title": "Das mach nur die Beine von Dolores",
     "artist": "Peter Alexander",
     "year": 1960,
     "genre": "Austropop"
@@ -2257,13 +2250,6 @@
     "id": "elvis-presley-stuck-on-you",
     "title": "Stuck on You",
     "artist": "Elvis Presley",
-    "year": 1960,
-    "genre": "Pop"
-  },
-  {
-    "id": "johnny-horton-the-battle-of-new-orleans",
-    "title": "The Battle of New Orleans",
-    "artist": "Johnny Horton",
     "year": 1960,
     "genre": "Pop"
   },
@@ -2313,13 +2299,6 @@
     "id": "the-everly-brothers-cathy-s-clown",
     "title": "Cathy's Clown",
     "artist": "The Everly Brothers",
-    "year": 1960,
-    "genre": "Pop"
-  },
-  {
-    "id": "the-shirelles-will-you-love-me-tomorrow",
-    "title": "Will You Love Me Tomorrow",
-    "artist": "The Shirelles",
     "year": 1960,
     "genre": "Pop"
   },
@@ -2469,6 +2448,13 @@
     "artist": "Peter Kraus",
     "year": 1961,
     "genre": "Austropop"
+  },
+  {
+    "id": "the-shirelles-will-you-love-me-tomorrow",
+    "title": "Will You Love Me Tomorrow",
+    "artist": "The Shirelles",
+    "year": 1961,
+    "genre": "Pop"
   },
   {
     "id": "ben-e-king-stand-by-me",
@@ -2653,13 +2639,6 @@
     "genre": "Austropop"
   },
   {
-    "id": "udo-j-rgens-immer-wieder-geht-die-sonne-auf",
-    "title": "Immer wieder geht die Sonne auf",
-    "artist": "Udo Jürgens",
-    "year": 1962,
-    "genre": "Austropop"
-  },
-  {
     "id": "freddy-quinn-junge-komm-bald-wieder",
     "title": "Junge, komm bald wieder",
     "artist": "Freddy Quinn",
@@ -2719,13 +2698,6 @@
     "id": "shelley-fabares-johnny-angel",
     "title": "Johnny Angel",
     "artist": "Shelley Fabares",
-    "year": 1962,
-    "genre": "Pop"
-  },
-  {
-    "id": "the-crystals-da-doo-ron-ron",
-    "title": "Da Doo Ron Ron",
-    "artist": "The Crystals",
     "year": 1962,
     "genre": "Pop"
   },
@@ -2889,6 +2861,13 @@
     "artist": "Udo Jürgens",
     "year": 1963,
     "genre": "Austropop"
+  },
+  {
+    "id": "the-crystals-da-doo-ron-ron",
+    "title": "Da Doo Ron Ron",
+    "artist": "The Crystals",
+    "year": 1963,
+    "genre": "Pop"
   },
   {
     "id": "bobby-vinton-blue-velvet",
@@ -3220,6 +3199,20 @@
     "genre": "Pop"
   },
   {
+    "id": "petula-clark-downtown",
+    "title": "Downtown",
+    "artist": "Petula Clark",
+    "year": 1964,
+    "genre": "Pop"
+  },
+  {
+    "id": "the-temptations-my-girl",
+    "title": "My Girl",
+    "artist": "The Temptations",
+    "year": 1964,
+    "genre": "Pop"
+  },
+  {
     "id": "manfred-mann-do-wah-diddy-diddy",
     "title": "Do Wah Diddy Diddy",
     "artist": "Manfred Mann",
@@ -3346,16 +3339,16 @@
     "genre": "Austropop"
   },
   {
+    "id": "udo-j-rgens-siebzehn-jahr-blondes-haar",
+    "title": "Siebzehn Jahr blondes Haar",
+    "artist": "Udo Jürgens",
+    "year": 1965,
+    "genre": "Austropop"
+  },
+  {
     "id": "jackie-deshannon-what-the-world-needs-now-is-love",
     "title": "What the World Needs Now Is Love",
     "artist": "Jackie DeShannon",
-    "year": 1965,
-    "genre": "Pop"
-  },
-  {
-    "id": "petula-clark-downtown",
-    "title": "Downtown",
-    "artist": "Petula Clark",
     "year": 1965,
     "genre": "Pop"
   },
@@ -3598,13 +3591,6 @@
     "genre": "Austropop"
   },
   {
-    "id": "waterloo-my-little-world",
-    "title": "My Little World",
-    "artist": "Waterloo",
-    "year": 1966,
-    "genre": "Austropop"
-  },
-  {
     "id": "freddy-quinn-hundert-mann-und-ein-befehl",
     "title": "Hundert Mann und ein Befehl",
     "artist": "Freddy Quinn",
@@ -3738,6 +3724,13 @@
     "genre": "Pop"
   },
   {
+    "id": "the-monkees-i-m-a-believer",
+    "title": "I'm a Believer",
+    "artist": "The Monkees",
+    "year": 1966,
+    "genre": "Pop"
+  },
+  {
     "id": "cream-i-feel-free",
     "title": "I Feel Free",
     "artist": "Cream",
@@ -3864,15 +3857,8 @@
     "genre": "Rock"
   },
   {
-    "id": "udo-j-rgens-ein-ehrenwertes-haus",
-    "title": "Ein ehrenwertes Haus",
-    "artist": "Udo Jürgens",
-    "year": 1967,
-    "genre": "Austropop"
-  },
-  {
-    "id": "udo-j-rgens-siebzehn-jahr-blondes-haar",
-    "title": "Siebzehn Jahr blondes Haar",
+    "id": "udo-j-rgens-immer-wieder-geht-die-sonne-auf",
+    "title": "Immer wieder geht die Sonne auf",
     "artist": "Udo Jürgens",
     "year": 1967,
     "genre": "Austropop"
@@ -3958,13 +3944,6 @@
     "id": "the-grass-roots-let-s-live-for-today",
     "title": "Let's Live for Today",
     "artist": "The Grass Roots",
-    "year": 1967,
-    "genre": "Pop"
-  },
-  {
-    "id": "the-monkees-i-m-a-believer",
-    "title": "I'm a Believer",
-    "artist": "The Monkees",
     "year": 1967,
     "genre": "Pop"
   },
@@ -4137,13 +4116,6 @@
     "genre": "Rock"
   },
   {
-    "id": "udo-j-rgens-aber-bitte-mit-sahne",
-    "title": "Aber bitte mit Sahne",
-    "artist": "Udo Jürgens",
-    "year": 1968,
-    "genre": "Austropop"
-  },
-  {
     "id": "udo-j-rgens-cottonfields",
     "title": "Cottonfields",
     "artist": "Udo Jürgens",
@@ -4161,6 +4133,13 @@
     "id": "peter-alexander-delilah",
     "title": "Delilah",
     "artist": "Peter Alexander",
+    "year": 1968,
+    "genre": "Austropop"
+  },
+  {
+    "id": "udo-j-rgens-was-ich-dir-sagen-will",
+    "title": "Was ich dir sagen will",
+    "artist": "Udo Jürgens",
     "year": 1968,
     "genre": "Austropop"
   },
@@ -4238,20 +4217,6 @@
     "id": "the-rascals-a-beautiful-morning",
     "title": "A Beautiful Morning",
     "artist": "The Rascals",
-    "year": 1968,
-    "genre": "Pop"
-  },
-  {
-    "id": "the-temptations-my-girl",
-    "title": "My Girl",
-    "artist": "The Temptations",
-    "year": 1968,
-    "genre": "Pop"
-  },
-  {
-    "id": "tommy-james-crimson-and-clover",
-    "title": "Crimson and Clover",
-    "artist": "Tommy James",
     "year": 1968,
     "genre": "Pop"
   },
@@ -4445,25 +4410,18 @@
     "genre": "Rock"
   },
   {
-    "id": "marianne-mendt-wia-a-glock-n",
-    "title": "Wia a Glock'n",
-    "artist": "Marianne Mendt",
-    "year": 1969,
-    "genre": "Austropop"
-  },
-  {
-    "id": "udo-j-rgens-lieb-vaterland",
-    "title": "Lieb Vaterland",
-    "artist": "Udo Jürgens",
-    "year": 1969,
-    "genre": "Austropop"
-  },
-  {
     "id": "waterloo-robinson-are-you-ready",
     "title": "Are You Ready",
     "artist": "Waterloo & Robinson",
     "year": 1969,
     "genre": "Austropop"
+  },
+  {
+    "id": "tommy-james-crimson-and-clover",
+    "title": "Crimson and Clover",
+    "artist": "Tommy James",
+    "year": 1969,
+    "genre": "Pop"
   },
   {
     "id": "desmond-dekker-israelites",
@@ -4606,6 +4564,13 @@
     "genre": "Pop"
   },
   {
+    "id": "norman-greenbaum-spirit-in-the-sky",
+    "title": "Spirit in the Sky",
+    "artist": "Norman Greenbaum",
+    "year": 1969,
+    "genre": "Pop"
+  },
+  {
     "id": "creedence-clearwater-revival-bad-moon-rising",
     "title": "Bad Moon Rising",
     "artist": "Creedence Clearwater Revival",
@@ -4732,6 +4697,20 @@
     "genre": "Rock"
   },
   {
+    "id": "peter-alexander-hier-ist-ein-mensch",
+    "title": "Hier ist ein Mensch",
+    "artist": "Peter Alexander",
+    "year": 1970,
+    "genre": "Austropop"
+  },
+  {
+    "id": "marianne-mendt-wia-a-glock-n",
+    "title": "Wia a Glock'n",
+    "artist": "Marianne Mendt",
+    "year": 1970,
+    "genre": "Austropop"
+  },
+  {
     "id": "arik-brauer-k-nig-vogel-und-sein-lied",
     "title": "König Vogel und sein Lied",
     "artist": "Arik Brauer",
@@ -4777,13 +4756,6 @@
     "id": "mungo-jerry-in-the-summertime",
     "title": "In the Summertime",
     "artist": "Mungo Jerry",
-    "year": 1970,
-    "genre": "Pop"
-  },
-  {
-    "id": "norman-greenbaum-spirit-in-the-sky",
-    "title": "Spirit in the Sky",
-    "artist": "Norman Greenbaum",
     "year": 1970,
     "genre": "Pop"
   },
@@ -4893,23 +4865,9 @@
     "genre": "Pop"
   },
   {
-    "id": "black-sabbath-iron-man",
-    "title": "Iron Man",
-    "artist": "Black Sabbath",
-    "year": 1970,
-    "genre": "Rock"
-  },
-  {
     "id": "black-sabbath-paranoid",
     "title": "Paranoid",
     "artist": "Black Sabbath",
-    "year": 1970,
-    "genre": "Rock"
-  },
-  {
-    "id": "creedence-clearwater-revival-have-you-ever-seen-the-rain",
-    "title": "Have You Ever Seen the Rain",
-    "artist": "Creedence Clearwater Revival",
     "year": 1970,
     "genre": "Rock"
   },
@@ -4951,13 +4909,6 @@
   {
     "id": "led-zeppelin-immigrant-song",
     "title": "Immigrant Song",
-    "artist": "Led Zeppelin",
-    "year": 1970,
-    "genre": "Rock"
-  },
-  {
-    "id": "led-zeppelin-rock-and-roll",
-    "title": "Rock and Roll",
     "artist": "Led Zeppelin",
     "year": 1970,
     "genre": "Rock"
@@ -5033,6 +4984,13 @@
     "genre": "Rock"
   },
   {
+    "id": "udo-j-rgens-lieb-vaterland",
+    "title": "Lieb Vaterland",
+    "artist": "Udo Jürgens",
+    "year": 1971,
+    "genre": "Austropop"
+  },
+  {
     "id": "arik-brauer-die-glocken-von-st-stephan",
     "title": "Die Glocken von St. Stephan",
     "artist": "Arik Brauer",
@@ -5047,15 +5005,15 @@
     "genre": "Austropop"
   },
   {
-    "id": "udo-j-rgens-was-ich-dir-sagen-will",
-    "title": "Was ich dir sagen will",
-    "artist": "Udo Jürgens",
+    "id": "wolfgang-ambros-heute-hab-i-an-durst",
+    "title": "Heute hab i an Durst",
+    "artist": "Wolfgang Ambros",
     "year": 1971,
     "genre": "Austropop"
   },
   {
-    "id": "wolfgang-ambros-heute-hab-i-an-durst",
-    "title": "Heute hab i an Durst",
+    "id": "wolfgang-ambros-da-hofa",
+    "title": "Da Hofa",
     "artist": "Wolfgang Ambros",
     "year": 1971,
     "genre": "Austropop"
@@ -5201,6 +5159,41 @@
     "genre": "Pop"
   },
   {
+    "id": "don-mclean-american-pie",
+    "title": "American Pie",
+    "artist": "Don McLean",
+    "year": 1971,
+    "genre": "Pop"
+  },
+  {
+    "id": "harry-nilsson-without-you",
+    "title": "Without You",
+    "artist": "Harry Nilsson",
+    "year": 1971,
+    "genre": "Pop"
+  },
+  {
+    "id": "black-sabbath-iron-man",
+    "title": "Iron Man",
+    "artist": "Black Sabbath",
+    "year": 1971,
+    "genre": "Rock"
+  },
+  {
+    "id": "creedence-clearwater-revival-have-you-ever-seen-the-rain",
+    "title": "Have You Ever Seen the Rain",
+    "artist": "Creedence Clearwater Revival",
+    "year": 1971,
+    "genre": "Rock"
+  },
+  {
+    "id": "led-zeppelin-rock-and-roll",
+    "title": "Rock and Roll",
+    "artist": "Led Zeppelin",
+    "year": 1971,
+    "genre": "Rock"
+  },
+  {
     "id": "black-sabbath-children-of-the-grave",
     "title": "Children of the Grave",
     "artist": "Black Sabbath",
@@ -5264,13 +5257,6 @@
     "genre": "Rock"
   },
   {
-    "id": "yes-roundabout",
-    "title": "Roundabout",
-    "artist": "Yes",
-    "year": 1971,
-    "genre": "Rock"
-  },
-  {
     "id": "jethro-tull-aqualung",
     "title": "Aqualung",
     "artist": "Jethro Tull",
@@ -5295,20 +5281,6 @@
     "id": "georg-danzer-erst-wennst-tot-bist",
     "title": "Erst wennst tot bist",
     "artist": "Georg Danzer",
-    "year": 1972,
-    "genre": "Austropop"
-  },
-  {
-    "id": "waterloo-robinson-hollywood",
-    "title": "Hollywood",
-    "artist": "Waterloo & Robinson",
-    "year": 1972,
-    "genre": "Austropop"
-  },
-  {
-    "id": "wolfgang-ambros-da-hofa",
-    "title": "Da Hofa",
-    "artist": "Wolfgang Ambros",
     "year": 1972,
     "genre": "Austropop"
   },
@@ -5376,13 +5348,6 @@
     "genre": "Pop"
   },
   {
-    "id": "don-mclean-american-pie",
-    "title": "American Pie",
-    "artist": "Don McLean",
-    "year": 1972,
-    "genre": "Pop"
-  },
-  {
     "id": "elton-john-rocket-man",
     "title": "Rocket Man",
     "artist": "Elton John",
@@ -5393,13 +5358,6 @@
     "id": "gilbert-o-sullivan-alone-again-naturally",
     "title": "Alone Again (Naturally)",
     "artist": "Gilbert O'Sullivan",
-    "year": 1972,
-    "genre": "Pop"
-  },
-  {
-    "id": "harry-nilsson-without-you",
-    "title": "Without You",
-    "artist": "Harry Nilsson",
     "year": 1972,
     "genre": "Pop"
   },
@@ -5500,6 +5458,13 @@
     "artist": "Sammy Davis Jr.",
     "year": 1972,
     "genre": "Pop"
+  },
+  {
+    "id": "yes-roundabout",
+    "title": "Roundabout",
+    "artist": "Yes",
+    "year": 1972,
+    "genre": "Rock"
   },
   {
     "id": "alice-cooper-school-s-out",
@@ -5635,6 +5600,13 @@
     "genre": "Rock"
   },
   {
+    "id": "david-bowie-the-jean-genie",
+    "title": "The Jean Genie",
+    "artist": "David Bowie",
+    "year": 1972,
+    "genre": "Rock"
+  },
+  {
     "id": "arik-brauer-sein-k-pferl-im-sand",
     "title": "Sein Köpferl im Sand",
     "artist": "Arik Brauer",
@@ -5645,13 +5617,6 @@
     "id": "arik-brauer-sie-ham-a-haus-baut",
     "title": "Sie ham a Haus baut",
     "artist": "Arik Brauer",
-    "year": 1973,
-    "genre": "Austropop"
-  },
-  {
-    "id": "georg-danzer-j-schau",
-    "title": "Jö schau",
-    "artist": "Georg Danzer",
     "year": 1973,
     "genre": "Austropop"
   },
@@ -5673,6 +5638,13 @@
     "id": "wolfgang-ambros-i-drah-zua",
     "title": "I drah zua",
     "artist": "Wolfgang Ambros",
+    "year": 1973,
+    "genre": "Austropop"
+  },
+  {
+    "id": "wilfried-ziwui-ziwui",
+    "title": "Ziwui Ziwui",
+    "artist": "Wilfried",
     "year": 1973,
     "genre": "Austropop"
   },
@@ -5803,16 +5775,23 @@
     "genre": "Pop"
   },
   {
+    "id": "barbra-streisand-the-way-we-were",
+    "title": "The Way We Were",
+    "artist": "Barbra Streisand",
+    "year": 1973,
+    "genre": "Pop"
+  },
+  {
+    "id": "terry-jacks-seasons-in-the-sun",
+    "title": "Seasons in the Sun",
+    "artist": "Terry Jacks",
+    "year": 1973,
+    "genre": "Pop"
+  },
+  {
     "id": "aerosmith-dream-on",
     "title": "Dream On",
     "artist": "Aerosmith",
-    "year": 1973,
-    "genre": "Rock"
-  },
-  {
-    "id": "david-bowie-the-jean-genie",
-    "title": "The Jean Genie",
-    "artist": "David Bowie",
     "year": 1973,
     "genre": "Rock"
   },
@@ -5957,23 +5936,23 @@
     "genre": "Rock"
   },
   {
+    "id": "thin-lizzy-whiskey-in-the-jar",
+    "title": "Whiskey in the Jar",
+    "artist": "Thin Lizzy",
+    "year": 1973,
+    "genre": "Rock"
+  },
+  {
+    "id": "waterloo-robinson-hollywood",
+    "title": "Hollywood",
+    "artist": "Waterloo & Robinson",
+    "year": 1974,
+    "genre": "Austropop"
+  },
+  {
     "id": "andr-heller-schnucki-ach-schnucki",
     "title": "Schnucki ach Schnucki",
     "artist": "André Heller",
-    "year": 1974,
-    "genre": "Austropop"
-  },
-  {
-    "id": "georg-danzer-wei-e-pferde",
-    "title": "Weiße Pferde",
-    "artist": "Georg Danzer",
-    "year": 1974,
-    "genre": "Austropop"
-  },
-  {
-    "id": "wolfgang-ambros-zwickt-s-mi",
-    "title": "Zwickt's mi",
-    "artist": "Wolfgang Ambros",
     "year": 1974,
     "genre": "Austropop"
   },
@@ -6006,6 +5985,13 @@
     "genre": "Austropop"
   },
   {
+    "id": "wolfgang-ambros-a-mensch-m-cht-i-bleibn",
+    "title": "A Mensch möcht i bleibn",
+    "artist": "Wolfgang Ambros",
+    "year": 1974,
+    "genre": "Austropop"
+  },
+  {
     "id": "abba-honey-honey",
     "title": "Honey Honey",
     "artist": "ABBA",
@@ -6016,13 +6002,6 @@
     "id": "abba-waterloo",
     "title": "Waterloo",
     "artist": "ABBA",
-    "year": 1974,
-    "genre": "Pop"
-  },
-  {
-    "id": "barbra-streisand-the-way-we-were",
-    "title": "The Way We Were",
-    "artist": "Barbra Streisand",
     "year": 1974,
     "genre": "Pop"
   },
@@ -6065,13 +6044,6 @@
     "id": "ray-stevens-the-streak",
     "title": "The Streak",
     "artist": "Ray Stevens",
-    "year": 1974,
-    "genre": "Pop"
-  },
-  {
-    "id": "terry-jacks-seasons-in-the-sun",
-    "title": "Seasons in the Sun",
-    "artist": "Terry Jacks",
     "year": 1974,
     "genre": "Pop"
   },
@@ -6188,13 +6160,6 @@
     "genre": "Rock"
   },
   {
-    "id": "led-zeppelin-kashmir",
-    "title": "Kashmir",
-    "artist": "Led Zeppelin",
-    "year": 1974,
-    "genre": "Rock"
-  },
-  {
     "id": "lynyrd-skynyrd-sweet-home-alabama",
     "title": "Sweet Home Alabama",
     "artist": "Lynyrd Skynyrd",
@@ -6298,6 +6263,27 @@
     "artist": "The Doobie Brothers",
     "year": 1974,
     "genre": "Rock"
+  },
+  {
+    "id": "udo-j-rgens-ein-ehrenwertes-haus",
+    "title": "Ein ehrenwertes Haus",
+    "artist": "Udo Jürgens",
+    "year": 1975,
+    "genre": "Austropop"
+  },
+  {
+    "id": "georg-danzer-j-schau",
+    "title": "Jö schau",
+    "artist": "Georg Danzer",
+    "year": 1975,
+    "genre": "Austropop"
+  },
+  {
+    "id": "wolfgang-ambros-zwickt-s-mi",
+    "title": "Zwickt's mi",
+    "artist": "Wolfgang Ambros",
+    "year": 1975,
+    "genre": "Austropop"
   },
   {
     "id": "georg-danzer-ruaf-mi-net-an",
@@ -6475,6 +6461,13 @@
     "genre": "Pop"
   },
   {
+    "id": "led-zeppelin-kashmir",
+    "title": "Kashmir",
+    "artist": "Led Zeppelin",
+    "year": 1975,
+    "genre": "Rock"
+  },
+  {
     "id": "ac-dc-it-s-a-long-way-to-the-top",
     "title": "It's a Long Way to the Top",
     "artist": "AC/DC",
@@ -6538,13 +6531,6 @@
     "genre": "Rock"
   },
   {
-    "id": "queen-somebody-to-love",
-    "title": "Somebody to Love",
-    "artist": "Queen",
-    "year": 1975,
-    "genre": "Rock"
-  },
-  {
     "id": "rush-fly-by-night",
     "title": "Fly by Night",
     "artist": "Rush",
@@ -6555,13 +6541,6 @@
     "id": "ted-nugent-stranglehold",
     "title": "Stranglehold",
     "artist": "Ted Nugent",
-    "year": 1975,
-    "genre": "Rock"
-  },
-  {
-    "id": "thin-lizzy-whiskey-in-the-jar",
-    "title": "Whiskey in the Jar",
-    "artist": "Thin Lizzy",
     "year": 1975,
     "genre": "Rock"
   },
@@ -6601,23 +6580,37 @@
     "genre": "Rock"
   },
   {
+    "id": "nazareth-love-hurts",
+    "title": "Love Hurts",
+    "artist": "Nazareth",
+    "year": 1975,
+    "genre": "Rock"
+  },
+  {
+    "id": "peter-alexander-die-kleine-kneipe",
+    "title": "Die kleine Kneipe",
+    "artist": "Peter Alexander",
+    "year": 1976,
+    "genre": "Austropop"
+  },
+  {
+    "id": "waterloo-my-little-world",
+    "title": "My Little World",
+    "artist": "Waterloo",
+    "year": 1976,
+    "genre": "Austropop"
+  },
+  {
+    "id": "udo-j-rgens-aber-bitte-mit-sahne",
+    "title": "Aber bitte mit Sahne",
+    "artist": "Udo Jürgens",
+    "year": 1976,
+    "genre": "Austropop"
+  },
+  {
     "id": "andr-heller-stilles-fest",
     "title": "Stilles Fest",
     "artist": "André Heller",
-    "year": 1976,
-    "genre": "Austropop"
-  },
-  {
-    "id": "ludwig-hirsch-komm-gro-er-schwarzer-vogel",
-    "title": "Komm großer schwarzer Vogel",
-    "artist": "Ludwig Hirsch",
-    "year": 1976,
-    "genre": "Austropop"
-  },
-  {
-    "id": "rainhard-fendrich-strada-del-sole",
-    "title": "Strada del Sole",
-    "artist": "Rainhard Fendrich",
     "year": 1976,
     "genre": "Austropop"
   },
@@ -6653,6 +6646,13 @@
     "id": "peter-cornelius-gib-ma-dei-telefonnummer",
     "title": "Gib ma dei Telefonnummer",
     "artist": "Peter Cornelius",
+    "year": 1976,
+    "genre": "Austropop"
+  },
+  {
+    "id": "wolfgang-ambros-schifoan",
+    "title": "Schifoan",
+    "artist": "Wolfgang Ambros",
     "year": 1976,
     "genre": "Austropop"
   },
@@ -6797,6 +6797,13 @@
     "genre": "Pop"
   },
   {
+    "id": "queen-somebody-to-love",
+    "title": "Somebody to Love",
+    "artist": "Queen",
+    "year": 1976,
+    "genre": "Rock"
+  },
+  {
     "id": "ac-dc-t-n-t",
     "title": "T.N.T.",
     "artist": "AC/DC",
@@ -6839,13 +6846,6 @@
     "genre": "Rock"
   },
   {
-    "id": "nazareth-love-hurts",
-    "title": "Love Hurts",
-    "artist": "Nazareth",
-    "year": 1976,
-    "genre": "Rock"
-  },
-  {
     "id": "rainbow-stargazer",
     "title": "Stargazer",
     "artist": "Rainbow",
@@ -6863,13 +6863,6 @@
     "id": "steve-miller-band-fly-like-an-eagle",
     "title": "Fly Like an Eagle",
     "artist": "Steve Miller Band",
-    "year": 1976,
-    "genre": "Rock"
-  },
-  {
-    "id": "the-eagles-hotel-california",
-    "title": "Hotel California",
-    "artist": "The Eagles",
     "year": 1976,
     "genre": "Rock"
   },
@@ -6909,6 +6902,20 @@
     "genre": "Rock"
   },
   {
+    "id": "fleetwood-mac-go-your-own-way",
+    "title": "Go Your Own Way",
+    "artist": "Fleetwood Mac",
+    "year": 1976,
+    "genre": "Rock"
+  },
+  {
+    "id": "the-sex-pistols-anarchy-in-the-u-k",
+    "title": "Anarchy in the U.K.",
+    "artist": "The Sex Pistols",
+    "year": 1976,
+    "genre": "Rock"
+  },
+  {
     "id": "andr-heller-die-wahren-abenteuer-sind-im-kopf",
     "title": "Die wahren Abenteuer sind im Kopf",
     "artist": "André Heller",
@@ -6933,13 +6940,6 @@
     "id": "sts-do-schau-her",
     "title": "Do schau her",
     "artist": "STS",
-    "year": 1977,
-    "genre": "Austropop"
-  },
-  {
-    "id": "wolfgang-ambros-schifoan",
-    "title": "Schifoan",
-    "artist": "Wolfgang Ambros",
     "year": 1977,
     "genre": "Austropop"
   },
@@ -7112,6 +7112,13 @@
     "genre": "Pop"
   },
   {
+    "id": "the-eagles-hotel-california",
+    "title": "Hotel California",
+    "artist": "The Eagles",
+    "year": 1977,
+    "genre": "Rock"
+  },
+  {
     "id": "ac-dc-let-there-be-rock",
     "title": "Let There Be Rock",
     "artist": "AC/DC",
@@ -7122,13 +7129,6 @@
     "id": "cheap-trick-surrender",
     "title": "Surrender",
     "artist": "Cheap Trick",
-    "year": 1977,
-    "genre": "Rock"
-  },
-  {
-    "id": "fleetwood-mac-go-your-own-way",
-    "title": "Go Your Own Way",
-    "artist": "Fleetwood Mac",
     "year": 1977,
     "genre": "Rock"
   },
@@ -7192,13 +7192,6 @@
     "id": "the-ramones-sheena-is-a-punk-rocker",
     "title": "Sheena Is a Punk Rocker",
     "artist": "The Ramones",
-    "year": 1977,
-    "genre": "Rock"
-  },
-  {
-    "id": "the-sex-pistols-anarchy-in-the-u-k",
-    "title": "Anarchy in the U.K.",
-    "artist": "The Sex Pistols",
     "year": 1977,
     "genre": "Rock"
   },
@@ -7280,13 +7273,6 @@
     "genre": "Austropop"
   },
   {
-    "id": "sts-f-rstenfeld",
-    "title": "Fürstenfeld",
-    "artist": "STS",
-    "year": 1978,
-    "genre": "Austropop"
-  },
-  {
     "id": "wolfgang-ambros-langsam-wachs-ma-z-samm",
     "title": "Langsam wachs ma z'samm",
     "artist": "Wolfgang Ambros",
@@ -7332,13 +7318,6 @@
     "id": "billy-joel-just-the-way-you-are",
     "title": "Just the Way You Are",
     "artist": "Billy Joel",
-    "year": 1978,
-    "genre": "Pop"
-  },
-  {
-    "id": "blondie-heart-of-glass",
-    "title": "Heart of Glass",
-    "artist": "Blondie",
     "year": 1978,
     "genre": "Pop"
   },
@@ -7430,6 +7409,20 @@
     "id": "olivia-newton-john-hopelessly-devoted-to-you",
     "title": "Hopelessly Devoted to You",
     "artist": "Olivia Newton-John",
+    "year": 1978,
+    "genre": "Pop"
+  },
+  {
+    "id": "gloria-gaynor-i-will-survive",
+    "title": "I Will Survive",
+    "artist": "Gloria Gaynor",
+    "year": 1978,
+    "genre": "Pop"
+  },
+  {
+    "id": "the-village-people-y-m-c-a",
+    "title": "Y.M.C.A.",
+    "artist": "The Village People",
     "year": 1978,
     "genre": "Pop"
   },
@@ -7595,6 +7588,13 @@
     "genre": "Rock"
   },
   {
+    "id": "ludwig-hirsch-komm-gro-er-schwarzer-vogel",
+    "title": "Komm großer schwarzer Vogel",
+    "artist": "Ludwig Hirsch",
+    "year": 1979,
+    "genre": "Austropop"
+  },
+  {
     "id": "georg-danzer-a-sch-ne-leich",
     "title": "A schöne Leich",
     "artist": "Georg Danzer",
@@ -7616,20 +7616,6 @@
     "genre": "Austropop"
   },
   {
-    "id": "sts-irgendwann-bleib-i-dann-dort",
-    "title": "Irgendwann bleib i dann dort",
-    "artist": "STS",
-    "year": 1979,
-    "genre": "Austropop"
-  },
-  {
-    "id": "wolfgang-ambros-a-mensch-m-cht-i-bleibn",
-    "title": "A Mensch möcht i bleibn",
-    "artist": "Wolfgang Ambros",
-    "year": 1979,
-    "genre": "Austropop"
-  },
-  {
     "id": "georg-danzer-zehn-kleine-fixer",
     "title": "Zehn kleine Fixer",
     "artist": "Georg Danzer",
@@ -7642,6 +7628,20 @@
     "artist": "Udo Jürgens",
     "year": 1979,
     "genre": "Austropop"
+  },
+  {
+    "id": "wolfgang-ambros-nie-und-nimmer",
+    "title": "Nie und nimmer",
+    "artist": "Wolfgang Ambros",
+    "year": 1979,
+    "genre": "Austropop"
+  },
+  {
+    "id": "blondie-heart-of-glass",
+    "title": "Heart of Glass",
+    "artist": "Blondie",
+    "year": 1979,
+    "genre": "Pop"
   },
   {
     "id": "abba-chiquitita",
@@ -7686,13 +7686,6 @@
     "genre": "Pop"
   },
   {
-    "id": "gloria-gaynor-i-will-survive",
-    "title": "I Will Survive",
-    "artist": "Gloria Gaynor",
-    "year": 1979,
-    "genre": "Pop"
-  },
-  {
     "id": "michael-jackson-don-t-stop-til-you-get-enough",
     "title": "Don't Stop 'Til You Get Enough",
     "artist": "Michael Jackson",
@@ -7724,13 +7717,6 @@
     "id": "the-knack-my-sharona",
     "title": "My Sharona",
     "artist": "The Knack",
-    "year": 1979,
-    "genre": "Pop"
-  },
-  {
-    "id": "the-village-people-y-m-c-a",
-    "title": "Y.M.C.A.",
-    "artist": "The Village People",
     "year": 1979,
     "genre": "Pop"
   },
@@ -7861,13 +7847,6 @@
     "genre": "Rock"
   },
   {
-    "id": "tom-petty-refugee",
-    "title": "Refugee",
-    "artist": "Tom Petty",
-    "year": 1979,
-    "genre": "Rock"
-  },
-  {
     "id": "bad-company-rock-and-roll-fantasy",
     "title": "Rock and Roll Fantasy",
     "artist": "Bad Company",
@@ -7931,13 +7910,6 @@
     "genre": "Rock"
   },
   {
-    "id": "falco-ganz-wien",
-    "title": "Ganz Wien",
-    "artist": "Falco",
-    "year": 1980,
-    "genre": "Austropop"
-  },
-  {
     "id": "georg-danzer-wann-i-tot-bin",
     "title": "Wann i tot bin",
     "artist": "Georg Danzer",
@@ -7966,15 +7938,15 @@
     "genre": "Austropop"
   },
   {
-    "id": "wilfried-ziwui-ziwui",
-    "title": "Ziwui Ziwui",
-    "artist": "Wilfried",
+    "id": "peter-cornelius-der-kaffee-ist-fertig",
+    "title": "Der Kaffee ist fertig",
+    "artist": "Peter Cornelius",
     "year": 1980,
     "genre": "Austropop"
   },
   {
-    "id": "peter-cornelius-der-kaffee-ist-fertig",
-    "title": "Der Kaffee ist fertig",
+    "id": "peter-cornelius-du-entschuldige-i-kenn-di",
+    "title": "Du entschuldige i kenn di",
     "artist": "Peter Cornelius",
     "year": 1980,
     "genre": "Austropop"
@@ -8043,13 +8015,6 @@
     "genre": "Pop"
   },
   {
-    "id": "olivia-newton-john-physical",
-    "title": "Physical",
-    "artist": "Olivia Newton-John",
-    "year": 1980,
-    "genre": "Pop"
-  },
-  {
     "id": "queen-another-one-bites-the-dust",
     "title": "Another One Bites the Dust",
     "artist": "Queen",
@@ -8111,6 +8076,20 @@
     "artist": "Roland Kaiser",
     "year": 1980,
     "genre": "Pop"
+  },
+  {
+    "id": "irene-cara-fame",
+    "title": "Fame",
+    "artist": "Irene Cara",
+    "year": 1980,
+    "genre": "Pop"
+  },
+  {
+    "id": "tom-petty-refugee",
+    "title": "Refugee",
+    "artist": "Tom Petty",
+    "year": 1980,
+    "genre": "Rock"
   },
   {
     "id": "iron-maiden-iron-maiden",
@@ -8267,16 +8246,30 @@
     "genre": "Rock"
   },
   {
-    "id": "eav-hei-er-draht-ins-jenseits",
-    "title": "Heißer Draht ins Jenseits",
-    "artist": "EAV",
+    "id": "pat-benatar-hit-me-with-your-best-shot",
+    "title": "Hit Me with Your Best Shot",
+    "artist": "Pat Benatar",
+    "year": 1980,
+    "genre": "Rock"
+  },
+  {
+    "id": "rainhard-fendrich-strada-del-sole",
+    "title": "Strada del Sole",
+    "artist": "Rainhard Fendrich",
     "year": 1981,
     "genre": "Austropop"
   },
   {
-    "id": "falco-der-kommissar",
-    "title": "Der Kommissar",
+    "id": "falco-ganz-wien",
+    "title": "Ganz Wien",
     "artist": "Falco",
+    "year": 1981,
+    "genre": "Austropop"
+  },
+  {
+    "id": "eav-hei-er-draht-ins-jenseits",
+    "title": "Heißer Draht ins Jenseits",
+    "artist": "EAV",
     "year": 1981,
     "genre": "Austropop"
   },
@@ -8342,6 +8335,27 @@
     "artist": "Udo Jürgens",
     "year": 1981,
     "genre": "Austropop"
+  },
+  {
+    "id": "peter-cornelius-reif-f-r-die-insel",
+    "title": "Reif für die Insel",
+    "artist": "Peter Cornelius",
+    "year": 1981,
+    "genre": "Austropop"
+  },
+  {
+    "id": "sts-da-kummt-die-sunn",
+    "title": "Da kummt die Sunn",
+    "artist": "STS",
+    "year": 1981,
+    "genre": "Austropop"
+  },
+  {
+    "id": "olivia-newton-john-physical",
+    "title": "Physical",
+    "artist": "Olivia Newton-John",
+    "year": 1981,
+    "genre": "Pop"
   },
   {
     "id": "abba-one-of-us",
@@ -8470,16 +8484,16 @@
     "genre": "Pop"
   },
   {
+    "id": "human-league-don-t-you-want-me",
+    "title": "Don't You Want Me",
+    "artist": "Human League",
+    "year": 1981,
+    "genre": "Pop"
+  },
+  {
     "id": "accept-fast-as-a-shark",
     "title": "Fast as a Shark",
     "artist": "Accept",
-    "year": 1981,
-    "genre": "Rock"
-  },
-  {
-    "id": "iron-maiden-run-to-the-hills",
-    "title": "Run to the Hills",
-    "artist": "Iron Maiden",
     "year": 1981,
     "genre": "Rock"
   },
@@ -8508,13 +8522,6 @@
     "id": "journey-don-t-stop-believin",
     "title": "Don't Stop Believin'",
     "artist": "Journey",
-    "year": 1981,
-    "genre": "Rock"
-  },
-  {
-    "id": "pat-benatar-hit-me-with-your-best-shot",
-    "title": "Hit Me with Your Best Shot",
-    "artist": "Pat Benatar",
     "year": 1981,
     "genre": "Rock"
   },
@@ -8603,6 +8610,20 @@
     "genre": "Rock"
   },
   {
+    "id": "joan-jett-i-love-rock-n-roll",
+    "title": "I Love Rock 'n' Roll",
+    "artist": "Joan Jett",
+    "year": 1981,
+    "genre": "Rock"
+  },
+  {
+    "id": "falco-der-kommissar",
+    "title": "Der Kommissar",
+    "artist": "Falco",
+    "year": 1982,
+    "genre": "Austropop"
+  },
+  {
     "id": "falco-helden-von-heute",
     "title": "Helden von heute",
     "artist": "Falco",
@@ -8620,13 +8641,6 @@
     "id": "minisex-disco-in-moskau",
     "title": "Disco in Moskau",
     "artist": "Minisex",
-    "year": 1982,
-    "genre": "Austropop"
-  },
-  {
-    "id": "sts-gro-vater",
-    "title": "Großvater",
-    "artist": "STS",
     "year": 1982,
     "genre": "Austropop"
   },
@@ -8652,6 +8666,34 @@
     "genre": "Austropop"
   },
   {
+    "id": "rainhard-fendrich-es-lebe-der-sport",
+    "title": "Es lebe der Sport",
+    "artist": "Rainhard Fendrich",
+    "year": 1982,
+    "genre": "Austropop"
+  },
+  {
+    "id": "udo-j-rgens-ich-war-noch-niemals-in-new-york",
+    "title": "Ich war noch niemals in New York",
+    "artist": "Udo Jürgens",
+    "year": 1982,
+    "genre": "Austropop"
+  },
+  {
+    "id": "opus-flyin-high",
+    "title": "Flyin' High",
+    "artist": "Opus",
+    "year": 1982,
+    "genre": "Austropop"
+  },
+  {
+    "id": "rainhard-fendrich-oben-ohne",
+    "title": "Oben ohne",
+    "artist": "Rainhard Fendrich",
+    "year": 1982,
+    "genre": "Austropop"
+  },
+  {
     "id": "abc-the-look-of-love",
     "title": "The Look of Love",
     "artist": "ABC",
@@ -8673,20 +8715,6 @@
     "genre": "Pop"
   },
   {
-    "id": "human-league-don-t-you-want-me",
-    "title": "Don't You Want Me",
-    "artist": "Human League",
-    "year": 1982,
-    "genre": "Pop"
-  },
-  {
-    "id": "irene-cara-fame",
-    "title": "Fame",
-    "artist": "Irene Cara",
-    "year": 1982,
-    "genre": "Pop"
-  },
-  {
     "id": "j-geils-band-centerfold",
     "title": "Centerfold",
     "artist": "J. Geils Band",
@@ -8697,13 +8725,6 @@
     "id": "madonna-everybody",
     "title": "Everybody",
     "artist": "Madonna",
-    "year": 1982,
-    "genre": "Pop"
-  },
-  {
-    "id": "michael-jackson-billie-jean",
-    "title": "Billie Jean",
-    "artist": "Michael Jackson",
     "year": 1982,
     "genre": "Pop"
   },
@@ -8792,6 +8813,13 @@
     "genre": "Pop"
   },
   {
+    "id": "iron-maiden-run-to-the-hills",
+    "title": "Run to the Hills",
+    "artist": "Iron Maiden",
+    "year": 1982,
+    "genre": "Rock"
+  },
+  {
     "id": "iron-maiden-the-number-of-the-beast",
     "title": "The Number of the Beast",
     "artist": "Iron Maiden",
@@ -8823,13 +8851,6 @@
     "id": "duran-duran-hungry-like-the-wolf",
     "title": "Hungry Like the Wolf",
     "artist": "Duran Duran",
-    "year": 1982,
-    "genre": "Rock"
-  },
-  {
-    "id": "joan-jett-i-love-rock-n-roll",
-    "title": "I Love Rock 'n' Roll",
-    "artist": "Joan Jett",
     "year": 1982,
     "genre": "Rock"
   },
@@ -8925,9 +8946,9 @@
     "genre": "Rock"
   },
   {
-    "id": "eav-k-ss-die-hand-sch-ne-frau",
-    "title": "Küss die Hand schöne Frau",
-    "artist": "EAV",
+    "id": "sts-irgendwann-bleib-i-dann-dort",
+    "title": "Irgendwann bleib i dann dort",
+    "artist": "STS",
     "year": 1983,
     "genre": "Austropop"
   },
@@ -8942,13 +8963,6 @@
     "id": "opus-eleven",
     "title": "Eleven",
     "artist": "Opus",
-    "year": 1983,
-    "genre": "Austropop"
-  },
-  {
-    "id": "peter-cornelius-reif-f-r-die-insel",
-    "title": "Reif für die Insel",
-    "artist": "Peter Cornelius",
     "year": 1983,
     "genre": "Austropop"
   },
@@ -8979,6 +8993,27 @@
     "artist": "Wolfgang Ambros",
     "year": 1983,
     "genre": "Austropop"
+  },
+  {
+    "id": "ludwig-hirsch-gel-du-magst-mi",
+    "title": "Gel du magst mi",
+    "artist": "Ludwig Hirsch",
+    "year": 1983,
+    "genre": "Austropop"
+  },
+  {
+    "id": "rainhard-fendrich-weus-d-a-herz-hast-wia-a-bergwerk",
+    "title": "Weus'd a Herz hast wia a Bergwerk",
+    "artist": "Rainhard Fendrich",
+    "year": 1983,
+    "genre": "Austropop"
+  },
+  {
+    "id": "michael-jackson-billie-jean",
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "year": 1983,
+    "genre": "Pop"
   },
   {
     "id": "bonnie-tyler-total-eclipse-of-the-heart",
@@ -9103,6 +9138,20 @@
     "id": "ub40-red-red-wine",
     "title": "Red Red Wine",
     "artist": "UB40",
+    "year": 1983,
+    "genre": "Pop"
+  },
+  {
+    "id": "cyndi-lauper-girls-just-want-to-have-fun",
+    "title": "Girls Just Want to Have Fun",
+    "artist": "Cyndi Lauper",
+    "year": 1983,
+    "genre": "Pop"
+  },
+  {
+    "id": "frankie-goes-to-hollywood-relax",
+    "title": "Relax",
+    "artist": "Frankie Goes to Hollywood",
     "year": 1983,
     "genre": "Pop"
   },
@@ -9233,9 +9282,30 @@
     "genre": "Rock"
   },
   {
-    "id": "eav-burli",
-    "title": "Burli",
-    "artist": "EAV",
+    "id": "dio-holy-diver",
+    "title": "Holy Diver",
+    "artist": "Dio",
+    "year": 1983,
+    "genre": "Rock"
+  },
+  {
+    "id": "def-leppard-rock-of-ages",
+    "title": "Rock of Ages",
+    "artist": "Def Leppard",
+    "year": 1983,
+    "genre": "Rock"
+  },
+  {
+    "id": "georg-danzer-wei-e-pferde",
+    "title": "Weiße Pferde",
+    "artist": "Georg Danzer",
+    "year": 1984,
+    "genre": "Austropop"
+  },
+  {
+    "id": "sts-f-rstenfeld",
+    "title": "Fürstenfeld",
+    "artist": "STS",
     "year": 1984,
     "genre": "Austropop"
   },
@@ -9257,20 +9327,6 @@
     "id": "opus-live-is-life",
     "title": "Live Is Life",
     "artist": "Opus",
-    "year": 1984,
-    "genre": "Austropop"
-  },
-  {
-    "id": "peter-cornelius-du-entschuldige-i-kenn-di",
-    "title": "Du entschuldige i kenn di",
-    "artist": "Peter Cornelius",
-    "year": 1984,
-    "genre": "Austropop"
-  },
-  {
-    "id": "rainhard-fendrich-es-lebe-der-sport",
-    "title": "Es lebe der Sport",
-    "artist": "Rainhard Fendrich",
     "year": 1984,
     "genre": "Austropop"
   },
@@ -9310,6 +9366,13 @@
     "genre": "Austropop"
   },
   {
+    "id": "sts-berdosis-g-f-hl",
+    "title": "Überdosis G'fühl",
+    "artist": "STS",
+    "year": 1984,
+    "genre": "Austropop"
+  },
+  {
     "id": "band-aid-do-they-know-it-s-christmas",
     "title": "Do They Know It's Christmas?",
     "artist": "Band Aid",
@@ -9324,23 +9387,9 @@
     "genre": "Pop"
   },
   {
-    "id": "cyndi-lauper-girls-just-want-to-have-fun",
-    "title": "Girls Just Want to Have Fun",
-    "artist": "Cyndi Lauper",
-    "year": 1984,
-    "genre": "Pop"
-  },
-  {
     "id": "duran-duran-the-reflex",
     "title": "The Reflex",
     "artist": "Duran Duran",
-    "year": 1984,
-    "genre": "Pop"
-  },
-  {
-    "id": "frankie-goes-to-hollywood-relax",
-    "title": "Relax",
-    "artist": "Frankie Goes to Hollywood",
     "year": 1984,
     "genre": "Pop"
   },
@@ -9450,13 +9499,6 @@
     "genre": "Pop"
   },
   {
-    "id": "dio-holy-diver",
-    "title": "Holy Diver",
-    "artist": "Dio",
-    "year": 1984,
-    "genre": "Rock"
-  },
-  {
     "id": "mercyful-fate-come-to-the-sabbath",
     "title": "Come to the Sabbath",
     "artist": "Mercyful Fate",
@@ -9488,13 +9530,6 @@
     "id": "bruce-springsteen-born-in-the-u-s-a",
     "title": "Born in the U.S.A.",
     "artist": "Bruce Springsteen",
-    "year": 1984,
-    "genre": "Rock"
-  },
-  {
-    "id": "def-leppard-rock-of-ages",
-    "title": "Rock of Ages",
-    "artist": "Def Leppard",
     "year": 1984,
     "genre": "Rock"
   },
@@ -9583,13 +9618,6 @@
     "genre": "Rock"
   },
   {
-    "id": "eav-m-rchenprinz",
-    "title": "Märchenprinz",
-    "artist": "EAV",
-    "year": 1985,
-    "genre": "Austropop"
-  },
-  {
     "id": "falco-jeanny",
     "title": "Jeanny",
     "artist": "Falco",
@@ -9607,13 +9635,6 @@
     "id": "falco-vienna-calling",
     "title": "Vienna Calling",
     "artist": "Falco",
-    "year": 1985,
-    "genre": "Austropop"
-  },
-  {
-    "id": "rainhard-fendrich-macho-macho",
-    "title": "Macho Macho",
-    "artist": "Rainhard Fendrich",
     "year": 1985,
     "genre": "Austropop"
   },
@@ -9670,6 +9691,20 @@
     "id": "sts-g-du-bleibst-heut-nacht-bei-mir",
     "title": "Gö, du bleibst heut Nacht bei mir",
     "artist": "STS",
+    "year": 1985,
+    "genre": "Austropop"
+  },
+  {
+    "id": "eav-ba-ba-bank-berfall",
+    "title": "Ba-Ba-Banküberfall",
+    "artist": "EAV",
+    "year": 1985,
+    "genre": "Austropop"
+  },
+  {
+    "id": "rainhard-fendrich-haben-sie-wien-schon-bei-nacht-gesehn",
+    "title": "Haben Sie Wien schon bei Nacht gesehn?",
+    "artist": "Rainhard Fendrich",
     "year": 1985,
     "genre": "Austropop"
   },
@@ -9821,13 +9856,6 @@
     "genre": "Rock"
   },
   {
-    "id": "iron-maiden-wasted-years",
-    "title": "Wasted Years",
-    "artist": "Iron Maiden",
-    "year": 1985,
-    "genre": "Rock"
-  },
-  {
     "id": "motley-crue-smokin-in-the-boys-room",
     "title": "Smokin' in the Boys Room",
     "artist": "Motley Crue",
@@ -9933,16 +9961,23 @@
     "genre": "Rock"
   },
   {
-    "id": "austria-3-wann-du-a-so-daliegst",
-    "title": "Wann du a so daliegst",
-    "artist": "Austria 3",
+    "id": "sts-gro-vater",
+    "title": "Großvater",
+    "artist": "STS",
     "year": 1986,
     "genre": "Austropop"
   },
   {
-    "id": "eav-ba-ba-bank-berfall",
-    "title": "Ba-Ba-Banküberfall",
+    "id": "eav-m-rchenprinz",
+    "title": "Märchenprinz",
     "artist": "EAV",
+    "year": 1986,
+    "genre": "Austropop"
+  },
+  {
+    "id": "austria-3-wann-du-a-so-daliegst",
+    "title": "Wann du a so daliegst",
+    "artist": "Austria 3",
     "year": 1986,
     "genre": "Austropop"
   },
@@ -9964,13 +9999,6 @@
     "id": "falco-the-sound-of-musik",
     "title": "The Sound of Musik",
     "artist": "Falco",
-    "year": 1986,
-    "genre": "Austropop"
-  },
-  {
-    "id": "udo-j-rgens-ich-war-noch-niemals-in-new-york",
-    "title": "Ich war noch niemals in New York",
-    "artist": "Udo Jürgens",
     "year": 1986,
     "genre": "Austropop"
   },
@@ -10013,6 +10041,13 @@
     "id": "wolfgang-ambros-langsam-wochs-ma-z-amm",
     "title": "Langsam wochs ma z'amm",
     "artist": "Wolfgang Ambros",
+    "year": 1986,
+    "genre": "Austropop"
+  },
+  {
+    "id": "eav-fata-morgana",
+    "title": "Fata Morgana",
+    "artist": "EAV",
     "year": 1986,
     "genre": "Austropop"
   },
@@ -10150,6 +10185,13 @@
     "genre": "Pop"
   },
   {
+    "id": "iron-maiden-wasted-years",
+    "title": "Wasted Years",
+    "artist": "Iron Maiden",
+    "year": 1986,
+    "genre": "Rock"
+  },
+  {
     "id": "cinderella-shake-me",
     "title": "Shake Me",
     "artist": "Cinderella",
@@ -10276,23 +10318,16 @@
     "genre": "Rock"
   },
   {
-    "id": "d-f-codo",
-    "title": "Codo",
-    "artist": "DÖF",
-    "year": 1987,
-    "genre": "Austropop"
-  },
-  {
-    "id": "eav-fata-morgana",
-    "title": "Fata Morgana",
+    "id": "eav-k-ss-die-hand-sch-ne-frau",
+    "title": "Küss die Hand schöne Frau",
     "artist": "EAV",
     "year": 1987,
     "genre": "Austropop"
   },
   {
-    "id": "rainhard-fendrich-i-am-from-austria",
-    "title": "I Am from Austria",
-    "artist": "Rainhard Fendrich",
+    "id": "d-f-codo",
+    "title": "Codo",
+    "artist": "DÖF",
     "year": 1987,
     "genre": "Austropop"
   },
@@ -10591,6 +10626,20 @@
     "genre": "Rock"
   },
   {
+    "id": "eav-burli",
+    "title": "Burli",
+    "artist": "EAV",
+    "year": 1988,
+    "genre": "Austropop"
+  },
+  {
+    "id": "rainhard-fendrich-macho-macho",
+    "title": "Macho Macho",
+    "artist": "Rainhard Fendrich",
+    "year": 1988,
+    "genre": "Austropop"
+  },
+  {
     "id": "eav-k-ss-die-hand",
     "title": "Küss die Hand",
     "artist": "EAV",
@@ -10601,20 +10650,6 @@
     "id": "falco-wiener-blut",
     "title": "Wiener Blut",
     "artist": "Falco",
-    "year": 1988,
-    "genre": "Austropop"
-  },
-  {
-    "id": "rainhard-fendrich-haben-sie-wien-schon-bei-nacht-gesehn",
-    "title": "Haben Sie Wien schon bei Nacht gesehn?",
-    "artist": "Rainhard Fendrich",
-    "year": 1988,
-    "genre": "Austropop"
-  },
-  {
-    "id": "sts-berdosis-g-f-hl",
-    "title": "Überdosis G'fühl",
-    "artist": "STS",
     "year": 1988,
     "genre": "Austropop"
   },
@@ -10650,6 +10685,13 @@
     "id": "wilfried-lisa-mona-lisa",
     "title": "Lisa Mona Lisa",
     "artist": "Wilfried",
+    "year": 1988,
+    "genre": "Austropop"
+  },
+  {
+    "id": "eav-an-der-copacabana",
+    "title": "An der Copacabana",
+    "artist": "EAV",
     "year": 1988,
     "genre": "Austropop"
   },
@@ -10780,6 +10822,13 @@
     "genre": "Pop"
   },
   {
+    "id": "milli-vanilli-girl-you-know-it-s-true",
+    "title": "Girl You Know It's True",
+    "artist": "Milli Vanilli",
+    "year": 1988,
+    "genre": "Pop"
+  },
+  {
     "id": "iron-maiden-can-i-play-with-madness",
     "title": "Can I Play with Madness",
     "artist": "Iron Maiden",
@@ -10850,13 +10899,6 @@
     "genre": "Rock"
   },
   {
-    "id": "winger-seventeen",
-    "title": "Seventeen",
-    "artist": "Winger",
-    "year": 1988,
-    "genre": "Rock"
-  },
-  {
     "id": "aerosmith-rag-doll",
     "title": "Rag Doll",
     "artist": "Aerosmith",
@@ -10906,23 +10948,9 @@
     "genre": "Rock"
   },
   {
-    "id": "eav-ding-dong",
-    "title": "Ding Dong",
-    "artist": "EAV",
-    "year": 1989,
-    "genre": "Austropop"
-  },
-  {
     "id": "opus-up-and-down",
     "title": "Up and Down",
     "artist": "Opus",
-    "year": 1989,
-    "genre": "Austropop"
-  },
-  {
-    "id": "rainhard-fendrich-blond",
-    "title": "Blond",
-    "artist": "Rainhard Fendrich",
     "year": 1989,
     "genre": "Austropop"
   },
@@ -11000,13 +11028,6 @@
     "id": "madonna-like-a-prayer",
     "title": "Like a Prayer",
     "artist": "Madonna",
-    "year": 1989,
-    "genre": "Pop"
-  },
-  {
-    "id": "milli-vanilli-girl-you-know-it-s-true",
-    "title": "Girl You Know It's True",
-    "artist": "Milli Vanilli",
     "year": 1989,
     "genre": "Pop"
   },
@@ -11093,6 +11114,20 @@
     "artist": "The Bangles",
     "year": 1989,
     "genre": "Pop"
+  },
+  {
+    "id": "cher-if-i-could-turn-back-time",
+    "title": "If I Could Turn Back Time",
+    "artist": "Cher",
+    "year": 1989,
+    "genre": "Pop"
+  },
+  {
+    "id": "winger-seventeen",
+    "title": "Seventeen",
+    "artist": "Winger",
+    "year": 1989,
+    "genre": "Rock"
   },
   {
     "id": "motley-crue-dr-feelgood",
@@ -11242,6 +11277,20 @@
     "genre": "Rock"
   },
   {
+    "id": "rainhard-fendrich-i-am-from-austria",
+    "title": "I Am from Austria",
+    "artist": "Rainhard Fendrich",
+    "year": 1990,
+    "genre": "Austropop"
+  },
+  {
+    "id": "eav-ding-dong",
+    "title": "Ding Dong",
+    "artist": "EAV",
+    "year": 1990,
+    "genre": "Austropop"
+  },
+  {
     "id": "andr-heller-bist-a-sch-ne-frau",
     "title": "Bist a schöne Frau",
     "artist": "André Heller",
@@ -11252,13 +11301,6 @@
     "id": "falco-nachtflug",
     "title": "Nachtflug",
     "artist": "Falco",
-    "year": 1990,
-    "genre": "Austropop"
-  },
-  {
-    "id": "opus-flyin-high",
-    "title": "Flyin' High",
-    "artist": "Opus",
     "year": 1990,
     "genre": "Austropop"
   },
@@ -11441,6 +11483,20 @@
     "id": "matthias-reim-verdammt-ich-lieb-dich",
     "title": "Verdammt, ich lieb' dich",
     "artist": "Matthias Reim",
+    "year": 1990,
+    "genre": "Pop"
+  },
+  {
+    "id": "enigma-sadeness",
+    "title": "Sadeness",
+    "artist": "Enigma",
+    "year": 1990,
+    "genre": "Pop"
+  },
+  {
+    "id": "mariah-carey-vision-of-love",
+    "title": "Vision of Love",
+    "artist": "Mariah Carey",
     "year": 1990,
     "genre": "Pop"
   },
@@ -11641,13 +11697,6 @@
     "genre": "Pop"
   },
   {
-    "id": "cher-if-i-could-turn-back-time",
-    "title": "If I Could Turn Back Time",
-    "artist": "Cher",
-    "year": 1991,
-    "genre": "Pop"
-  },
-  {
     "id": "color-me-badd-i-wanna-sex-you-up",
     "title": "I Wanna Sex You Up",
     "artist": "Color Me Badd",
@@ -11658,13 +11707,6 @@
     "id": "emf-unbelievable",
     "title": "Unbelievable",
     "artist": "EMF",
-    "year": 1991,
-    "genre": "Pop"
-  },
-  {
-    "id": "enigma-sadeness",
-    "title": "Sadeness",
-    "artist": "Enigma",
     "year": 1991,
     "genre": "Pop"
   },
@@ -11683,22 +11725,8 @@
     "genre": "Pop"
   },
   {
-    "id": "mariah-carey-vision-of-love",
-    "title": "Vision of Love",
-    "artist": "Mariah Carey",
-    "year": 1991,
-    "genre": "Pop"
-  },
-  {
     "id": "michael-jackson-black-or-white",
     "title": "Black or White",
-    "artist": "Michael Jackson",
-    "year": 1991,
-    "genre": "Pop"
-  },
-  {
-    "id": "michael-jackson-remember-the-time",
-    "title": "Remember the Time",
     "artist": "Michael Jackson",
     "year": 1991,
     "genre": "Pop"
@@ -11823,23 +11851,9 @@
     "genre": "Rock"
   },
   {
-    "id": "temple-of-the-dog-hunger-strike",
-    "title": "Hunger Strike",
-    "artist": "Temple of the Dog",
-    "year": 1991,
-    "genre": "Rock"
-  },
-  {
     "id": "u2-one",
     "title": "One",
     "artist": "U2",
-    "year": 1991,
-    "genre": "Rock"
-  },
-  {
-    "id": "van-halen-right-now",
-    "title": "Right Now",
-    "artist": "Van Halen",
     "year": 1991,
     "genre": "Rock"
   },
@@ -11889,6 +11903,13 @@
     "id": "u2-mysterious-ways",
     "title": "Mysterious Ways",
     "artist": "U2",
+    "year": 1991,
+    "genre": "Rock"
+  },
+  {
+    "id": "nirvana-come-as-you-are",
+    "title": "Come as You Are",
+    "artist": "Nirvana",
     "year": 1991,
     "genre": "Rock"
   },
@@ -11947,6 +11968,20 @@
     "artist": "STS",
     "year": 1992,
     "genre": "Austropop"
+  },
+  {
+    "id": "hubert-von-goisern-koa-hiatamadl",
+    "title": "Koa Hiatamadl",
+    "artist": "Hubert von Goisern",
+    "year": 1992,
+    "genre": "Austropop"
+  },
+  {
+    "id": "michael-jackson-remember-the-time",
+    "title": "Remember the Time",
+    "artist": "Michael Jackson",
+    "year": 1992,
+    "genre": "Pop"
   },
   {
     "id": "annie-lennox-walking-on-broken-glass",
@@ -12075,6 +12110,20 @@
     "genre": "Pop"
   },
   {
+    "id": "temple-of-the-dog-hunger-strike",
+    "title": "Hunger Strike",
+    "artist": "Temple of the Dog",
+    "year": 1992,
+    "genre": "Rock"
+  },
+  {
+    "id": "van-halen-right-now",
+    "title": "Right Now",
+    "artist": "Van Halen",
+    "year": 1992,
+    "genre": "Rock"
+  },
+  {
     "id": "megadeth-symphony-of-destruction",
     "title": "Symphony of Destruction",
     "artist": "Megadeth",
@@ -12113,13 +12162,6 @@
     "id": "helmet-unsung",
     "title": "Unsung",
     "artist": "Helmet",
-    "year": 1992,
-    "genre": "Rock"
-  },
-  {
-    "id": "nirvana-come-as-you-are",
-    "title": "Come as You Are",
-    "artist": "Nirvana",
     "year": 1992,
     "genre": "Rock"
   },
@@ -12180,6 +12222,20 @@
     "genre": "Rock"
   },
   {
+    "id": "iron-maiden-fear-of-the-dark",
+    "title": "Fear of the Dark",
+    "artist": "Iron Maiden",
+    "year": 1992,
+    "genre": "Rock"
+  },
+  {
+    "id": "radiohead-creep",
+    "title": "Creep",
+    "artist": "Radiohead",
+    "year": 1992,
+    "genre": "Rock"
+  },
+  {
     "id": "eav-nie-wieder-kunst",
     "title": "Nie wieder Kunst",
     "artist": "EAV",
@@ -12197,13 +12253,6 @@
     "id": "hubert-von-goisern-hiatamadl",
     "title": "Hiatamadl",
     "artist": "Hubert von Goisern",
-    "year": 1993,
-    "genre": "Austropop"
-  },
-  {
-    "id": "ludwig-hirsch-gel-du-magst-mi",
-    "title": "Gel du magst mi",
-    "artist": "Ludwig Hirsch",
     "year": 1993,
     "genre": "Austropop"
   },
@@ -12369,13 +12418,6 @@
     "genre": "Pop"
   },
   {
-    "id": "iron-maiden-fear-of-the-dark",
-    "title": "Fear of the Dark",
-    "artist": "Iron Maiden",
-    "year": 1993,
-    "genre": "Rock"
-  },
-  {
     "id": "tool-sober",
     "title": "Sober",
     "artist": "Tool",
@@ -12439,20 +12481,6 @@
     "genre": "Rock"
   },
   {
-    "id": "radiohead-creep",
-    "title": "Creep",
-    "artist": "Radiohead",
-    "year": 1993,
-    "genre": "Rock"
-  },
-  {
-    "id": "smashing-pumpkins-disarm",
-    "title": "Disarm",
-    "artist": "Smashing Pumpkins",
-    "year": 1993,
-    "genre": "Rock"
-  },
-  {
     "id": "stone-temple-pilots-plush",
     "title": "Plush",
     "artist": "Stone Temple Pilots",
@@ -12497,13 +12525,6 @@
   {
     "id": "hubert-von-goisern-juchitzer",
     "title": "Juchitzer",
-    "artist": "Hubert von Goisern",
-    "year": 1994,
-    "genre": "Austropop"
-  },
-  {
-    "id": "hubert-von-goisern-koa-hiatamadl",
-    "title": "Koa Hiatamadl",
     "artist": "Hubert von Goisern",
     "year": 1994,
     "genre": "Austropop"
@@ -12554,6 +12575,13 @@
     "id": "rainhard-fendrich-br-der",
     "title": "Brüder",
     "artist": "Rainhard Fendrich",
+    "year": 1994,
+    "genre": "Austropop"
+  },
+  {
+    "id": "hubert-von-goisern-weit-weit-weg",
+    "title": "Weit weit weg",
+    "artist": "Hubert von Goisern",
     "year": 1994,
     "genre": "Austropop"
   },
@@ -12698,6 +12726,13 @@
     "genre": "Pop"
   },
   {
+    "id": "smashing-pumpkins-disarm",
+    "title": "Disarm",
+    "artist": "Smashing Pumpkins",
+    "year": 1994,
+    "genre": "Rock"
+  },
+  {
     "id": "alice-in-chains-no-excuses",
     "title": "No Excuses",
     "artist": "Alice in Chains",
@@ -12817,37 +12852,16 @@
     "genre": "Rock"
   },
   {
-    "id": "christina-st-rmer-mama-ana-ahabak",
-    "title": "Mama Ana Ahabak",
-    "artist": "Christina Stürmer",
-    "year": 1995,
-    "genre": "Austropop"
-  },
-  {
-    "id": "eav-an-der-copacabana",
-    "title": "An der Copacabana",
-    "artist": "EAV",
-    "year": 1995,
-    "genre": "Austropop"
-  },
-  {
-    "id": "falco-mutter-der-mann-mit-dem-koks-ist-da",
-    "title": "Mutter der Mann mit dem Koks ist da",
-    "artist": "Falco",
-    "year": 1995,
-    "genre": "Austropop"
+    "id": "green-day-when-i-come-around",
+    "title": "When I Come Around",
+    "artist": "Green Day",
+    "year": 1994,
+    "genre": "Rock"
   },
   {
     "id": "georg-danzer-weilst-a-herz-hast-wie-a-bergwerk",
     "title": "Weilst a Herz hast wie a Bergwerk",
     "artist": "Georg Danzer",
-    "year": 1995,
-    "genre": "Austropop"
-  },
-  {
-    "id": "hubert-von-goisern-weit-weit-weg",
-    "title": "Weit weit weg",
-    "artist": "Hubert von Goisern",
     "year": 1995,
     "genre": "Austropop"
   },
@@ -12999,11 +13013,11 @@
     "genre": "Pop"
   },
   {
-    "id": "alanis-morissette-ironic",
-    "title": "Ironic",
-    "artist": "Alanis Morissette",
+    "id": "no-doubt-just-a-girl",
+    "title": "Just a Girl",
+    "artist": "No Doubt",
     "year": 1995,
-    "genre": "Rock"
+    "genre": "Pop"
   },
   {
     "id": "alanis-morissette-you-oughta-know",
@@ -13023,20 +13037,6 @@
     "id": "foo-fighters-this-is-a-call",
     "title": "This Is a Call",
     "artist": "Foo Fighters",
-    "year": 1995,
-    "genre": "Rock"
-  },
-  {
-    "id": "green-day-when-i-come-around",
-    "title": "When I Come Around",
-    "artist": "Green Day",
-    "year": 1995,
-    "genre": "Rock"
-  },
-  {
-    "id": "oasis-don-t-look-back-in-anger",
-    "title": "Don't Look Back in Anger",
-    "artist": "Oasis",
     "year": 1995,
     "genre": "Rock"
   },
@@ -13065,13 +13065,6 @@
     "id": "silverchair-tomorrow",
     "title": "Tomorrow",
     "artist": "Silverchair",
-    "year": 1995,
-    "genre": "Rock"
-  },
-  {
-    "id": "the-smashing-pumpkins-1979",
-    "title": "1979",
-    "artist": "The Smashing Pumpkins",
     "year": 1995,
     "genre": "Rock"
   },
@@ -13130,6 +13123,13 @@
     "artist": "The Presidents of the United States of America",
     "year": 1995,
     "genre": "Rock"
+  },
+  {
+    "id": "falco-mutter-der-mann-mit-dem-koks-ist-da",
+    "title": "Mutter der Mann mit dem Koks ist da",
+    "artist": "Falco",
+    "year": 1996,
+    "genre": "Austropop"
   },
   {
     "id": "eav-hip-hop",
@@ -13230,13 +13230,6 @@
     "genre": "Pop"
   },
   {
-    "id": "no-doubt-just-a-girl",
-    "title": "Just a Girl",
-    "artist": "No Doubt",
-    "year": 1996,
-    "genre": "Pop"
-  },
-  {
     "id": "quad-city-djs-c-mon-n-ride-it",
     "title": "C'mon N' Ride It",
     "artist": "Quad City DJs",
@@ -13305,6 +13298,34 @@
     "artist": "Tracy Chapman",
     "year": 1996,
     "genre": "Pop"
+  },
+  {
+    "id": "spice-girls-say-you-ll-be-there",
+    "title": "Say You'll Be There",
+    "artist": "Spice Girls",
+    "year": 1996,
+    "genre": "Pop"
+  },
+  {
+    "id": "alanis-morissette-ironic",
+    "title": "Ironic",
+    "artist": "Alanis Morissette",
+    "year": 1996,
+    "genre": "Rock"
+  },
+  {
+    "id": "oasis-don-t-look-back-in-anger",
+    "title": "Don't Look Back in Anger",
+    "artist": "Oasis",
+    "year": 1996,
+    "genre": "Rock"
+  },
+  {
+    "id": "the-smashing-pumpkins-1979",
+    "title": "1979",
+    "artist": "The Smashing Pumpkins",
+    "year": 1996,
+    "genre": "Rock"
   },
   {
     "id": "marilyn-manson-the-beautiful-people",
@@ -13440,9 +13461,9 @@
     "genre": "Rock"
   },
   {
-    "id": "falco-out-of-the-dark",
-    "title": "Out of the Dark",
-    "artist": "Falco",
+    "id": "rainhard-fendrich-blond",
+    "title": "Blond",
+    "artist": "Rainhard Fendrich",
     "year": 1997,
     "genre": "Austropop"
   },
@@ -13457,13 +13478,6 @@
     "id": "hubert-von-goisern-gombe",
     "title": "Gombe",
     "artist": "Hubert von Goisern",
-    "year": 1997,
-    "genre": "Austropop"
-  },
-  {
-    "id": "rainhard-fendrich-weus-d-a-herz-hast-wia-a-bergwerk",
-    "title": "Weus'd a Herz hast wia a Bergwerk",
-    "artist": "Rainhard Fendrich",
     "year": 1997,
     "genre": "Austropop"
   },
@@ -13531,13 +13545,6 @@
     "genre": "Pop"
   },
   {
-    "id": "spice-girls-say-you-ll-be-there",
-    "title": "Say You'll Be There",
-    "artist": "Spice Girls",
-    "year": 1997,
-    "genre": "Pop"
-  },
-  {
     "id": "sugar-ray-fly",
     "title": "Fly",
     "artist": "Sugar Ray",
@@ -13576,6 +13583,34 @@
     "id": "spice-girls-spice-up-your-life",
     "title": "Spice Up Your Life",
     "artist": "Spice Girls",
+    "year": 1997,
+    "genre": "Pop"
+  },
+  {
+    "id": "backstreet-boys-everybody-backstreet-s-back",
+    "title": "Everybody (Backstreet's Back)",
+    "artist": "Backstreet Boys",
+    "year": 1997,
+    "genre": "Pop"
+  },
+  {
+    "id": "celine-dion-my-heart-will-go-on",
+    "title": "My Heart Will Go On",
+    "artist": "Celine Dion",
+    "year": 1997,
+    "genre": "Pop"
+  },
+  {
+    "id": "natalie-imbruglia-torn",
+    "title": "Torn",
+    "artist": "Natalie Imbruglia",
+    "year": 1997,
+    "genre": "Pop"
+  },
+  {
+    "id": "savage-garden-truly-madly-deeply",
+    "title": "Truly Madly Deeply",
+    "artist": "Savage Garden",
     "year": 1997,
     "genre": "Pop"
   },
@@ -13685,6 +13720,20 @@
     "genre": "Rock"
   },
   {
+    "id": "metallica-the-memory-remains",
+    "title": "The Memory Remains",
+    "artist": "Metallica",
+    "year": 1997,
+    "genre": "Rock"
+  },
+  {
+    "id": "falco-out-of-the-dark",
+    "title": "Out of the Dark",
+    "artist": "Falco",
+    "year": 1998,
+    "genre": "Austropop"
+  },
+  {
     "id": "austria-3-i-schau-di-gern-an",
     "title": "I schau di gern an",
     "artist": "Austria 3",
@@ -13727,23 +13776,9 @@
     "genre": "Austropop"
   },
   {
-    "id": "backstreet-boys-everybody-backstreet-s-back",
-    "title": "Everybody (Backstreet's Back)",
-    "artist": "Backstreet Boys",
-    "year": 1998,
-    "genre": "Pop"
-  },
-  {
     "id": "brandy-monica-the-boy-is-mine",
     "title": "The Boy Is Mine",
     "artist": "Brandy & Monica",
-    "year": 1998,
-    "genre": "Pop"
-  },
-  {
-    "id": "celine-dion-my-heart-will-go-on",
-    "title": "My Heart Will Go On",
-    "artist": "Celine Dion",
     "year": 1998,
     "genre": "Pop"
   },
@@ -13769,23 +13804,9 @@
     "genre": "Pop"
   },
   {
-    "id": "natalie-imbruglia-torn",
-    "title": "Torn",
-    "artist": "Natalie Imbruglia",
-    "year": 1998,
-    "genre": "Pop"
-  },
-  {
     "id": "next-too-close",
     "title": "Too Close",
     "artist": "Next",
-    "year": 1998,
-    "genre": "Pop"
-  },
-  {
-    "id": "savage-garden-truly-madly-deeply",
-    "title": "Truly Madly Deeply",
-    "artist": "Savage Garden",
     "year": 1998,
     "genre": "Pop"
   },
@@ -13867,6 +13888,13 @@
     "genre": "Pop"
   },
   {
+    "id": "britney-spears-baby-one-more-time",
+    "title": "...Baby One More Time",
+    "artist": "Britney Spears",
+    "year": 1998,
+    "genre": "Pop"
+  },
+  {
     "id": "godsmack-whatever",
     "title": "Whatever",
     "artist": "Godsmack",
@@ -13874,23 +13902,9 @@
     "genre": "Rock"
   },
   {
-    "id": "korn-freak-on-a-leash",
-    "title": "Freak on a Leash",
-    "artist": "Korn",
-    "year": 1998,
-    "genre": "Rock"
-  },
-  {
     "id": "marilyn-manson-the-dope-show",
     "title": "The Dope Show",
     "artist": "Marilyn Manson",
-    "year": 1998,
-    "genre": "Rock"
-  },
-  {
-    "id": "metallica-the-memory-remains",
-    "title": "The Memory Remains",
-    "artist": "Metallica",
     "year": 1998,
     "genre": "Rock"
   },
@@ -14014,13 +14028,6 @@
     "genre": "Austropop"
   },
   {
-    "id": "christina-st-rmer-ich-lebe",
-    "title": "Ich lebe",
-    "artist": "Christina Stürmer",
-    "year": 1999,
-    "genre": "Austropop"
-  },
-  {
     "id": "hubert-von-goisern-in-the-year-2525",
     "title": "In the Year 2525",
     "artist": "Hubert von Goisern",
@@ -14059,13 +14066,6 @@
     "id": "backstreet-boys-i-want-it-that-way",
     "title": "I Want It That Way",
     "artist": "Backstreet Boys",
-    "year": 1999,
-    "genre": "Pop"
-  },
-  {
-    "id": "britney-spears-baby-one-more-time",
-    "title": "...Baby One More Time",
-    "artist": "Britney Spears",
     "year": 1999,
     "genre": "Pop"
   },
@@ -14196,6 +14196,13 @@
     "genre": "Pop"
   },
   {
+    "id": "korn-freak-on-a-leash",
+    "title": "Freak on a Leash",
+    "artist": "Korn",
+    "year": 1999,
+    "genre": "Rock"
+  },
+  {
     "id": "godsmack-voodoo",
     "title": "Voodoo",
     "artist": "Godsmack",
@@ -14213,13 +14220,6 @@
     "id": "slipknot-wait-and-bleed",
     "title": "Wait and Bleed",
     "artist": "Slipknot",
-    "year": 1999,
-    "genre": "Rock"
-  },
-  {
-    "id": "blink-182-all-the-small-things",
-    "title": "All the Small Things",
-    "artist": "Blink-182",
     "year": 1999,
     "genre": "Rock"
   },
@@ -14255,13 +14255,6 @@
     "id": "muse-muscle-museum",
     "title": "Muscle Museum",
     "artist": "Muse",
-    "year": 1999,
-    "genre": "Rock"
-  },
-  {
-    "id": "red-hot-chili-peppers-californication",
-    "title": "Californication",
-    "artist": "Red Hot Chili Peppers",
     "year": 1999,
     "genre": "Rock"
   },
@@ -14322,13 +14315,6 @@
     "genre": "Austropop"
   },
   {
-    "id": "christina-st-rmer-geh-nicht-wenn-du-kommst",
-    "title": "Geh nicht wenn du kommst",
-    "artist": "Christina Stürmer",
-    "year": 2000,
-    "genre": "Austropop"
-  },
-  {
     "id": "hubert-von-goisern-go-for-gold",
     "title": "Go for Gold",
     "artist": "Hubert von Goisern",
@@ -14353,13 +14339,6 @@
     "id": "reinhard-fendrich-midlife-crisis",
     "title": "Midlife Crisis",
     "artist": "Reinhard Fendrich",
-    "year": 2000,
-    "genre": "Austropop"
-  },
-  {
-    "id": "sts-da-kummt-die-sunn",
-    "title": "Da kummt die Sunn",
-    "artist": "STS",
     "year": 2000,
     "genre": "Austropop"
   },
@@ -14525,6 +14504,27 @@
     "genre": "Pop"
   },
   {
+    "id": "shaggy-it-wasn-t-me",
+    "title": "It Wasn't Me",
+    "artist": "Shaggy",
+    "year": 2000,
+    "genre": "Pop"
+  },
+  {
+    "id": "blink-182-all-the-small-things",
+    "title": "All the Small Things",
+    "artist": "Blink-182",
+    "year": 2000,
+    "genre": "Rock"
+  },
+  {
+    "id": "red-hot-chili-peppers-californication",
+    "title": "Californication",
+    "artist": "Red Hot Chili Peppers",
+    "year": 2000,
+    "genre": "Rock"
+  },
+  {
     "id": "deftones-change-in-the-house-of-flies",
     "title": "Change (In the House of Flies)",
     "artist": "Deftones",
@@ -14658,13 +14658,6 @@
     "genre": "Austropop"
   },
   {
-    "id": "wolfgang-ambros-nie-und-nimmer",
-    "title": "Nie und nimmer",
-    "artist": "Wolfgang Ambros",
-    "year": 2001,
-    "genre": "Austropop"
-  },
-  {
     "id": "alicia-keys-fallin",
     "title": "Fallin'",
     "artist": "Alicia Keys",
@@ -14749,13 +14742,6 @@
     "genre": "Pop"
   },
   {
-    "id": "shaggy-it-wasn-t-me",
-    "title": "It Wasn't Me",
-    "artist": "Shaggy",
-    "year": 2001,
-    "genre": "Pop"
-  },
-  {
     "id": "usher-u-remind-me",
     "title": "U Remind Me",
     "artist": "Usher",
@@ -14828,13 +14814,6 @@
   {
     "id": "system-of-a-down-chop-suey",
     "title": "Chop Suey!",
-    "artist": "System of a Down",
-    "year": 2001,
-    "genre": "Rock"
-  },
-  {
-    "id": "system-of-a-down-toxicity",
-    "title": "Toxicity",
     "artist": "System of a Down",
     "year": 2001,
     "genre": "Rock"
@@ -14945,6 +14924,13 @@
     "genre": "Rock"
   },
   {
+    "id": "the-hives-hate-to-say-i-told-you-so",
+    "title": "Hate to Say I Told You So",
+    "artist": "The Hives",
+    "year": 2001,
+    "genre": "Rock"
+  },
+  {
     "id": "georg-danzer-gro-e-dinge",
     "title": "Große Dinge",
     "artist": "Georg Danzer",
@@ -14962,13 +14948,6 @@
     "id": "sts-waun-da-letzte-vorhang-foid",
     "title": "Waun da letzte Vorhang foid",
     "artist": "STS",
-    "year": 2002,
-    "genre": "Austropop"
-  },
-  {
-    "id": "wanda-bologna",
-    "title": "Bologna",
-    "artist": "Wanda",
     "year": 2002,
     "genre": "Austropop"
   },
@@ -15106,6 +15085,20 @@
     "genre": "Pop"
   },
   {
+    "id": "justin-timberlake-cry-me-a-river",
+    "title": "Cry Me a River",
+    "artist": "Justin Timberlake",
+    "year": 2002,
+    "genre": "Pop"
+  },
+  {
+    "id": "system-of-a-down-toxicity",
+    "title": "Toxicity",
+    "artist": "System of a Down",
+    "year": 2002,
+    "genre": "Rock"
+  },
+  {
     "id": "disturbed-prayer",
     "title": "Prayer",
     "artist": "Disturbed",
@@ -15162,23 +15155,9 @@
     "genre": "Rock"
   },
   {
-    "id": "red-hot-chili-peppers-can-t-stop",
-    "title": "Can't Stop",
-    "artist": "Red Hot Chili Peppers",
-    "year": 2002,
-    "genre": "Rock"
-  },
-  {
     "id": "the-coral-dreaming-of-you",
     "title": "Dreaming of You",
     "artist": "The Coral",
-    "year": 2002,
-    "genre": "Rock"
-  },
-  {
-    "id": "the-hives-hate-to-say-i-told-you-so",
-    "title": "Hate to Say I Told You So",
-    "artist": "The Hives",
     "year": 2002,
     "genre": "Rock"
   },
@@ -15232,8 +15211,22 @@
     "genre": "Rock"
   },
   {
-    "id": "christina-st-rmer-vorbei",
-    "title": "Vorbei",
+    "id": "christina-st-rmer-mama-ana-ahabak",
+    "title": "Mama Ana Ahabak",
+    "artist": "Christina Stürmer",
+    "year": 2003,
+    "genre": "Austropop"
+  },
+  {
+    "id": "christina-st-rmer-ich-lebe",
+    "title": "Ich lebe",
+    "artist": "Christina Stürmer",
+    "year": 2003,
+    "genre": "Austropop"
+  },
+  {
+    "id": "christina-st-rmer-geh-nicht-wenn-du-kommst",
+    "title": "Geh nicht wenn du kommst",
     "artist": "Christina Stürmer",
     "year": 2003,
     "genre": "Austropop"
@@ -15242,13 +15235,6 @@
     "id": "eav-gegen-den-wind",
     "title": "Gegen den Wind",
     "artist": "EAV",
-    "year": 2003,
-    "genre": "Austropop"
-  },
-  {
-    "id": "hubert-von-goisern-brenna-tuats-guat",
-    "title": "Brenna tuats guat",
-    "artist": "Hubert von Goisern",
     "year": 2003,
     "genre": "Austropop"
   },
@@ -15326,13 +15312,6 @@
     "id": "gareth-gates-spirit-in-the-sky",
     "title": "Spirit in the Sky",
     "artist": "Gareth Gates",
-    "year": 2003,
-    "genre": "Pop"
-  },
-  {
-    "id": "justin-timberlake-cry-me-a-river",
-    "title": "Cry Me a River",
-    "artist": "Justin Timberlake",
     "year": 2003,
     "genre": "Pop"
   },
@@ -15419,6 +15398,13 @@
     "artist": "Yvonne Catterfeld",
     "year": 2003,
     "genre": "Pop"
+  },
+  {
+    "id": "red-hot-chili-peppers-can-t-stop",
+    "title": "Can't Stop",
+    "artist": "Red Hot Chili Peppers",
+    "year": 2003,
+    "genre": "Rock"
   },
   {
     "id": "godsmack-i-stand-alone",
@@ -15552,6 +15538,27 @@
     "artist": "Muse",
     "year": 2003,
     "genre": "Rock"
+  },
+  {
+    "id": "jet-are-you-gonna-be-my-girl",
+    "title": "Are You Gonna Be My Girl",
+    "artist": "Jet",
+    "year": 2003,
+    "genre": "Rock"
+  },
+  {
+    "id": "the-killers-mr-brightside",
+    "title": "Mr. Brightside",
+    "artist": "The Killers",
+    "year": 2003,
+    "genre": "Rock"
+  },
+  {
+    "id": "christina-st-rmer-vorbei",
+    "title": "Vorbei",
+    "artist": "Christina Stürmer",
+    "year": 2004,
+    "genre": "Austropop"
   },
   {
     "id": "hubert-von-goisern-indianer",
@@ -15785,13 +15792,6 @@
     "genre": "Rock"
   },
   {
-    "id": "jet-are-you-gonna-be-my-girl",
-    "title": "Are You Gonna Be My Girl",
-    "artist": "Jet",
-    "year": 2004,
-    "genre": "Rock"
-  },
-  {
     "id": "my-chemical-romance-i-m-not-okay",
     "title": "I'm Not Okay",
     "artist": "My Chemical Romance",
@@ -15809,13 +15809,6 @@
     "id": "snow-patrol-run",
     "title": "Run",
     "artist": "Snow Patrol",
-    "year": 2004,
-    "genre": "Rock"
-  },
-  {
-    "id": "the-killers-mr-brightside",
-    "title": "Mr. Brightside",
-    "artist": "The Killers",
     "year": 2004,
     "genre": "Rock"
   },
@@ -15869,6 +15862,13 @@
     "genre": "Rock"
   },
   {
+    "id": "my-chemical-romance-helena",
+    "title": "Helena",
+    "artist": "My Chemical Romance",
+    "year": 2004,
+    "genre": "Rock"
+  },
+  {
     "id": "christina-st-rmer-lebe-lauter",
     "title": "Lebe lauter",
     "artist": "Christina Stürmer",
@@ -15897,13 +15897,6 @@
     "genre": "Austropop"
   },
   {
-    "id": "seiler-und-speer-ham-kummst",
-    "title": "Ham kummst",
-    "artist": "Seiler und Speer",
-    "year": 2005,
-    "genre": "Austropop"
-  },
-  {
     "id": "alf-poier-good-old-europe-is-dying",
     "title": "Good Old Europe Is Dying",
     "artist": "Alf Poier",
@@ -15921,6 +15914,13 @@
     "id": "global-kryner-y-as",
     "title": "Y así",
     "artist": "Global Kryner",
+    "year": 2005,
+    "genre": "Austropop"
+  },
+  {
+    "id": "christina-st-rmer-engel-fliegen-einsam",
+    "title": "Engel fliegen einsam",
+    "artist": "Christina Stürmer",
     "year": 2005,
     "genre": "Austropop"
   },
@@ -16044,6 +16044,13 @@
     "genre": "Pop"
   },
   {
+    "id": "daniel-powter-bad-day",
+    "title": "Bad Day",
+    "artist": "Daniel Powter",
+    "year": 2005,
+    "genre": "Pop"
+  },
+  {
     "id": "avenged-sevenfold-bat-country",
     "title": "Bat Country",
     "artist": "Avenged Sevenfold",
@@ -16053,13 +16060,6 @@
   {
     "id": "system-of-a-down-b-y-o-b",
     "title": "B.Y.O.B.",
-    "artist": "System of a Down",
-    "year": 2005,
-    "genre": "Rock"
-  },
-  {
-    "id": "system-of-a-down-hypnotize",
-    "title": "Hypnotize",
     "artist": "System of a Down",
     "year": 2005,
     "genre": "Rock"
@@ -16110,13 +16110,6 @@
     "id": "kaiser-chiefs-i-predict-a-riot",
     "title": "I Predict a Riot",
     "artist": "Kaiser Chiefs",
-    "year": 2005,
-    "genre": "Rock"
-  },
-  {
-    "id": "my-chemical-romance-helena",
-    "title": "Helena",
-    "artist": "My Chemical Romance",
     "year": 2005,
     "genre": "Rock"
   },
@@ -16177,15 +16170,15 @@
     "genre": "Rock"
   },
   {
-    "id": "christina-st-rmer-ein-neuer-anfang",
-    "title": "Ein neuer Anfang",
-    "artist": "Christina Stürmer",
-    "year": 2006,
-    "genre": "Austropop"
+    "id": "arctic-monkeys-i-bet-you-look-good-on-the-dancefloor",
+    "title": "I Bet You Look Good on the Dancefloor",
+    "artist": "Arctic Monkeys",
+    "year": 2005,
+    "genre": "Rock"
   },
   {
-    "id": "christina-st-rmer-engel-fliegen-einsam",
-    "title": "Engel fliegen einsam",
+    "id": "christina-st-rmer-ein-neuer-anfang",
+    "title": "Ein neuer Anfang",
     "artist": "Christina Stürmer",
     "year": 2006,
     "genre": "Austropop"
@@ -16219,6 +16212,13 @@
     "genre": "Austropop"
   },
   {
+    "id": "christina-st-rmer-nie-genug",
+    "title": "Nie genug",
+    "artist": "Christina Stürmer",
+    "year": 2006,
+    "genre": "Austropop"
+  },
+  {
     "id": "beyonce-d-j-vu",
     "title": "Déjà Vu",
     "artist": "Beyonce",
@@ -16236,13 +16236,6 @@
     "id": "christina-aguilera-ain-t-no-other-man",
     "title": "Ain't No Other Man",
     "artist": "Christina Aguilera",
-    "year": 2006,
-    "genre": "Pop"
-  },
-  {
-    "id": "daniel-powter-bad-day",
-    "title": "Bad Day",
-    "artist": "Daniel Powter",
     "year": 2006,
     "genre": "Pop"
   },
@@ -16331,6 +16324,13 @@
     "genre": "Pop"
   },
   {
+    "id": "system-of-a-down-hypnotize",
+    "title": "Hypnotize",
+    "artist": "System of a Down",
+    "year": 2006,
+    "genre": "Rock"
+  },
+  {
     "id": "avenged-sevenfold-beast-and-the-harlot",
     "title": "Beast and the Harlot",
     "artist": "Avenged Sevenfold",
@@ -16362,13 +16362,6 @@
     "id": "afi-miss-murder",
     "title": "Miss Murder",
     "artist": "AFI",
-    "year": 2006,
-    "genre": "Rock"
-  },
-  {
-    "id": "arctic-monkeys-i-bet-you-look-good-on-the-dancefloor",
-    "title": "I Bet You Look Good on the Dancefloor",
-    "artist": "Arctic Monkeys",
     "year": 2006,
     "genre": "Rock"
   },
@@ -16457,11 +16450,11 @@
     "genre": "Rock"
   },
   {
-    "id": "christina-st-rmer-wir-leben-den-moment",
-    "title": "Wir leben den Moment",
-    "artist": "Christina Stürmer",
-    "year": 2007,
-    "genre": "Austropop"
+    "id": "hinder-lips-of-an-angel",
+    "title": "Lips of an Angel",
+    "artist": "Hinder",
+    "year": 2006,
+    "genre": "Rock"
   },
   {
     "id": "hubert-von-goisern-heimatstadt",
@@ -16625,6 +16618,13 @@
     "genre": "Pop"
   },
   {
+    "id": "leona-lewis-bleeding-love",
+    "title": "Bleeding Love",
+    "artist": "Leona Lewis",
+    "year": 2007,
+    "genre": "Pop"
+  },
+  {
     "id": "disturbed-inside-the-fire",
     "title": "Inside the Fire",
     "artist": "Disturbed",
@@ -16642,13 +16642,6 @@
     "id": "foo-fighters-the-pretender",
     "title": "The Pretender",
     "artist": "Foo Fighters",
-    "year": 2007,
-    "genre": "Rock"
-  },
-  {
-    "id": "hinder-lips-of-an-angel",
-    "title": "Lips of an Angel",
-    "artist": "Hinder",
     "year": 2007,
     "genre": "Rock"
   },
@@ -16705,13 +16698,6 @@
     "id": "rise-against-prayer-of-the-refugee",
     "title": "Prayer of the Refugee",
     "artist": "Rise Against",
-    "year": 2007,
-    "genre": "Rock"
-  },
-  {
-    "id": "seether-fake-it",
-    "title": "Fake It",
-    "artist": "Seether",
     "year": 2007,
     "genre": "Rock"
   },
@@ -16814,6 +16800,13 @@
     "genre": "Austropop"
   },
   {
+    "id": "andreas-gabalier-amoi-seg-ma-uns-wieder",
+    "title": "Amoi seg' ma uns wieder",
+    "artist": "Andreas Gabalier",
+    "year": 2008,
+    "genre": "Austropop"
+  },
+  {
     "id": "basshunter-now-you-re-gone",
     "title": "Now You're Gone",
     "artist": "Basshunter",
@@ -16859,13 +16852,6 @@
     "id": "katy-perry-i-kissed-a-girl",
     "title": "I Kissed a Girl",
     "artist": "Katy Perry",
-    "year": 2008,
-    "genre": "Pop"
-  },
-  {
-    "id": "leona-lewis-bleeding-love",
-    "title": "Bleeding Love",
-    "artist": "Leona Lewis",
     "year": 2008,
     "genre": "Pop"
   },
@@ -16940,6 +16926,34 @@
     "genre": "Pop"
   },
   {
+    "id": "beyonce-single-ladies",
+    "title": "Single Ladies",
+    "artist": "Beyonce",
+    "year": 2008,
+    "genre": "Pop"
+  },
+  {
+    "id": "lady-gaga-just-dance",
+    "title": "Just Dance",
+    "artist": "Lady Gaga",
+    "year": 2008,
+    "genre": "Pop"
+  },
+  {
+    "id": "lady-gaga-poker-face",
+    "title": "Poker Face",
+    "artist": "Lady Gaga",
+    "year": 2008,
+    "genre": "Pop"
+  },
+  {
+    "id": "seether-fake-it",
+    "title": "Fake It",
+    "artist": "Seether",
+    "year": 2008,
+    "genre": "Rock"
+  },
+  {
     "id": "metallica-the-day-that-never-comes",
     "title": "The Day That Never Comes",
     "artist": "Metallica",
@@ -17006,13 +17020,6 @@
     "id": "rise-against-savior",
     "title": "Savior",
     "artist": "Rise Against",
-    "year": 2008,
-    "genre": "Rock"
-  },
-  {
-    "id": "shinedown-second-chance",
-    "title": "Second Chance",
-    "artist": "Shinedown",
     "year": 2008,
     "genre": "Rock"
   },
@@ -17094,11 +17101,11 @@
     "genre": "Rock"
   },
   {
-    "id": "christina-st-rmer-nie-genug",
-    "title": "Nie genug",
-    "artist": "Christina Stürmer",
-    "year": 2009,
-    "genre": "Austropop"
+    "id": "cage-the-elephant-ain-t-no-rest-for-the-wicked",
+    "title": "Ain't No Rest for the Wicked",
+    "artist": "Cage the Elephant",
+    "year": 2008,
+    "genre": "Rock"
   },
   {
     "id": "hubert-von-goisern-entwederoder",
@@ -17110,13 +17117,6 @@
   {
     "id": "rainhard-fendrich-auf-die-liebe",
     "title": "Auf die Liebe",
-    "artist": "Rainhard Fendrich",
-    "year": 2009,
-    "genre": "Austropop"
-  },
-  {
-    "id": "rainhard-fendrich-oben-ohne",
-    "title": "Oben ohne",
     "artist": "Rainhard Fendrich",
     "year": 2009,
     "genre": "Austropop"
@@ -17157,11 +17157,11 @@
     "genre": "Austropop"
   },
   {
-    "id": "beyonce-single-ladies",
-    "title": "Single Ladies",
-    "artist": "Beyonce",
+    "id": "christina-st-rmer-ist-mir-egal",
+    "title": "Ist mir egal",
+    "artist": "Christina Stürmer",
     "year": 2009,
-    "genre": "Pop"
+    "genre": "Austropop"
   },
   {
     "id": "black-eyed-peas-boom-boom-pow",
@@ -17220,22 +17220,8 @@
     "genre": "Pop"
   },
   {
-    "id": "lady-gaga-just-dance",
-    "title": "Just Dance",
-    "artist": "Lady Gaga",
-    "year": 2009,
-    "genre": "Pop"
-  },
-  {
     "id": "lady-gaga-paparazzi",
     "title": "Paparazzi",
-    "artist": "Lady Gaga",
-    "year": 2009,
-    "genre": "Pop"
-  },
-  {
-    "id": "lady-gaga-poker-face",
-    "title": "Poker Face",
     "artist": "Lady Gaga",
     "year": 2009,
     "genre": "Pop"
@@ -17295,6 +17281,20 @@
     "artist": "Miley Cyrus",
     "year": 2009,
     "genre": "Pop"
+  },
+  {
+    "id": "lady-gaga-bad-romance",
+    "title": "Bad Romance",
+    "artist": "Lady Gaga",
+    "year": 2009,
+    "genre": "Pop"
+  },
+  {
+    "id": "shinedown-second-chance",
+    "title": "Second Chance",
+    "artist": "Shinedown",
+    "year": 2009,
+    "genre": "Rock"
   },
   {
     "id": "avenged-sevenfold-nightmare",
@@ -17430,16 +17430,9 @@
     "genre": "Rock"
   },
   {
-    "id": "christina-st-rmer-ist-mir-egal",
-    "title": "Ist mir egal",
+    "id": "christina-st-rmer-wir-leben-den-moment",
+    "title": "Wir leben den Moment",
     "artist": "Christina Stürmer",
-    "year": 2010,
-    "genre": "Austropop"
-  },
-  {
-    "id": "parov-stelar-all-night",
-    "title": "All Night",
-    "artist": "Parov Stelar",
     "year": 2010,
     "genre": "Austropop"
   },
@@ -17447,6 +17440,13 @@
     "id": "rainhard-fendrich-schrei",
     "title": "Schrei",
     "artist": "Rainhard Fendrich",
+    "year": 2010,
+    "genre": "Austropop"
+  },
+  {
+    "id": "trackshittaz-oida-taunz",
+    "title": "Oida Taunz!",
+    "artist": "Trackshittaz",
     "year": 2010,
     "genre": "Austropop"
   },
@@ -17496,13 +17496,6 @@
     "id": "ke-ha-tik-tok",
     "title": "TiK ToK",
     "artist": "Ke$ha",
-    "year": 2010,
-    "genre": "Pop"
-  },
-  {
-    "id": "lady-gaga-bad-romance",
-    "title": "Bad Romance",
-    "artist": "Lady Gaga",
     "year": 2010,
     "genre": "Pop"
   },
@@ -17591,9 +17584,16 @@
     "genre": "Pop"
   },
   {
-    "id": "5-finger-death-punch-bad-company",
+    "id": "adele-rolling-in-the-deep",
+    "title": "Rolling in the Deep",
+    "artist": "Adele",
+    "year": 2010,
+    "genre": "Pop"
+  },
+  {
+    "id": "five-finger-death-punch-bad-company",
     "title": "Bad Company",
-    "artist": "5 Finger Death Punch",
+    "artist": "Five Finger Death Punch",
     "year": 2010,
     "genre": "Rock"
   },
@@ -17622,13 +17622,6 @@
     "id": "arcade-fire-ready-to-start",
     "title": "Ready to Start",
     "artist": "Arcade Fire",
-    "year": 2010,
-    "genre": "Rock"
-  },
-  {
-    "id": "cage-the-elephant-ain-t-no-rest-for-the-wicked",
-    "title": "Ain't No Rest for the Wicked",
-    "artist": "Cage the Elephant",
     "year": 2010,
     "genre": "Rock"
   },
@@ -17724,9 +17717,16 @@
     "genre": "Rock"
   },
   {
-    "id": "christina-st-rmer-seite-an-seite",
-    "title": "Seite an Seite",
-    "artist": "Christina Stürmer",
+    "id": "the-black-keys-howlin-for-you",
+    "title": "Howlin' for You",
+    "artist": "The Black Keys",
+    "year": 2010,
+    "genre": "Rock"
+  },
+  {
+    "id": "hubert-von-goisern-brenna-tuats-guat",
+    "title": "Brenna tuats guat",
+    "artist": "Hubert von Goisern",
     "year": 2011,
     "genre": "Austropop"
   },
@@ -17780,11 +17780,11 @@
     "genre": "Austropop"
   },
   {
-    "id": "adele-rolling-in-the-deep",
-    "title": "Rolling in the Deep",
-    "artist": "Adele",
+    "id": "andreas-gabalier-i-sing-a-liad-f-r-di",
+    "title": "I sing a Liad für di",
+    "artist": "Andreas Gabalier",
     "year": 2011,
-    "genre": "Pop"
+    "genre": "Austropop"
   },
   {
     "id": "adele-set-fire-to-the-rain",
@@ -17906,6 +17906,20 @@
     "genre": "Pop"
   },
   {
+    "id": "carly-rae-jepsen-call-me-maybe",
+    "title": "Call Me Maybe",
+    "artist": "Carly Rae Jepsen",
+    "year": 2011,
+    "genre": "Pop"
+  },
+  {
+    "id": "gotye-somebody-that-i-used-to-know",
+    "title": "Somebody That I Used to Know",
+    "artist": "Gotye",
+    "year": 2011,
+    "genre": "Pop"
+  },
+  {
     "id": "avenged-sevenfold-so-far-away",
     "title": "So Far Away",
     "artist": "Avenged Sevenfold",
@@ -18004,13 +18018,6 @@
     "genre": "Rock"
   },
   {
-    "id": "the-black-keys-howlin-for-you",
-    "title": "Howlin' for You",
-    "artist": "The Black Keys",
-    "year": 2011,
-    "genre": "Rock"
-  },
-  {
     "id": "awolnation-sail",
     "title": "Sail",
     "artist": "AWOLNATION",
@@ -18032,9 +18039,16 @@
     "genre": "Rock"
   },
   {
-    "id": "christina-st-rmer-millionen-lichter",
-    "title": "Millionen Lichter",
-    "artist": "Christina Stürmer",
+    "id": "the-black-keys-lonely-boy",
+    "title": "Lonely Boy",
+    "artist": "The Black Keys",
+    "year": 2011,
+    "genre": "Rock"
+  },
+  {
+    "id": "parov-stelar-all-night",
+    "title": "All Night",
+    "artist": "Parov Stelar",
     "year": 2012,
     "genre": "Austropop"
   },
@@ -18049,13 +18063,6 @@
     "id": "sts-gf-hle",
     "title": "Gfühle",
     "artist": "STS",
-    "year": 2012,
-    "genre": "Austropop"
-  },
-  {
-    "id": "trackshittaz-oida-taunz",
-    "title": "Oida Taunz!",
-    "artist": "Trackshittaz",
     "year": 2012,
     "genre": "Austropop"
   },
@@ -18095,13 +18102,6 @@
     "genre": "Pop"
   },
   {
-    "id": "carly-rae-jepsen-call-me-maybe",
-    "title": "Call Me Maybe",
-    "artist": "Carly Rae Jepsen",
-    "year": 2012,
-    "genre": "Pop"
-  },
-  {
     "id": "ellie-goulding-lights",
     "title": "Lights",
     "artist": "Ellie Goulding",
@@ -18119,13 +18119,6 @@
     "id": "flo-rida-wild-ones",
     "title": "Wild Ones",
     "artist": "Flo Rida",
-    "year": 2012,
-    "genre": "Pop"
-  },
-  {
-    "id": "gotye-somebody-that-i-used-to-know",
-    "title": "Somebody That I Used to Know",
-    "artist": "Gotye",
     "year": 2012,
     "genre": "Pop"
   },
@@ -18221,6 +18214,13 @@
     "genre": "Pop"
   },
   {
+    "id": "imagine-dragons-radioactive",
+    "title": "Radioactive",
+    "artist": "Imagine Dragons",
+    "year": 2012,
+    "genre": "Pop"
+  },
+  {
     "id": "black-sabbath-god-is-dead",
     "title": "God Is Dead?",
     "artist": "Black Sabbath",
@@ -18305,13 +18305,6 @@
     "genre": "Rock"
   },
   {
-    "id": "the-black-keys-lonely-boy",
-    "title": "Lonely Boy",
-    "artist": "The Black Keys",
-    "year": 2012,
-    "genre": "Rock"
-  },
-  {
     "id": "three-days-grace-chalk-outline",
     "title": "Chalk Outline",
     "artist": "Three Days Grace",
@@ -18340,9 +18333,9 @@
     "genre": "Rock"
   },
   {
-    "id": "andreas-gabalier-i-sing-a-liad-f-r-di",
-    "title": "I sing a Liad für di",
-    "artist": "Andreas Gabalier",
+    "id": "christina-st-rmer-millionen-lichter",
+    "title": "Millionen Lichter",
+    "artist": "Christina Stürmer",
     "year": 2013,
     "genre": "Austropop"
   },
@@ -18350,20 +18343,6 @@
     "id": "christina-st-rmer-in-ein-paar-jahren",
     "title": "In ein paar Jahren",
     "artist": "Christina Stürmer",
-    "year": 2013,
-    "genre": "Austropop"
-  },
-  {
-    "id": "conchita-wurst-rise-like-a-phoenix",
-    "title": "Rise Like a Phoenix",
-    "artist": "Conchita Wurst",
-    "year": 2013,
-    "genre": "Austropop"
-  },
-  {
-    "id": "julian-le-play-rollercoaster",
-    "title": "Rollercoaster",
-    "artist": "Julian Le Play",
     "year": 2013,
     "genre": "Austropop"
   },
@@ -18392,6 +18371,13 @@
     "id": "seer-hoamatgef-hl",
     "title": "Hoamatgefühl",
     "artist": "Seer",
+    "year": 2013,
+    "genre": "Austropop"
+  },
+  {
+    "id": "bilderbuch-maschin",
+    "title": "Maschin",
+    "artist": "Bilderbuch",
     "year": 2013,
     "genre": "Austropop"
   },
@@ -18434,13 +18420,6 @@
     "id": "icona-pop-i-love-it",
     "title": "I Love It",
     "artist": "Icona Pop",
-    "year": 2013,
-    "genre": "Pop"
-  },
-  {
-    "id": "imagine-dragons-radioactive",
-    "title": "Radioactive",
-    "artist": "Imagine Dragons",
     "year": 2013,
     "genre": "Pop"
   },
@@ -18655,9 +18634,30 @@
     "genre": "Rock"
   },
   {
-    "id": "andreas-gabalier-amoi-seg-ma-uns-wieder",
-    "title": "Amoi seg' ma uns wieder",
-    "artist": "Andreas Gabalier",
+    "id": "cage-the-elephant-come-a-little-closer",
+    "title": "Come a Little Closer",
+    "artist": "Cage the Elephant",
+    "year": 2013,
+    "genre": "Rock"
+  },
+  {
+    "id": "hozier-take-me-to-church",
+    "title": "Take Me to Church",
+    "artist": "Hozier",
+    "year": 2013,
+    "genre": "Rock"
+  },
+  {
+    "id": "conchita-wurst-rise-like-a-phoenix",
+    "title": "Rise Like a Phoenix",
+    "artist": "Conchita Wurst",
+    "year": 2014,
+    "genre": "Austropop"
+  },
+  {
+    "id": "julian-le-play-rollercoaster",
+    "title": "Rollercoaster",
+    "artist": "Julian Le Play",
     "year": 2014,
     "genre": "Austropop"
   },
@@ -18665,13 +18665,6 @@
     "id": "andreas-gabalier-vergiss-mein-nicht",
     "title": "Vergiss mein nicht",
     "artist": "Andreas Gabalier",
-    "year": 2014,
-    "genre": "Austropop"
-  },
-  {
-    "id": "bilderbuch-maschin",
-    "title": "Maschin",
-    "artist": "Bilderbuch",
     "year": 2014,
     "genre": "Austropop"
   },
@@ -18742,6 +18735,13 @@
     "id": "wanda-auseinandergehen-ist-schwer",
     "title": "Auseinandergehen ist schwer",
     "artist": "Wanda",
+    "year": 2014,
+    "genre": "Austropop"
+  },
+  {
+    "id": "julian-le-play-mein-anker",
+    "title": "Mein Anker",
+    "artist": "Julian Le Play",
     "year": 2014,
     "genre": "Austropop"
   },
@@ -18879,6 +18879,13 @@
     "genre": "Pop"
   },
   {
+    "id": "ed-sheeran-thinking-out-loud",
+    "title": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "year": 2014,
+    "genre": "Pop"
+  },
+  {
     "id": "mastodon-high-road",
     "title": "High Road",
     "artist": "Mastodon",
@@ -18896,13 +18903,6 @@
     "id": "ac-dc-play-ball",
     "title": "Play Ball",
     "artist": "AC/DC",
-    "year": 2014,
-    "genre": "Rock"
-  },
-  {
-    "id": "cage-the-elephant-come-a-little-closer",
-    "title": "Come a Little Closer",
-    "artist": "Cage the Elephant",
     "year": 2014,
     "genre": "Rock"
   },
@@ -18935,13 +18935,6 @@
     "genre": "Rock"
   },
   {
-    "id": "hozier-take-me-to-church",
-    "title": "Take Me to Church",
-    "artist": "Hozier",
-    "year": 2014,
-    "genre": "Rock"
-  },
-  {
     "id": "jack-white-lazaretto",
     "title": "Lazaretto",
     "artist": "Jack White",
@@ -18965,13 +18958,6 @@
   {
     "id": "royal-blood-figure-it-out",
     "title": "Figure It Out",
-    "artist": "Royal Blood",
-    "year": 2014,
-    "genre": "Rock"
-  },
-  {
-    "id": "royal-blood-little-monster",
-    "title": "Little Monster",
     "artist": "Royal Blood",
     "year": 2014,
     "genre": "Rock"
@@ -19040,6 +19026,20 @@
     "genre": "Rock"
   },
   {
+    "id": "wanda-bologna",
+    "title": "Bologna",
+    "artist": "Wanda",
+    "year": 2015,
+    "genre": "Austropop"
+  },
+  {
+    "id": "seiler-und-speer-ham-kummst",
+    "title": "Ham kummst",
+    "artist": "Seiler und Speer",
+    "year": 2015,
+    "genre": "Austropop"
+  },
+  {
     "id": "andreas-gabalier-hulapalu",
     "title": "Hulapalu",
     "artist": "Andreas Gabalier",
@@ -19050,20 +19050,6 @@
     "id": "bilderbuch-plansch",
     "title": "Plansch",
     "artist": "Bilderbuch",
-    "year": 2015,
-    "genre": "Austropop"
-  },
-  {
-    "id": "ina-regen-wie-a-kind",
-    "title": "Wie a Kind",
-    "artist": "Ina Regen",
-    "year": 2015,
-    "genre": "Austropop"
-  },
-  {
-    "id": "pizzera-jaus-jedermann",
-    "title": "Jedermann",
-    "artist": "Pizzera & Jaus",
     "year": 2015,
     "genre": "Austropop"
   },
@@ -19124,6 +19110,20 @@
     "genre": "Austropop"
   },
   {
+    "id": "andreas-gabalier-mountain-man",
+    "title": "Mountain Man",
+    "artist": "Andreas Gabalier",
+    "year": 2015,
+    "genre": "Austropop"
+  },
+  {
+    "id": "conchita-wurst-you-are-unstoppable",
+    "title": "You Are Unstoppable",
+    "artist": "Conchita Wurst",
+    "year": 2015,
+    "genre": "Austropop"
+  },
+  {
     "id": "adele-hello",
     "title": "Hello",
     "artist": "Adele",
@@ -19134,13 +19134,6 @@
     "id": "carly-rae-jepsen-i-really-like-you",
     "title": "I Really Like You",
     "artist": "Carly Rae Jepsen",
-    "year": 2015,
-    "genre": "Pop"
-  },
-  {
-    "id": "ed-sheeran-thinking-out-loud",
-    "title": "Thinking Out Loud",
-    "artist": "Ed Sheeran",
     "year": 2015,
     "genre": "Pop"
   },
@@ -19241,6 +19234,27 @@
     "artist": "Taylor Swift featuring Kendrick Lamar",
     "year": 2015,
     "genre": "Pop"
+  },
+  {
+    "id": "drake-hotline-bling",
+    "title": "Hotline Bling",
+    "artist": "Drake",
+    "year": 2015,
+    "genre": "Pop"
+  },
+  {
+    "id": "justin-bieber-love-yourself",
+    "title": "Love Yourself",
+    "artist": "Justin Bieber",
+    "year": 2015,
+    "genre": "Pop"
+  },
+  {
+    "id": "royal-blood-little-monster",
+    "title": "Little Monster",
+    "artist": "Royal Blood",
+    "year": 2015,
+    "genre": "Rock"
   },
   {
     "id": "bring-me-the-horizon-throne",
@@ -19390,23 +19404,16 @@
     "genre": "Rock"
   },
   {
-    "id": "andreas-gabalier-mountain-man",
-    "title": "Mountain Man",
-    "artist": "Andreas Gabalier",
+    "id": "christina-st-rmer-seite-an-seite",
+    "title": "Seite an Seite",
+    "artist": "Christina Stürmer",
     "year": 2016,
     "genre": "Austropop"
   },
   {
-    "id": "bilderbuch-bungalow",
-    "title": "Bungalow",
-    "artist": "Bilderbuch",
-    "year": 2016,
-    "genre": "Austropop"
-  },
-  {
-    "id": "conchita-wurst-you-are-unstoppable",
-    "title": "You Are Unstoppable",
-    "artist": "Conchita Wurst",
+    "id": "pizzera-jaus-jedermann",
+    "title": "Jedermann",
+    "artist": "Pizzera & Jaus",
     "year": 2016,
     "genre": "Austropop"
   },
@@ -19435,13 +19442,6 @@
     "id": "seiler-und-speer-soits-leben",
     "title": "Soits leben",
     "artist": "Seiler und Speer",
-    "year": 2016,
-    "genre": "Austropop"
-  },
-  {
-    "id": "wanda-columbo",
-    "title": "Columbo",
-    "artist": "Wanda",
     "year": 2016,
     "genre": "Austropop"
   },
@@ -19495,13 +19495,6 @@
     "genre": "Pop"
   },
   {
-    "id": "drake-hotline-bling",
-    "title": "Hotline Bling",
-    "artist": "Drake",
-    "year": 2016,
-    "genre": "Pop"
-  },
-  {
     "id": "drake-one-dance",
     "title": "One Dance",
     "artist": "Drake",
@@ -19512,13 +19505,6 @@
     "id": "fifth-harmony-work-from-home",
     "title": "Work from Home",
     "artist": "Fifth Harmony",
-    "year": 2016,
-    "genre": "Pop"
-  },
-  {
-    "id": "justin-bieber-love-yourself",
-    "title": "Love Yourself",
-    "artist": "Justin Bieber",
     "year": 2016,
     "genre": "Pop"
   },
@@ -19649,13 +19635,6 @@
     "genre": "Rock"
   },
   {
-    "id": "metallica-atlas-rise",
-    "title": "Atlas Rise",
-    "artist": "Metallica",
-    "year": 2016,
-    "genre": "Rock"
-  },
-  {
     "id": "metallica-hardwired",
     "title": "Hardwired",
     "artist": "Metallica",
@@ -19775,6 +19754,27 @@
     "genre": "Rock"
   },
   {
+    "id": "ina-regen-wie-a-kind",
+    "title": "Wie a Kind",
+    "artist": "Ina Regen",
+    "year": 2017,
+    "genre": "Austropop"
+  },
+  {
+    "id": "bilderbuch-bungalow",
+    "title": "Bungalow",
+    "artist": "Bilderbuch",
+    "year": 2017,
+    "genre": "Austropop"
+  },
+  {
+    "id": "wanda-columbo",
+    "title": "Columbo",
+    "artist": "Wanda",
+    "year": 2017,
+    "genre": "Austropop"
+  },
+  {
     "id": "bilderbuch-softdrink",
     "title": "Softdrink",
     "artist": "Bilderbuch",
@@ -19792,13 +19792,6 @@
     "id": "ina-regen-kein-problem",
     "title": "Kein Problem",
     "artist": "Ina Regen",
-    "year": 2017,
-    "genre": "Austropop"
-  },
-  {
-    "id": "josh-cordula-gr-n",
-    "title": "Cordula Grün",
-    "artist": "Josh.",
     "year": 2017,
     "genre": "Austropop"
   },
@@ -19999,6 +19992,20 @@
     "genre": "Pop"
   },
   {
+    "id": "dua-lipa-new-rules",
+    "title": "New Rules",
+    "artist": "Dua Lipa",
+    "year": 2017,
+    "genre": "Pop"
+  },
+  {
+    "id": "metallica-atlas-rise",
+    "title": "Atlas Rise",
+    "artist": "Metallica",
+    "year": 2017,
+    "genre": "Rock"
+  },
+  {
     "id": "code-orange-forever",
     "title": "Forever",
     "artist": "Code Orange",
@@ -20125,6 +20132,20 @@
     "genre": "Rock"
   },
   {
+    "id": "greta-van-fleet-highway-tune",
+    "title": "Highway Tune",
+    "artist": "Greta Van Fleet",
+    "year": 2017,
+    "genre": "Rock"
+  },
+  {
+    "id": "josh-cordula-gr-n",
+    "title": "Cordula Grün",
+    "artist": "Josh.",
+    "year": 2018,
+    "genre": "Austropop"
+  },
+  {
     "id": "andreas-gabalier-hallihallo",
     "title": "Hallihallo",
     "artist": "Andreas Gabalier",
@@ -20202,6 +20223,20 @@
     "genre": "Austropop"
   },
   {
+    "id": "mathea-2x",
+    "title": "2x",
+    "artist": "Mathea",
+    "year": 2018,
+    "genre": "Austropop"
+  },
+  {
+    "id": "seiler-und-speer-ala-bin",
+    "title": "Ala bin",
+    "artist": "Seiler und Speer",
+    "year": 2018,
+    "genre": "Austropop"
+  },
+  {
     "id": "ariana-grande-thank-u-next",
     "title": "Thank U Next",
     "artist": "Ariana Grande",
@@ -20247,13 +20282,6 @@
     "id": "drake-in-my-feelings",
     "title": "In My Feelings",
     "artist": "Drake",
-    "year": 2018,
-    "genre": "Pop"
-  },
-  {
-    "id": "dua-lipa-new-rules",
-    "title": "New Rules",
-    "artist": "Dua Lipa",
     "year": 2018,
     "genre": "Pop"
   },
@@ -20328,6 +20356,13 @@
     "genre": "Pop"
   },
   {
+    "id": "ava-max-sweet-but-psycho",
+    "title": "Sweet but Psycho",
+    "artist": "Ava Max",
+    "year": 2018,
+    "genre": "Pop"
+  },
+  {
     "id": "bullet-for-my-valentine-over-it",
     "title": "Over It",
     "artist": "Bullet for My Valentine",
@@ -20338,13 +20373,6 @@
     "id": "five-finger-death-punch-sham-pain",
     "title": "Sham Pain",
     "artist": "Five Finger Death Punch",
-    "year": 2018,
-    "genre": "Rock"
-  },
-  {
-    "id": "ghost-dance-macabre",
-    "title": "Dance Macabre",
-    "artist": "Ghost",
     "year": 2018,
     "genre": "Rock"
   },
@@ -20380,13 +20408,6 @@
     "id": "disturbed-are-you-ready",
     "title": "Are You Ready",
     "artist": "Disturbed",
-    "year": 2018,
-    "genre": "Rock"
-  },
-  {
-    "id": "greta-van-fleet-highway-tune",
-    "title": "Highway Tune",
-    "artist": "Greta Van Fleet",
     "year": 2018,
     "genre": "Rock"
   },
@@ -20503,23 +20524,9 @@
     "genre": "Austropop"
   },
   {
-    "id": "mathea-2x",
-    "title": "2x",
-    "artist": "Mathea",
-    "year": 2019,
-    "genre": "Austropop"
-  },
-  {
     "id": "pizzera-jaus-wir-zwei",
     "title": "Wir zwei",
     "artist": "Pizzera & Jaus",
-    "year": 2019,
-    "genre": "Austropop"
-  },
-  {
-    "id": "seiler-und-speer-principessa",
-    "title": "Principessa",
-    "artist": "Seiler und Speer",
     "year": 2019,
     "genre": "Austropop"
   },
@@ -20552,16 +20559,23 @@
     "genre": "Austropop"
   },
   {
+    "id": "mathea-chaos",
+    "title": "Chaos",
+    "artist": "Mathea",
+    "year": 2019,
+    "genre": "Austropop"
+  },
+  {
+    "id": "seiler-und-speer-herr-inspektor",
+    "title": "Herr Inspektor",
+    "artist": "Seiler und Speer",
+    "year": 2019,
+    "genre": "Austropop"
+  },
+  {
     "id": "ariana-grande-7-rings",
     "title": "7 Rings",
     "artist": "Ariana Grande",
-    "year": 2019,
-    "genre": "Pop"
-  },
-  {
-    "id": "ava-max-sweet-but-psycho",
-    "title": "Sweet but Psycho",
-    "artist": "Ava Max",
     "year": 2019,
     "genre": "Pop"
   },
@@ -20655,6 +20669,27 @@
     "artist": "Selena Gomez",
     "year": 2019,
     "genre": "Pop"
+  },
+  {
+    "id": "dua-lipa-don-t-start-now",
+    "title": "Don't Start Now",
+    "artist": "Dua Lipa",
+    "year": 2019,
+    "genre": "Pop"
+  },
+  {
+    "id": "the-weeknd-blinding-lights",
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "year": 2019,
+    "genre": "Pop"
+  },
+  {
+    "id": "ghost-dance-macabre",
+    "title": "Dance Macabre",
+    "artist": "Ghost",
+    "year": 2019,
+    "genre": "Rock"
   },
   {
     "id": "bring-me-the-horizon-mantra",
@@ -20804,16 +20839,9 @@
     "genre": "Rock"
   },
   {
-    "id": "julian-le-play-mein-anker",
-    "title": "Mein Anker",
-    "artist": "Julian Le Play",
-    "year": 2020,
-    "genre": "Austropop"
-  },
-  {
-    "id": "mathea-chaos",
-    "title": "Chaos",
-    "artist": "Mathea",
+    "id": "seiler-und-speer-principessa",
+    "title": "Principessa",
+    "artist": "Seiler und Speer",
     "year": 2020,
     "genre": "Austropop"
   },
@@ -20828,20 +20856,6 @@
     "id": "pizzera-jaus-kalter-kaffee",
     "title": "Kalter Kaffee",
     "artist": "Pizzera & Jaus",
-    "year": 2020,
-    "genre": "Austropop"
-  },
-  {
-    "id": "seiler-und-speer-herr-inspektor",
-    "title": "Herr Inspektor",
-    "artist": "Seiler und Speer",
-    "year": 2020,
-    "genre": "Austropop"
-  },
-  {
-    "id": "seiler-und-speer-h-dn-live",
-    "title": "Hödn (Live)",
-    "artist": "Seiler und Speer",
     "year": 2020,
     "genre": "Austropop"
   },
@@ -20895,13 +20909,6 @@
     "genre": "Pop"
   },
   {
-    "id": "dua-lipa-don-t-start-now",
-    "title": "Don't Start Now",
-    "artist": "Dua Lipa",
-    "year": 2020,
-    "genre": "Pop"
-  },
-  {
     "id": "dua-lipa-levitating",
     "title": "Levitating",
     "artist": "Dua Lipa",
@@ -20951,13 +20958,6 @@
     "genre": "Pop"
   },
   {
-    "id": "the-weeknd-blinding-lights",
-    "title": "Blinding Lights",
-    "artist": "The Weeknd",
-    "year": 2020,
-    "genre": "Pop"
-  },
-  {
     "id": "the-weeknd-save-your-tears",
     "title": "Save Your Tears",
     "artist": "The Weeknd",
@@ -20982,6 +20982,13 @@
     "id": "dua-lipa-break-my-heart",
     "title": "Break My Heart",
     "artist": "Dua Lipa",
+    "year": 2020,
+    "genre": "Pop"
+  },
+  {
+    "id": "glass-animals-heat-waves",
+    "title": "Heat Waves",
+    "artist": "Glass Animals",
     "year": 2020,
     "genre": "Pop"
   },
@@ -21045,13 +21052,6 @@
     "id": "machine-gun-kelly-bloody-valentine",
     "title": "Bloody Valentine",
     "artist": "Machine Gun Kelly",
-    "year": 2020,
-    "genre": "Rock"
-  },
-  {
-    "id": "mammoth-wvh-distance",
-    "title": "Distance",
-    "artist": "Mammoth WVH",
     "year": 2020,
     "genre": "Rock"
   },
@@ -21131,6 +21131,13 @@
     "artist": "Twenty One Pilots",
     "year": 2020,
     "genre": "Rock"
+  },
+  {
+    "id": "seiler-und-speer-h-dn-live",
+    "title": "Hödn (Live)",
+    "artist": "Seiler und Speer",
+    "year": 2021,
+    "genre": "Austropop"
   },
   {
     "id": "bilderbuch-daylight",
@@ -21292,6 +21299,13 @@
     "artist": "Silk Sonic",
     "year": 2021,
     "genre": "Pop"
+  },
+  {
+    "id": "mammoth-wvh-distance",
+    "title": "Distance",
+    "artist": "Mammoth WVH",
+    "year": 2021,
+    "genre": "Rock"
   },
   {
     "id": "architects-animals",
@@ -21532,13 +21546,6 @@
     "genre": "Pop"
   },
   {
-    "id": "glass-animals-heat-waves",
-    "title": "Heat Waves",
-    "artist": "Glass Animals",
-    "year": 2022,
-    "genre": "Pop"
-  },
-  {
     "id": "harry-styles-as-it-was",
     "title": "As It Was",
     "artist": "Harry Styles",
@@ -21612,6 +21619,27 @@
     "id": "peter-fox-featuring-in-z-zukunft-pink",
     "title": "Zukunft Pink",
     "artist": "Peter Fox featuring Inéz",
+    "year": 2022,
+    "genre": "Pop"
+  },
+  {
+    "id": "rema-selena-gomez-calm-down",
+    "title": "Calm Down",
+    "artist": "Rema & Selena Gomez",
+    "year": 2022,
+    "genre": "Pop"
+  },
+  {
+    "id": "sza-kill-bill",
+    "title": "Kill Bill",
+    "artist": "SZA",
+    "year": 2022,
+    "genre": "Pop"
+  },
+  {
+    "id": "taylor-swift-anti-hero",
+    "title": "Anti-Hero",
+    "artist": "Taylor Swift",
     "year": 2022,
     "genre": "Pop"
   },
@@ -21819,13 +21847,6 @@
     "genre": "Austropop"
   },
   {
-    "id": "seiler-und-speer-ala-bin",
-    "title": "Ala bin",
-    "artist": "Seiler und Speer",
-    "year": 2023,
-    "genre": "Austropop"
-  },
-  {
     "id": "wanda-wanda-forever",
     "title": "Wanda Forever",
     "artist": "Wanda",
@@ -21924,30 +21945,9 @@
     "genre": "Pop"
   },
   {
-    "id": "rema-selena-gomez-calm-down",
-    "title": "Calm Down",
-    "artist": "Rema & Selena Gomez",
-    "year": 2023,
-    "genre": "Pop"
-  },
-  {
-    "id": "sza-kill-bill",
-    "title": "Kill Bill",
-    "artist": "SZA",
-    "year": 2023,
-    "genre": "Pop"
-  },
-  {
     "id": "tate-mcrae-greedy",
     "title": "Greedy",
     "artist": "Tate McRae",
-    "year": 2023,
-    "genre": "Pop"
-  },
-  {
-    "id": "taylor-swift-anti-hero",
-    "title": "Anti-Hero",
-    "artist": "Taylor Swift",
     "year": 2023,
     "genre": "Pop"
   },
@@ -21969,6 +21969,20 @@
     "id": "udo-lindenberg-apache-207-komet",
     "title": "Komet",
     "artist": "Udo Lindenberg & Apache 207",
+    "year": 2023,
+    "genre": "Pop"
+  },
+  {
+    "id": "dua-lipa-houdini",
+    "title": "Houdini",
+    "artist": "Dua Lipa",
+    "year": 2023,
+    "genre": "Pop"
+  },
+  {
+    "id": "tyla-water",
+    "title": "Water",
+    "artist": "Tyla",
     "year": 2023,
     "genre": "Pop"
   },
@@ -22127,6 +22141,13 @@
     "genre": "Rock"
   },
   {
+    "id": "green-day-the-american-dream-is-killing-me",
+    "title": "The American Dream Is Killing Me",
+    "artist": "Green Day",
+    "year": 2023,
+    "genre": "Rock"
+  },
+  {
     "id": "andreas-gabalier-dahoam",
     "title": "Dahoam",
     "artist": "Andreas Gabalier",
@@ -22239,13 +22260,6 @@
     "genre": "Pop"
   },
   {
-    "id": "dua-lipa-houdini",
-    "title": "Houdini",
-    "artist": "Dua Lipa",
-    "year": 2024,
-    "genre": "Pop"
-  },
-  {
     "id": "hozier-too-sweet",
     "title": "Too Sweet",
     "artist": "Hozier",
@@ -22288,9 +22302,30 @@
     "genre": "Pop"
   },
   {
-    "id": "tyla-water",
-    "title": "Water",
-    "artist": "Tyla",
+    "id": "lady-gaga-bruno-mars-die-with-a-smile",
+    "title": "Die with a Smile",
+    "artist": "Lady Gaga & Bruno Mars",
+    "year": 2024,
+    "genre": "Pop"
+  },
+  {
+    "id": "ros-bruno-mars-apt",
+    "title": "APT.",
+    "artist": "Rosé & Bruno Mars",
+    "year": 2024,
+    "genre": "Pop"
+  },
+  {
+    "id": "sabrina-carpenter-taste",
+    "title": "Taste",
+    "artist": "Sabrina Carpenter",
+    "year": 2024,
+    "genre": "Pop"
+  },
+  {
+    "id": "shaboozey-a-bar-song-tipsy",
+    "title": "A Bar Song (Tipsy)",
+    "artist": "Shaboozey",
     "year": 2024,
     "genre": "Pop"
   },
@@ -22347,13 +22382,6 @@
     "id": "fontaines-d-c-starburster",
     "title": "Starburster",
     "artist": "Fontaines D.C.",
-    "year": 2024,
-    "genre": "Rock"
-  },
-  {
-    "id": "green-day-the-american-dream-is-killing-me",
-    "title": "The American Dream Is Killing Me",
-    "artist": "Green Day",
     "year": 2024,
     "genre": "Rock"
   },
@@ -22568,13 +22596,6 @@
     "genre": "Pop"
   },
   {
-    "id": "lady-gaga-bruno-mars-die-with-a-smile",
-    "title": "Die with a Smile",
-    "artist": "Lady Gaga & Bruno Mars",
-    "year": 2025,
-    "genre": "Pop"
-  },
-  {
     "id": "lisa-new-woman",
     "title": "New Woman",
     "artist": "Lisa",
@@ -22585,27 +22606,6 @@
     "id": "post-malone-enough-is-enough",
     "title": "Enough Is Enough",
     "artist": "Post Malone",
-    "year": 2025,
-    "genre": "Pop"
-  },
-  {
-    "id": "ros-bruno-mars-apt",
-    "title": "APT.",
-    "artist": "Rosé & Bruno Mars",
-    "year": 2025,
-    "genre": "Pop"
-  },
-  {
-    "id": "sabrina-carpenter-taste",
-    "title": "Taste",
-    "artist": "Sabrina Carpenter",
-    "year": 2025,
-    "genre": "Pop"
-  },
-  {
-    "id": "shaboozey-a-bar-song-tipsy",
-    "title": "A Bar Song (Tipsy)",
-    "artist": "Shaboozey",
     "year": 2025,
     "genre": "Pop"
   },
