@@ -707,13 +707,6 @@
     "genre": "Pop"
   },
   {
-    "id": "percy-faith-the-song-from-moulin-rouge",
-    "title": "The Song from Moulin Rouge",
-    "artist": "Percy Faith",
-    "year": 1953,
-    "genre": "Pop"
-  },
-  {
     "id": "perry-como-don-t-let-the-stars-get-in-your-eyes",
     "title": "Don't Let the Stars Get in Your Eyes",
     "artist": "Perry Como",
@@ -1312,13 +1305,6 @@
     "id": "harry-belafonte-day-o-the-banana-boat-song",
     "title": "Day-O (The Banana Boat Song)",
     "artist": "Harry Belafonte",
-    "year": 1956,
-    "genre": "Pop"
-  },
-  {
-    "id": "jim-lowe-green-door",
-    "title": "Green Door",
-    "artist": "Jim Lowe",
     "year": 1956,
     "genre": "Pop"
   },
