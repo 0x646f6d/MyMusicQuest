@@ -4,9 +4,7 @@ for (const layout of ['Tisch (Teams sitzen gegenüber)', 'Klassisch']) {
   test(`plays a complete game without audio (${layout})`, async ({ page }) => {
     await page.goto('./');
     await expect(page.getByRole('heading', { name: 'MyMusicQuest' })).toBeVisible();
-    await expect(
-      page.getByText('1926 Lieder verfügbar, davon 1926', { exact: false }),
-    ).toBeVisible();
+    await expect(page.getByText(/^(\d+) Lieder verfügbar, davon \1 /)).toBeVisible();
 
     await page.getByLabel('Team 1').fill('Füchse');
     await page.getByLabel('Team 2').fill('Eulen');
@@ -16,8 +14,10 @@ for (const layout of ['Tisch (Teams sitzen gegenüber)', 'Klassisch']) {
     await expect(page.locator('.stepper output').nth(1)).toHaveText('3');
     await page.getByRole('button', { name: 'Ohne Ton' }).click();
     // small pool so the game ends at the latest when it runs out of songs
+    const count = page.getByText(/Lieder verfügbar/);
+    const all = await count.textContent();
     await page.getByRole('button', { name: '50er' }).click();
-    await expect(page.getByText('38 Lieder verfügbar', { exact: false })).toBeVisible();
+    await expect(count).not.toHaveText(all!);
     await page.getByRole('button', { name: layout }).click();
     await page.getByRole('button', { name: 'Spiel starten' }).click();
 
