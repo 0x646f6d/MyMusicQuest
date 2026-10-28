@@ -26,11 +26,6 @@
   box-sizing: border-box;
 }
 
-html {
-  /* Larger base size for small tablets; everything below scales with rem. */
-  font-size: 125%;
-}
-
 html,
 body {
   margin: 0;
@@ -75,7 +70,7 @@ h3 {
   background: var(--surface-2);
   border-radius: var(--radius);
   padding: 0.7rem 1.1rem;
-  min-height: 3rem;
+  min-height: 48px;
   cursor: pointer;
   font-weight: 600;
   touch-action: manipulation;
@@ -88,7 +83,7 @@ h3 {
   transform: scale(0.97);
 }
 .btn.small {
-  min-height: 2.25rem;
+  min-height: 36px;
   padding: 0.35rem 0.8rem;
   font-size: 0.9rem;
 }
@@ -114,7 +109,7 @@ h3 {
   border: none;
   color: var(--muted);
   text-decoration: underline;
-  min-height: 2.25rem;
+  min-height: 36px;
   padding: 0.25rem;
 }
 .btn.team-0 {
@@ -139,7 +134,7 @@ h3 {
   background: var(--surface-2);
   border-radius: 999px;
   padding: 0.5rem 1rem;
-  min-height: 2.75rem;
+  min-height: 44px;
   cursor: pointer;
 }
 .chip.on {
@@ -204,7 +199,7 @@ h3 {
   border: 2px solid var(--border);
   border-radius: 10px;
   padding: 0.7rem;
-  min-height: 3rem;
+  min-height: 48px;
   width: 100%;
 }
 .field.team-0 input {
@@ -430,7 +425,7 @@ h3 {
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 0.5rem 0.6rem;
-  width: 8rem;
+  width: 128px;
   display: grid;
   align-content: start;
   gap: 0.15rem;
@@ -466,8 +461,8 @@ h3 {
   font-size: 1rem;
 }
 .gap {
-  min-width: 3.25rem;
-  min-height: 4.5rem;
+  min-width: 52px;
+  min-height: 72px;
   border: 2px dashed var(--accent);
   background: color-mix(in srgb, var(--accent) 10%, transparent);
   color: var(--accent);
@@ -480,8 +475,8 @@ h3 {
   background: color-mix(in srgb, var(--accent) 35%, transparent);
 }
 .card.marked {
-  width: 3.25rem;
-  min-height: 4.5rem;
+  width: 52px;
+  min-height: 72px;
   place-content: center;
   text-align: center;
   font-size: 1.8rem;
@@ -635,8 +630,8 @@ h3 {
   gap: 0.6rem;
 }
 .center .disc {
-  width: 3rem;
-  height: 3rem;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   display: grid;
   place-items: center;
