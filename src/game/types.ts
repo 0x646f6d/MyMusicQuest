@@ -84,4 +84,6 @@ export type GameAction =
   | { type: 'exactYear'; team: TeamIndex }
   /** Active team trades tokens to skip the current song and get the next one. */
   | { type: 'skip' }
+  /** The current song can't be played (e.g. not on Spotify): replace it for free. */
+  | { type: 'unavailable'; id: string }
   | { type: 'next' };

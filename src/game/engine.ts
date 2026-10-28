@@ -228,6 +228,23 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
       };
     }
 
+    case 'unavailable': {
+      const hidden =
+        state.phase === 'opening' || state.phase === 'placing' || state.phase === 'pending';
+      // the id guards against a late audio error for a song that is already gone
+      if (!hidden || state.current?.id !== action.id) return state;
+      const [next, ...deck] = state.deck;
+      if (!next) return finish(state);
+      // nobody has heard it, so the same team simply gets the next song
+      return {
+        ...state,
+        phase: state.phase === 'opening' ? 'opening' : 'placing',
+        current: next,
+        deck,
+        placement: null,
+      };
+    }
+
     case 'next': {
       if (state.phase !== 'revealed' || !state.result) return state;
       if (state.teams.some((t) => t.timeline.length >= state.target)) return finish(state);

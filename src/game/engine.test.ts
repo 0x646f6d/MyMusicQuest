@@ -367,3 +367,41 @@ describe('skipping a song', () => {
     expect(state.winner).toBe(0);
   });
 });
+
+describe('songs that are unavailable', () => {
+  it('replaces the opening song without changing anything else', () => {
+    const state = gameReducer(start([1980, 1990]), { type: 'unavailable', id: 's0' });
+    expect(state.phase).toBe('opening');
+    expect(state.current?.year).toBe(1990);
+    expect(state.discarded).toEqual([]);
+  });
+
+  it('gives the same team the next song for free, also on a tentative placement', () => {
+    const pending = run(
+      start([1980, 2000, 1990, 1970], 10, 3),
+      { type: 'claimOpening', team: 0 },
+      { type: 'next' },
+      { type: 'place', index: 0 },
+      { type: 'next' },
+      { type: 'place', index: 0 },
+    );
+    const state = gameReducer(pending, { type: 'unavailable', id: 's2' });
+    expect(state.phase).toBe('placing');
+    expect(state.activeTeam).toBe(pending.activeTeam);
+    expect(state.placement).toBeNull();
+    expect(state.current?.year).toBe(1970);
+    expect(state.tokens).toEqual(pending.tokens);
+  });
+
+  it('ignores stale ids and revealed songs', () => {
+    const opening = start([1980, 1990]);
+    expect(gameReducer(opening, { type: 'unavailable', id: 's1' })).toBe(opening);
+    const revealed = gameReducer(opening, { type: 'claimOpening', team: 0 });
+    expect(gameReducer(revealed, { type: 'unavailable', id: 's0' })).toBe(revealed);
+  });
+
+  it('finishes the game when the pool is empty', () => {
+    const state = gameReducer(start([1980]), { type: 'unavailable', id: 's0' });
+    expect(state.phase).toBe('finished');
+  });
+});

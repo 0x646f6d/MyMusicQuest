@@ -1,5 +1,5 @@
 import { useEffect, useState, type Dispatch } from 'react';
-import type { AudioProvider } from '../audio/AudioProvider';
+import { AudioError, type AudioProvider } from '../audio/AudioProvider';
 import {
   canChallenge,
   canClaimBonus,
@@ -45,9 +45,21 @@ export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) 
 
   const reportError = (e: Error) => setAudioError(e.message);
 
+  /** Plays the current song; songs missing on Spotify are replaced by the next one. */
   const play = () => {
     if (!current) return;
-    provider.play(current).then(() => setAudioError(null), reportError);
+    const { id } = current;
+    provider.play(current).then(
+      () => setAudioError(null),
+      (e: Error) => {
+        if (e instanceof AudioError && e.code === 'not-found') {
+          setAudioError('Lied nicht auf Spotify gefunden – nächstes Lied');
+          dispatch({ type: 'unavailable', id });
+        } else {
+          setAudioError(e.message);
+        }
+      },
+    );
   };
 
   const pause = () => {
@@ -58,10 +70,7 @@ export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) 
   const currentId = current?.id;
   useEffect(() => {
     if (!current || !hidden) return;
-    provider.play(current).then(
-      () => setAudioError(null),
-      (e: Error) => setAudioError(e.message),
-    );
+    play();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentId]);
 

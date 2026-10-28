@@ -56,7 +56,7 @@ async function resolveUri(song: Song): Promise<string> {
   );
   const data = (await response.json()) as { tracks: { items: { uri: string }[] } };
   const uri = data.tracks.items[0]?.uri;
-  if (!uri) throw new AudioError('not-found', `„${song.title}“ nicht auf Spotify gefunden`);
+  if (!uri) throw new AudioError('not-found', 'Lied nicht auf Spotify gefunden');
   writeJson(URI_CACHE_KEY, { ...cache, [song.id]: uri });
   return uri;
 }
