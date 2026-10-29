@@ -1068,7 +1068,7 @@
     "title": "Ganz Paris träumt von der Liebe",
     "artist": "Caterina Valente",
     "year": 1955,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "frank-sinatra-learnin-the-blues",
@@ -1181,6 +1181,13 @@
     "artist": "Muddy Waters",
     "year": 1955,
     "genre": "Rock"
+  },
+  {
+    "id": "caterina-valente-silvio-francesco-steig-in-das-traumboot-der-liebe",
+    "title": "Steig in das Traumboot der Liebe",
+    "artist": "Caterina Valente & Silvio Francesco",
+    "year": 1955,
+    "genre": "Schlager"
   },
   {
     "id": "freddy-quinn-heimweh",
@@ -1391,6 +1398,48 @@
     "artist": "Little Richard",
     "year": 1956,
     "genre": "Rock"
+  },
+  {
+    "id": "caterina-valente-komm-ein-bisschen-mit-nach-italien",
+    "title": "Komm ein bißchen mit nach Italien",
+    "artist": "Caterina Valente",
+    "year": 1956,
+    "genre": "Schlager"
+  },
+  {
+    "id": "caterina-valente-bonjour-kathrin",
+    "title": "Bonjour Kathrin",
+    "artist": "Caterina Valente",
+    "year": 1956,
+    "genre": "Schlager"
+  },
+  {
+    "id": "margot-eskens-tiritomba",
+    "title": "Tiritomba",
+    "artist": "Margot Eskens",
+    "year": 1956,
+    "genre": "Schlager"
+  },
+  {
+    "id": "margot-eskens-cindy-oh-cindy",
+    "title": "Cindy, oh Cindy",
+    "artist": "Margot Eskens",
+    "year": 1956,
+    "genre": "Schlager"
+  },
+  {
+    "id": "lys-assia-refrain",
+    "title": "Refrain",
+    "artist": "Lys Assia",
+    "year": 1956,
+    "genre": "Schlager"
+  },
+  {
+    "id": "walter-andreas-schwarz-im-wartesaal-zum-grossen-glueck",
+    "title": "Im Wartesaal zum großen Glück",
+    "artist": "Walter Andreas Schwarz",
+    "year": 1956,
+    "genre": "Schlager"
   },
   {
     "id": "peter-alexander-komm-und-bedien-dich",
@@ -1622,6 +1671,41 @@
     "artist": "Buddy Holly",
     "year": 1957,
     "genre": "Rock"
+  },
+  {
+    "id": "caterina-valente-wo-meine-sonne-scheint",
+    "title": "Wo meine Sonne scheint",
+    "artist": "Caterina Valente",
+    "year": 1957,
+    "genre": "Schlager"
+  },
+  {
+    "id": "fred-bertelmann-der-lachende-vagabund",
+    "title": "Der lachende Vagabund",
+    "artist": "Fred Bertelmann",
+    "year": 1957,
+    "genre": "Schlager"
+  },
+  {
+    "id": "jimmy-makulis-gitarren-klingen-leise-durch-die-nacht",
+    "title": "Gitarren klingen leise durch die Nacht",
+    "artist": "Jimmy Makulis",
+    "year": 1957,
+    "genre": "Schlager"
+  },
+  {
+    "id": "margot-eskens-calypso-italiano",
+    "title": "Calypso Italiano",
+    "artist": "Margot Eskens",
+    "year": 1957,
+    "genre": "Schlager"
+  },
+  {
+    "id": "margot-hielscher-fuer-zwei-groschen-musik",
+    "title": "Für zwei Groschen Musik",
+    "artist": "Margot Hielscher",
+    "year": 1957,
+    "genre": "Schlager"
   },
   {
     "id": "peter-alexander-im-wei-en-r-l",
@@ -1932,6 +2016,13 @@
     "genre": "Rock"
   },
   {
+    "id": "caterina-valente-spiel-noch-einmal-fuer-mich-habanero",
+    "title": "Spiel noch einmal für mich, Habanero",
+    "artist": "Caterina Valente",
+    "year": 1958,
+    "genre": "Schlager"
+  },
+  {
     "id": "lolita-sailor-seemann",
     "title": "Sailor (Seemann)",
     "artist": "Lolita",
@@ -2191,6 +2282,48 @@
     "genre": "Rock"
   },
   {
+    "id": "hazy-osterwald-sextett-kriminal-tango",
+    "title": "Kriminal-Tango",
+    "artist": "Hazy Osterwald Sextett",
+    "year": 1959,
+    "genre": "Schlager"
+  },
+  {
+    "id": "dalida-am-tag-als-der-regen-kam",
+    "title": "Am Tag, als der Regen kam",
+    "artist": "Dalida",
+    "year": 1959,
+    "genre": "Schlager"
+  },
+  {
+    "id": "rocco-granata-marina",
+    "title": "Marina",
+    "artist": "Rocco Granata",
+    "year": 1959,
+    "genre": "Schlager"
+  },
+  {
+    "id": "bill-ramsey-souvenirs",
+    "title": "Souvenirs",
+    "artist": "Bill Ramsey",
+    "year": 1959,
+    "genre": "Schlager"
+  },
+  {
+    "id": "ivo-robic-morgen",
+    "title": "Morgen",
+    "artist": "Ivo Robić",
+    "year": 1959,
+    "genre": "Schlager"
+  },
+  {
+    "id": "alice-ellen-kessler-heute-abend-wollen-wir-tanzen-geh-n",
+    "title": "Heute Abend wollen wir tanzen geh'n",
+    "artist": "Alice & Ellen Kessler",
+    "year": 1959,
+    "genre": "Schlager"
+  },
+  {
     "id": "lolita-seemann-deine-heimat-ist-das-meer",
     "title": "Seemann deine Heimat ist das Meer",
     "artist": "Lolita",
@@ -2300,14 +2433,14 @@
     "title": "Wir wollen niemals auseinandergehn",
     "artist": "Heidi Brühl",
     "year": 1960,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "lale-andersen-ein-schiff-wird-kommen",
     "title": "Ein Schiff wird kommen",
     "artist": "Lale Andersen",
     "year": 1960,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "paul-anka-puppy-love",
@@ -2413,6 +2546,48 @@
     "artist": "The Hollywood Argyles",
     "year": 1960,
     "genre": "Rock"
+  },
+  {
+    "id": "blue-diamonds-ramona",
+    "title": "Ramona",
+    "artist": "Blue Diamonds",
+    "year": 1960,
+    "genre": "Schlager"
+  },
+  {
+    "id": "vico-torriani-kalkutta-liegt-am-ganges",
+    "title": "Kalkutta liegt am Ganges",
+    "artist": "Vico Torriani",
+    "year": 1960,
+    "genre": "Schlager"
+  },
+  {
+    "id": "gus-backus-da-sprach-der-alte-haeuptling-der-indianer",
+    "title": "Da sprach der alte Häuptling der Indianer",
+    "artist": "Gus Backus",
+    "year": 1960,
+    "genre": "Schlager"
+  },
+  {
+    "id": "connie-francis-die-liebe-ist-ein-seltsames-spiel",
+    "title": "Die Liebe ist ein seltsames Spiel",
+    "artist": "Connie Francis",
+    "year": 1960,
+    "genre": "Schlager"
+  },
+  {
+    "id": "wyn-hoop-bonne-nuit-ma-cherie",
+    "title": "Bonne nuit ma chérie",
+    "artist": "Wyn Hoop",
+    "year": 1960,
+    "genre": "Schlager"
+  },
+  {
+    "id": "trude-herr-ich-will-keine-schokolade",
+    "title": "Ich will keine Schokolade",
+    "artist": "Trude Herr",
+    "year": 1960,
+    "genre": "Schlager"
   },
   {
     "id": "udo-j-rgens-jenny",
@@ -2538,7 +2713,7 @@
     "title": "Weiße Rosen aus Athen",
     "artist": "Nana Mouskouri",
     "year": 1961,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "chubby-checker-let-s-twist-again",
@@ -2616,6 +2791,55 @@
     "artist": "Elvis Presley",
     "year": 1961,
     "genre": "Rock"
+  },
+  {
+    "id": "gus-backus-der-mann-im-mond",
+    "title": "Der Mann im Mond",
+    "artist": "Gus Backus",
+    "year": 1961,
+    "genre": "Schlager"
+  },
+  {
+    "id": "gerhard-wendland-tanze-mit-mir-in-den-morgen",
+    "title": "Tanze mit mir in den Morgen",
+    "artist": "Gerhard Wendland",
+    "year": 1961,
+    "genre": "Schlager"
+  },
+  {
+    "id": "bill-ramsey-pigalle",
+    "title": "Pigalle",
+    "artist": "Bill Ramsey",
+    "year": 1961,
+    "genre": "Schlager"
+  },
+  {
+    "id": "bill-ramsey-zuckerpuppe-aus-der-bauchtanztruppe",
+    "title": "Zuckerpuppe aus der Bauchtanztruppe",
+    "artist": "Bill Ramsey",
+    "year": 1961,
+    "genre": "Schlager"
+  },
+  {
+    "id": "ralf-bendix-babysitter-boogie",
+    "title": "Babysitter-Boogie",
+    "artist": "Ralf Bendix",
+    "year": 1961,
+    "genre": "Schlager"
+  },
+  {
+    "id": "connie-francis-schoener-fremder-mann",
+    "title": "Schöner fremder Mann",
+    "artist": "Connie Francis",
+    "year": 1961,
+    "genre": "Schlager"
+  },
+  {
+    "id": "lale-andersen-einmal-sehen-wir-uns-wieder",
+    "title": "Einmal sehen wir uns wieder",
+    "artist": "Lale Andersen",
+    "year": 1961,
+    "genre": "Schlager"
   },
   {
     "id": "peter-alexander-bitte-geh-nicht-fort",
@@ -2727,7 +2951,7 @@
     "title": "Zwei kleine Italiener",
     "artist": "Conny Froboess",
     "year": 1962,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "pat-boone-speedy-gonzales",
@@ -2842,6 +3066,48 @@
     "genre": "Rock"
   },
   {
+    "id": "billy-mo-ich-kauf-mir-lieber-einen-tirolerhut",
+    "title": "Ich kauf mir lieber einen Tirolerhut",
+    "artist": "Billy Mo",
+    "year": 1962,
+    "genre": "Schlager"
+  },
+  {
+    "id": "mina-heisser-sand",
+    "title": "Heißer Sand",
+    "artist": "Mina",
+    "year": 1962,
+    "genre": "Schlager"
+  },
+  {
+    "id": "rex-gildo-speedy-gonzales",
+    "title": "Speedy Gonzales",
+    "artist": "Rex Gildo",
+    "year": 1962,
+    "genre": "Schlager"
+  },
+  {
+    "id": "conny-froboess-lady-sunshine-und-mister-moon",
+    "title": "Lady Sunshine und Mister Moon",
+    "artist": "Conny Froboess",
+    "year": 1962,
+    "genre": "Schlager"
+  },
+  {
+    "id": "bill-ramsey-ohne-krimi-geht-die-mimi-nie-ins-bett",
+    "title": "Ohne Krimi geht die Mimi nie ins Bett",
+    "artist": "Bill Ramsey",
+    "year": 1962,
+    "genre": "Schlager"
+  },
+  {
+    "id": "nana-mouskouri-ich-schau-den-weissen-wolken-nach",
+    "title": "Ich schau den weißen Wolken nach",
+    "artist": "Nana Mouskouri",
+    "year": 1962,
+    "genre": "Schlager"
+  },
+  {
     "id": "udo-j-rgens-reach-for-the-stars",
     "title": "Reach for the Stars",
     "artist": "Udo Jürgens",
@@ -2951,7 +3217,7 @@
     "title": "Rote Lippen soll man küssen",
     "artist": "Cliff Richard",
     "year": 1963,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "little-peggy-march-i-will-follow-him",
@@ -3073,6 +3339,41 @@
     "genre": "Rock"
   },
   {
+    "id": "paul-kuhn-es-gibt-kein-bier-auf-hawaii",
+    "title": "Es gibt kein Bier auf Hawaii",
+    "artist": "Paul Kuhn",
+    "year": 1963,
+    "genre": "Schlager"
+  },
+  {
+    "id": "manuela-schuld-war-nur-der-bossa-nova",
+    "title": "Schuld war nur der Bossa Nova",
+    "artist": "Manuela",
+    "year": 1963,
+    "genre": "Schlager"
+  },
+  {
+    "id": "gitte-ich-will-nen-cowboy-als-mann",
+    "title": "Ich will 'nen Cowboy als Mann",
+    "artist": "Gitte",
+    "year": 1963,
+    "genre": "Schlager"
+  },
+  {
+    "id": "rex-gildo-gitte-vom-stadtpark-die-laternen",
+    "title": "Vom Stadtpark die Laternen",
+    "artist": "Rex Gildo & Gitte",
+    "year": 1963,
+    "genre": "Schlager"
+  },
+  {
+    "id": "heidi-bruehl-marcel",
+    "title": "Marcel",
+    "artist": "Heidi Brühl",
+    "year": 1963,
+    "genre": "Schlager"
+  },
+  {
     "id": "peter-alexander-sag-mir-was-du-denkst",
     "title": "Sag mir was du denkst",
     "artist": "Peter Alexander",
@@ -3182,7 +3483,7 @@
     "title": "Liebeskummer lohnt sich nicht",
     "artist": "Siw Malmkvist",
     "year": 1964,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "petula-clark-downtown",
@@ -3311,6 +3612,27 @@
     "genre": "Rock"
   },
   {
+    "id": "bernd-spier-das-kannst-du-mir-nicht-verbieten",
+    "title": "Das kannst du mir nicht verbieten",
+    "artist": "Bernd Spier",
+    "year": 1964,
+    "genre": "Schlager"
+  },
+  {
+    "id": "nora-nova-man-gewoehnt-sich-so-schnell-an-das-schoene",
+    "title": "Man gewöhnt sich so schnell an das Schöne",
+    "artist": "Nora Nova",
+    "year": 1964,
+    "genre": "Schlager"
+  },
+  {
+    "id": "gitte-rex-gildo-jetzt-dreht-die-welt-sich-nur-um-dich",
+    "title": "Jetzt dreht die Welt sich nur um dich",
+    "artist": "Gitte & Rex Gildo",
+    "year": 1964,
+    "genre": "Schlager"
+  },
+  {
     "id": "udo-j-rgens-sag-ihr-ich-lass-sie-gr-en",
     "title": "Sag ihr ich lass sie grüßen",
     "artist": "Udo Jürgens",
@@ -3406,7 +3728,7 @@
     "title": "Marmor, Stein und Eisen bricht",
     "artist": "Drafi Deutscher",
     "year": 1965,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "herman-s-hermits-mrs-brown-you-ve-got-a-lovely-daughter",
@@ -3563,6 +3885,20 @@
     "genre": "Rock"
   },
   {
+    "id": "roy-black-du-bist-nicht-allein",
+    "title": "Du bist nicht allein",
+    "artist": "Roy Black",
+    "year": 1965,
+    "genre": "Schlager"
+  },
+  {
+    "id": "ulla-wiesner-paradies-wo-bist-du",
+    "title": "Paradies, wo bist du?",
+    "artist": "Ulla Wiesner",
+    "year": 1965,
+    "genre": "Schlager"
+  },
+  {
     "id": "udo-j-rgens-es-wird-abend",
     "title": "Es wird abend",
     "artist": "Udo Jürgens",
@@ -3686,7 +4022,7 @@
     "title": "Ganz in Weiß",
     "artist": "Roy Black",
     "year": 1966,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "the-beach-boys-sloop-john-b",
@@ -3841,6 +4177,27 @@
     "artist": "The Kinks",
     "year": 1966,
     "genre": "Rock"
+  },
+  {
+    "id": "wencke-myhre-beiss-nicht-gleich-in-jeden-apfel",
+    "title": "Beiß nicht gleich in jeden Apfel",
+    "artist": "Wencke Myhre",
+    "year": 1966,
+    "genre": "Schlager"
+  },
+  {
+    "id": "graham-bonney-super-girl",
+    "title": "Super-Girl",
+    "artist": "Graham Bonney",
+    "year": 1966,
+    "genre": "Schlager"
+  },
+  {
+    "id": "margot-eskens-die-zeiger-der-uhr",
+    "title": "Die Zeiger der Uhr",
+    "artist": "Margot Eskens",
+    "year": 1966,
+    "genre": "Schlager"
   },
   {
     "id": "udo-j-rgens-immer-wieder-geht-die-sonne-auf",
@@ -4102,6 +4459,41 @@
     "genre": "Rock"
   },
   {
+    "id": "heintje-mama",
+    "title": "Mama",
+    "artist": "Heintje",
+    "year": 1967,
+    "genre": "Schlager"
+  },
+  {
+    "id": "ronny-oh-my-darling-caroline",
+    "title": "Oh My Darling Caroline",
+    "artist": "Ronny",
+    "year": 1967,
+    "genre": "Schlager"
+  },
+  {
+    "id": "alexandra-zigeunerjunge",
+    "title": "Zigeunerjunge",
+    "artist": "Alexandra",
+    "year": 1967,
+    "genre": "Schlager"
+  },
+  {
+    "id": "peggy-march-memories-of-heidelberg",
+    "title": "Memories of Heidelberg",
+    "artist": "Peggy March",
+    "year": 1967,
+    "genre": "Schlager"
+  },
+  {
+    "id": "inge-brueck-anouschka",
+    "title": "Anouschka",
+    "artist": "Inge Brück",
+    "year": 1967,
+    "genre": "Schlager"
+  },
+  {
     "id": "udo-j-rgens-cottonfields",
     "title": "Cottonfields",
     "artist": "Udo Jürgens",
@@ -4239,7 +4631,7 @@
     "title": "Heidschi Bumbeidschi",
     "artist": "Heintje",
     "year": 1968,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "the-scaffold-lily-the-pink",
@@ -4394,6 +4786,55 @@
     "artist": "The Rolling Stones",
     "year": 1968,
     "genre": "Rock"
+  },
+  {
+    "id": "dorthe-waerst-du-doch-in-duesseldorf-geblieben",
+    "title": "Wärst du doch in Düsseldorf geblieben",
+    "artist": "Dorthe",
+    "year": 1968,
+    "genre": "Schlager"
+  },
+  {
+    "id": "heintje-ich-bau-dir-ein-schloss",
+    "title": "Ich bau dir ein Schloss",
+    "artist": "Heintje",
+    "year": 1968,
+    "genre": "Schlager"
+  },
+  {
+    "id": "bata-illic-ich-hab-noch-sand-in-den-schuhen-aus-hawaii",
+    "title": "Ich hab noch Sand in den Schuhen aus Hawaii",
+    "artist": "Bata Illic",
+    "year": 1968,
+    "genre": "Schlager"
+  },
+  {
+    "id": "alexandra-mein-freund-der-baum",
+    "title": "Mein Freund der Baum",
+    "artist": "Alexandra",
+    "year": 1968,
+    "genre": "Schlager"
+  },
+  {
+    "id": "hildegard-knef-fuer-mich-soll-s-rote-rosen-regnen",
+    "title": "Für mich soll's rote Rosen regnen",
+    "artist": "Hildegard Knef",
+    "year": 1968,
+    "genre": "Schlager"
+  },
+  {
+    "id": "wencke-myhre-ein-hoch-der-liebe",
+    "title": "Ein Hoch der Liebe",
+    "artist": "Wencke Myhre",
+    "year": 1968,
+    "genre": "Schlager"
+  },
+  {
+    "id": "heintje-du-sollst-nicht-weinen",
+    "title": "Du sollst nicht weinen",
+    "artist": "Heintje",
+    "year": 1968,
+    "genre": "Schlager"
   },
   {
     "id": "waterloo-robinson-are-you-ready",
@@ -4683,6 +5124,62 @@
     "genre": "Rock"
   },
   {
+    "id": "peggy-march-mit-17-hat-man-noch-traeume",
+    "title": "Mit 17 hat man noch Träume",
+    "artist": "Peggy March",
+    "year": 1969,
+    "genre": "Schlager"
+  },
+  {
+    "id": "wencke-myhre-er-steht-im-tor",
+    "title": "Er steht im Tor",
+    "artist": "Wencke Myhre",
+    "year": 1969,
+    "genre": "Schlager"
+  },
+  {
+    "id": "michael-holm-mendocino",
+    "title": "Mendocino",
+    "artist": "Michael Holm",
+    "year": 1969,
+    "genre": "Schlager"
+  },
+  {
+    "id": "mireille-mathieu-hinter-den-kulissen-von-paris",
+    "title": "Hinter den Kulissen von Paris",
+    "artist": "Mireille Mathieu",
+    "year": 1969,
+    "genre": "Schlager"
+  },
+  {
+    "id": "siw-malmkvist-primaballerina",
+    "title": "Primaballerina",
+    "artist": "Siw Malmkvist",
+    "year": 1969,
+    "genre": "Schlager"
+  },
+  {
+    "id": "heino-caramba-caracho-ein-whisky",
+    "title": "Caramba, Caracho, ein Whisky",
+    "artist": "Heino",
+    "year": 1969,
+    "genre": "Schlager"
+  },
+  {
+    "id": "die-flippers-weine-nicht-kleine-eva",
+    "title": "Weine nicht, kleine Eva",
+    "artist": "Die Flippers",
+    "year": 1969,
+    "genre": "Schlager"
+  },
+  {
+    "id": "heintje-ich-sing-ein-lied-fuer-dich",
+    "title": "Ich sing ein Lied für dich",
+    "artist": "Heintje",
+    "year": 1969,
+    "genre": "Schlager"
+  },
+  {
     "id": "peter-alexander-hier-ist-ein-mensch",
     "title": "Hier ist ein Mensch",
     "artist": "Peter Alexander",
@@ -4968,6 +5465,69 @@
     "artist": "The Kinks",
     "year": 1970,
     "genre": "Rock"
+  },
+  {
+    "id": "katja-ebstein-wunder-gibt-es-immer-wieder",
+    "title": "Wunder gibt es immer wieder",
+    "artist": "Katja Ebstein",
+    "year": 1970,
+    "genre": "Schlager"
+  },
+  {
+    "id": "mary-roos-arizona-man",
+    "title": "Arizona Man",
+    "artist": "Mary Roos",
+    "year": 1970,
+    "genre": "Schlager"
+  },
+  {
+    "id": "daliah-lavi-oh-wann-kommst-du",
+    "title": "Oh, wann kommst du?",
+    "artist": "Daliah Lavi",
+    "year": 1970,
+    "genre": "Schlager"
+  },
+  {
+    "id": "peter-maffay-du",
+    "title": "Du",
+    "artist": "Peter Maffay",
+    "year": 1970,
+    "genre": "Schlager"
+  },
+  {
+    "id": "howard-carpendale-das-schoene-maedchen-von-seite-1",
+    "title": "Das schöne Mädchen von Seite 1",
+    "artist": "Howard Carpendale",
+    "year": 1970,
+    "genre": "Schlager"
+  },
+  {
+    "id": "chris-roberts-ich-bin-verliebt-in-die-liebe",
+    "title": "Ich bin verliebt in die Liebe",
+    "artist": "Chris Roberts",
+    "year": 1970,
+    "genre": "Schlager"
+  },
+  {
+    "id": "marianne-rosenberg-mr-paganini",
+    "title": "Mr. Paganini",
+    "artist": "Marianne Rosenberg",
+    "year": 1970,
+    "genre": "Schlager"
+  },
+  {
+    "id": "roy-black-das-maedchen-carina",
+    "title": "Das Mädchen Carina",
+    "artist": "Roy Black",
+    "year": 1970,
+    "genre": "Schlager"
+  },
+  {
+    "id": "michael-holm-barfuss-im-regen",
+    "title": "Barfuß im Regen",
+    "artist": "Michael Holm",
+    "year": 1970,
+    "genre": "Schlager"
   },
   {
     "id": "udo-j-rgens-lieb-vaterland",
@@ -5264,6 +5824,55 @@
     "genre": "Rock"
   },
   {
+    "id": "daliah-lavi-willst-du-mit-mir-gehn",
+    "title": "Willst du mit mir gehn",
+    "artist": "Daliah Lavi",
+    "year": 1971,
+    "genre": "Schlager"
+  },
+  {
+    "id": "roy-black-anita-schoen-ist-es-auf-der-welt-zu-sein",
+    "title": "Schön ist es auf der Welt zu sein",
+    "artist": "Roy Black & Anita",
+    "year": 1971,
+    "genre": "Schlager"
+  },
+  {
+    "id": "tony-marshall-schoene-maid",
+    "title": "Schöne Maid",
+    "artist": "Tony Marshall",
+    "year": 1971,
+    "genre": "Schlager"
+  },
+  {
+    "id": "katja-ebstein-diese-welt",
+    "title": "Diese Welt",
+    "artist": "Katja Ebstein",
+    "year": 1971,
+    "genre": "Schlager"
+  },
+  {
+    "id": "mireille-mathieu-akropolis-adieu",
+    "title": "Akropolis adieu",
+    "artist": "Mireille Mathieu",
+    "year": 1971,
+    "genre": "Schlager"
+  },
+  {
+    "id": "peter-orloff-ein-maedchen-fuer-immer",
+    "title": "Ein Mädchen für immer",
+    "artist": "Peter Orloff",
+    "year": 1971,
+    "genre": "Schlager"
+  },
+  {
+    "id": "frank-schoebel-wie-ein-stern",
+    "title": "Wie ein Stern",
+    "artist": "Frank Schöbel",
+    "year": 1971,
+    "genre": "Schlager"
+  },
+  {
     "id": "georg-danzer-erst-wennst-tot-bist",
     "title": "Erst wennst tot bist",
     "artist": "Georg Danzer",
@@ -5429,7 +6038,7 @@
     "title": "Am Tag, als Conny Kramer starb",
     "artist": "Juliane Werding",
     "year": 1972,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "neil-diamond-song-sung-blue",
@@ -5593,6 +6202,48 @@
     "genre": "Rock"
   },
   {
+    "id": "bata-illic-michaela",
+    "title": "Michaela",
+    "artist": "Bata Illic",
+    "year": 1972,
+    "genre": "Schlager"
+  },
+  {
+    "id": "rex-gildo-fiesta-mexicana",
+    "title": "Fiesta Mexicana",
+    "artist": "Rex Gildo",
+    "year": 1972,
+    "genre": "Schlager"
+  },
+  {
+    "id": "juergen-marcus-eine-neue-liebe-ist-wie-ein-neues-leben",
+    "title": "Eine neue Liebe ist wie ein neues Leben",
+    "artist": "Jürgen Marcus",
+    "year": 1972,
+    "genre": "Schlager"
+  },
+  {
+    "id": "roberto-blanco-ein-bisschen-spass-muss-sein",
+    "title": "Ein bißchen Spaß muß sein",
+    "artist": "Roberto Blanco",
+    "year": 1972,
+    "genre": "Schlager"
+  },
+  {
+    "id": "heino-blau-blueht-der-enzian",
+    "title": "Blau blüht der Enzian",
+    "artist": "Heino",
+    "year": 1972,
+    "genre": "Schlager"
+  },
+  {
+    "id": "mary-roos-nur-die-liebe-laesst-uns-leben",
+    "title": "Nur die Liebe läßt uns leben",
+    "artist": "Mary Roos",
+    "year": 1972,
+    "genre": "Schlager"
+  },
+  {
     "id": "arik-brauer-sein-k-pferl-im-sand",
     "title": "Sein Köpferl im Sand",
     "artist": "Arik Brauer",
@@ -5730,7 +6381,7 @@
     "title": "Der Junge mit der Mundharmonika",
     "artist": "Bernd Clüver",
     "year": 1973,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "demis-roussos-forever-and-ever",
@@ -5929,6 +6580,48 @@
     "genre": "Rock"
   },
   {
+    "id": "cindy-bert-immer-wieder-sonntags",
+    "title": "Immer wieder sonntags",
+    "artist": "Cindy & Bert",
+    "year": 1973,
+    "genre": "Schlager"
+  },
+  {
+    "id": "freddy-breck-rote-rosen",
+    "title": "Rote Rosen",
+    "artist": "Freddy Breck",
+    "year": 1973,
+    "genre": "Schlager"
+  },
+  {
+    "id": "juergen-marcus-ein-festival-der-liebe",
+    "title": "Ein Festival der Liebe",
+    "artist": "Jürgen Marcus",
+    "year": 1973,
+    "genre": "Schlager"
+  },
+  {
+    "id": "mireille-mathieu-la-paloma-ade",
+    "title": "La Paloma ade",
+    "artist": "Mireille Mathieu",
+    "year": 1973,
+    "genre": "Schlager"
+  },
+  {
+    "id": "ireen-sheer-goodbye-mama",
+    "title": "Goodbye Mama",
+    "artist": "Ireen Sheer",
+    "year": 1973,
+    "genre": "Schlager"
+  },
+  {
+    "id": "gitte-junger-tag",
+    "title": "Junger Tag",
+    "artist": "Gitte",
+    "year": 1973,
+    "genre": "Schlager"
+  },
+  {
     "id": "waterloo-robinson-hollywood",
     "title": "Hollywood",
     "artist": "Waterloo & Robinson",
@@ -6073,7 +6766,7 @@
     "title": "Tränen lügen nicht",
     "artist": "Michael Holm",
     "year": 1974,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "paper-lace-billy-don-t-be-a-hero",
@@ -6101,7 +6794,7 @@
     "title": "Theo, wir fahr'n nach Lodz",
     "artist": "Vicky Leandros",
     "year": 1974,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "bachman-turner-overdrive-takin-care-of-business",
@@ -6249,6 +6942,41 @@
     "artist": "The Doobie Brothers",
     "year": 1974,
     "genre": "Rock"
+  },
+  {
+    "id": "chris-roberts-du-kannst-nicht-immer-siebzehn-sein",
+    "title": "Du kannst nicht immer siebzehn sein",
+    "artist": "Chris Roberts",
+    "year": 1974,
+    "genre": "Schlager"
+  },
+  {
+    "id": "tina-york-wir-lassen-uns-das-singen-nicht-verbieten",
+    "title": "Wir lassen uns das Singen nicht verbieten",
+    "artist": "Tina York",
+    "year": 1974,
+    "genre": "Schlager"
+  },
+  {
+    "id": "gunter-gabriel-hey-boss-ich-brauch-mehr-geld",
+    "title": "Hey Boss, ich brauch mehr Geld",
+    "artist": "Gunter Gabriel",
+    "year": 1974,
+    "genre": "Schlager"
+  },
+  {
+    "id": "cindy-bert-die-sommermelodie",
+    "title": "Die Sommermelodie",
+    "artist": "Cindy & Bert",
+    "year": 1974,
+    "genre": "Schlager"
+  },
+  {
+    "id": "vicky-leandros-ich-hab-die-liebe-geweint",
+    "title": "Ich hab' die Liebe geweint",
+    "artist": "Vicky Leandros",
+    "year": 1974,
+    "genre": "Schlager"
   },
   {
     "id": "udo-j-rgens-ein-ehrenwertes-haus",
@@ -6573,6 +7301,48 @@
     "genre": "Rock"
   },
   {
+    "id": "joy-fleming-ein-lied-kann-eine-bruecke-sein",
+    "title": "Ein Lied kann eine Brücke sein",
+    "artist": "Joy Fleming",
+    "year": 1975,
+    "genre": "Schlager"
+  },
+  {
+    "id": "marianne-rosenberg-er-gehoert-zu-mir",
+    "title": "Er gehört zu mir",
+    "artist": "Marianne Rosenberg",
+    "year": 1975,
+    "genre": "Schlager"
+  },
+  {
+    "id": "howard-carpendale-deine-spuren-im-sand",
+    "title": "Deine Spuren im Sand",
+    "artist": "Howard Carpendale",
+    "year": 1975,
+    "genre": "Schlager"
+  },
+  {
+    "id": "rudi-carrell-wann-wird-s-mal-wieder-richtig-sommer",
+    "title": "Wann wird's mal wieder richtig Sommer?",
+    "artist": "Rudi Carrell",
+    "year": 1975,
+    "genre": "Schlager"
+  },
+  {
+    "id": "juliane-werding-wenn-du-denkst-du-denkst-dann-denkst-du-nur-du-denkst",
+    "title": "Wenn du denkst, du denkst, dann denkst du nur, du denkst",
+    "artist": "Juliane Werding",
+    "year": 1975,
+    "genre": "Schlager"
+  },
+  {
+    "id": "vicky-leandros-ich-liebe-das-leben",
+    "title": "Ich liebe das Leben",
+    "artist": "Vicky Leandros",
+    "year": 1975,
+    "genre": "Schlager"
+  },
+  {
     "id": "peter-alexander-die-kleine-kneipe",
     "title": "Die kleine Kneipe",
     "artist": "Peter Alexander",
@@ -6752,7 +7522,7 @@
     "title": "Ein Bett im Kornfeld",
     "artist": "Jürgen Drews",
     "year": 1976,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "starland-vocal-band-afternoon-delight",
@@ -6900,6 +7670,48 @@
     "artist": "The Sex Pistols",
     "year": 1976,
     "genre": "Rock"
+  },
+  {
+    "id": "costa-cordalis-anita",
+    "title": "Anita",
+    "artist": "Costa Cordalis",
+    "year": 1976,
+    "genre": "Schlager"
+  },
+  {
+    "id": "marianne-rosenberg-marleen",
+    "title": "Marleen",
+    "artist": "Marianne Rosenberg",
+    "year": 1976,
+    "genre": "Schlager"
+  },
+  {
+    "id": "wolfgang-petry-sommer-in-der-stadt",
+    "title": "Sommer in der Stadt",
+    "artist": "Wolfgang Petry",
+    "year": 1976,
+    "genre": "Schlager"
+  },
+  {
+    "id": "peter-maffay-und-es-war-sommer",
+    "title": "Und es war Sommer",
+    "artist": "Peter Maffay",
+    "year": 1976,
+    "genre": "Schlager"
+  },
+  {
+    "id": "die-flippers-malaika",
+    "title": "Malaika",
+    "artist": "Die Flippers",
+    "year": 1976,
+    "genre": "Schlager"
+  },
+  {
+    "id": "marianne-rosenberg-ich-bin-wie-du",
+    "title": "Ich bin wie du",
+    "artist": "Marianne Rosenberg",
+    "year": 1976,
+    "genre": "Schlager"
   },
   {
     "id": "andr-heller-die-wahren-abenteuer-sind-im-kopf",
@@ -7238,6 +8050,34 @@
     "genre": "Rock"
   },
   {
+    "id": "karel-gott-die-biene-maja",
+    "title": "Die Biene Maja",
+    "artist": "Karel Gott",
+    "year": 1977,
+    "genre": "Schlager"
+  },
+  {
+    "id": "howard-carpendale-ti-amo",
+    "title": "Ti amo",
+    "artist": "Howard Carpendale",
+    "year": 1977,
+    "genre": "Schlager"
+  },
+  {
+    "id": "nana-mouskouri-guten-morgen-sonnenschein",
+    "title": "Guten Morgen, Sonnenschein",
+    "artist": "Nana Mouskouri",
+    "year": 1977,
+    "genre": "Schlager"
+  },
+  {
+    "id": "juergen-drews-barfuss-durch-den-sommer",
+    "title": "Barfuß durch den Sommer",
+    "artist": "Jürgen Drews",
+    "year": 1977,
+    "genre": "Schlager"
+  },
+  {
     "id": "georg-danzer-jetzt-oder-nie",
     "title": "Jetzt oder nie",
     "artist": "Georg Danzer",
@@ -7574,6 +8414,55 @@
     "genre": "Rock"
   },
   {
+    "id": "tony-marshall-bora-bora",
+    "title": "Bora Bora",
+    "artist": "Tony Marshall",
+    "year": 1978,
+    "genre": "Schlager"
+  },
+  {
+    "id": "vader-abraham-das-lied-der-schluempfe",
+    "title": "Das Lied der Schlümpfe",
+    "artist": "Vader Abraham",
+    "year": 1978,
+    "genre": "Schlager"
+  },
+  {
+    "id": "andrea-juergens-und-dabei-liebe-ich-euch-beide",
+    "title": "Und dabei liebe ich euch beide",
+    "artist": "Andrea Jürgens",
+    "year": 1978,
+    "genre": "Schlager"
+  },
+  {
+    "id": "truck-stop-ich-moecht-so-gern-dave-dudley-hoer-n",
+    "title": "Ich möcht' so gern Dave Dudley hör'n",
+    "artist": "Truck Stop",
+    "year": 1978,
+    "genre": "Schlager"
+  },
+  {
+    "id": "ute-freudenberg-jugendliebe",
+    "title": "Jugendliebe",
+    "artist": "Ute Freudenberg",
+    "year": 1978,
+    "genre": "Schlager"
+  },
+  {
+    "id": "ireen-sheer-feuer",
+    "title": "Feuer",
+    "artist": "Ireen Sheer",
+    "year": 1978,
+    "genre": "Schlager"
+  },
+  {
+    "id": "wolfgang-petry-gianna",
+    "title": "Gianna",
+    "artist": "Wolfgang Petry",
+    "year": 1978,
+    "genre": "Schlager"
+  },
+  {
     "id": "ludwig-hirsch-komm-gro-er-schwarzer-vogel",
     "title": "Komm großer schwarzer Vogel",
     "artist": "Ludwig Hirsch",
@@ -7732,7 +8621,7 @@
     "title": "Dschinghis Khan",
     "artist": "Dschinghis Khan",
     "year": 1979,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "m-pop-muzik",
@@ -7894,6 +8783,34 @@
     "artist": "Van Halen",
     "year": 1979,
     "genre": "Rock"
+  },
+  {
+    "id": "dschinghis-khan-moskau",
+    "title": "Moskau",
+    "artist": "Dschinghis Khan",
+    "year": 1979,
+    "genre": "Schlager"
+  },
+  {
+    "id": "roland-kaiser-sieben-faesser-wein",
+    "title": "Sieben Fässer Wein",
+    "artist": "Roland Kaiser",
+    "year": 1979,
+    "genre": "Schlager"
+  },
+  {
+    "id": "peter-maffay-so-bist-du",
+    "title": "So bist du",
+    "artist": "Peter Maffay",
+    "year": 1979,
+    "genre": "Schlager"
+  },
+  {
+    "id": "truck-stop-take-it-easy-altes-haus",
+    "title": "Take It Easy, altes Haus",
+    "artist": "Truck Stop",
+    "year": 1979,
+    "genre": "Schlager"
   },
   {
     "id": "georg-danzer-wann-i-tot-bin",
@@ -8061,7 +8978,7 @@
     "title": "Santa Maria",
     "artist": "Roland Kaiser",
     "year": 1980,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "irene-cara-fame",
@@ -8237,6 +9154,55 @@
     "artist": "Pat Benatar",
     "year": 1980,
     "genre": "Rock"
+  },
+  {
+    "id": "katja-ebstein-theater",
+    "title": "Theater",
+    "artist": "Katja Ebstein",
+    "year": 1980,
+    "genre": "Schlager"
+  },
+  {
+    "id": "truck-stop-der-wilde-wilde-westen",
+    "title": "Der wilde, wilde Westen",
+    "artist": "Truck Stop",
+    "year": 1980,
+    "genre": "Schlager"
+  },
+  {
+    "id": "bernhard-brink-ich-waer-so-gern-wie-du",
+    "title": "Ich wär' so gern wie du",
+    "artist": "Bernhard Brink",
+    "year": 1980,
+    "genre": "Schlager"
+  },
+  {
+    "id": "lena-valaitis-nimm-es-so-wie-es-kommt",
+    "title": "Nimm es so, wie es kommt",
+    "artist": "Lena Valaitis",
+    "year": 1980,
+    "genre": "Schlager"
+  },
+  {
+    "id": "mike-krueger-der-nippel",
+    "title": "Der Nippel",
+    "artist": "Mike Krüger",
+    "year": 1980,
+    "genre": "Schlager"
+  },
+  {
+    "id": "dschinghis-khan-hadschi-halef-omar",
+    "title": "Hadschi Halef Omar",
+    "artist": "Dschinghis Khan",
+    "year": 1980,
+    "genre": "Schlager"
+  },
+  {
+    "id": "roberto-blanco-der-puppenspieler-von-mexiko",
+    "title": "Der Puppenspieler von Mexiko",
+    "artist": "Roberto Blanco",
+    "year": 1980,
+    "genre": "Schlager"
   },
   {
     "id": "rainhard-fendrich-strada-del-sole",
@@ -8446,7 +9412,7 @@
     "title": "Polonäse Blankenese",
     "artist": "Gottlieb Wendehals",
     "year": 1981,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "kim-wilde-kids-in-america",
@@ -8601,6 +9567,34 @@
     "artist": "Joan Jett",
     "year": 1981,
     "genre": "Rock"
+  },
+  {
+    "id": "lena-valaitis-johnny-blue",
+    "title": "Johnny Blue",
+    "artist": "Lena Valaitis",
+    "year": 1981,
+    "genre": "Schlager"
+  },
+  {
+    "id": "hoffmann-hoffmann-himbeereis-zum-fruehstueck",
+    "title": "Himbeereis zum Frühstück",
+    "artist": "Hoffmann & Hoffmann",
+    "year": 1981,
+    "genre": "Schlager"
+  },
+  {
+    "id": "nicole-flieg-nicht-so-hoch-mein-kleiner-freund",
+    "title": "Flieg nicht so hoch, mein kleiner Freund",
+    "artist": "Nicole",
+    "year": 1981,
+    "genre": "Schlager"
+  },
+  {
+    "id": "fred-sonnenschein-seine-freunde-ja-wenn-wir-alle-englein-waeren",
+    "title": "Ja, wenn wir alle Englein wären",
+    "artist": "Fred Sonnenschein & seine Freunde",
+    "year": 1981,
+    "genre": "Schlager"
   },
   {
     "id": "falco-der-kommissar",
@@ -8782,7 +9776,7 @@
     "title": "Ein bißchen Frieden",
     "artist": "Nicole",
     "year": 1982,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "orchestral-manoeuvres-in-the-dark-maid-of-orleans",
@@ -8930,6 +9924,20 @@
     "artist": "Tom Petty and the Heartbreakers",
     "year": 1982,
     "genre": "Rock"
+  },
+  {
+    "id": "roland-kaiser-manchmal-moechte-ich-schon-mit-dir",
+    "title": "Manchmal möchte ich schon mit dir",
+    "artist": "Roland Kaiser",
+    "year": 1982,
+    "genre": "Schlager"
+  },
+  {
+    "id": "gitte-haenning-ich-will-alles",
+    "title": "Ich will alles",
+    "artist": "Gitte Hænning",
+    "year": 1982,
+    "genre": "Schlager"
   },
   {
     "id": "sts-irgendwann-bleib-i-dann-dort",
@@ -9282,6 +10290,27 @@
     "genre": "Rock"
   },
   {
+    "id": "nino-de-angelo-jenseits-von-eden",
+    "title": "Jenseits von Eden",
+    "artist": "Nino de Angelo",
+    "year": 1983,
+    "genre": "Schlager"
+  },
+  {
+    "id": "wolfgang-petry-wahnsinn",
+    "title": "Wahnsinn",
+    "artist": "Wolfgang Petry",
+    "year": 1983,
+    "genre": "Schlager"
+  },
+  {
+    "id": "hoffmann-hoffmann-ruecksicht",
+    "title": "Rücksicht",
+    "artist": "Hoffmann & Hoffmann",
+    "year": 1983,
+    "genre": "Schlager"
+  },
+  {
     "id": "georg-danzer-wei-e-pferde",
     "title": "Weiße Pferde",
     "artist": "Georg Danzer",
@@ -9602,6 +10631,34 @@
     "artist": "Van Halen",
     "year": 1984,
     "genre": "Rock"
+  },
+  {
+    "id": "roland-kaiser-joana",
+    "title": "Joana",
+    "artist": "Roland Kaiser",
+    "year": 1984,
+    "genre": "Schlager"
+  },
+  {
+    "id": "howard-carpendale-hello-again",
+    "title": "Hello Again",
+    "artist": "Howard Carpendale",
+    "year": 1984,
+    "genre": "Schlager"
+  },
+  {
+    "id": "mary-roos-aufrecht-geh-n",
+    "title": "Aufrecht geh'n",
+    "artist": "Mary Roos",
+    "year": 1984,
+    "genre": "Schlager"
+  },
+  {
+    "id": "drafi-deutscher-tief-unter-meiner-haut",
+    "title": "Tief unter meiner Haut",
+    "artist": "Drafi Deutscher",
+    "year": 1984,
+    "genre": "Schlager"
   },
   {
     "id": "falco-jeanny",
@@ -9945,6 +11002,34 @@
     "artist": "The Cult",
     "year": 1985,
     "genre": "Rock"
+  },
+  {
+    "id": "wind-fuer-alle",
+    "title": "Für alle",
+    "artist": "Wind",
+    "year": 1985,
+    "genre": "Schlager"
+  },
+  {
+    "id": "klaus-klaus-an-der-nordseekueste",
+    "title": "An der Nordseeküste",
+    "artist": "Klaus & Klaus",
+    "year": 1985,
+    "genre": "Schlager"
+  },
+  {
+    "id": "karel-gott-darinka-fang-das-licht",
+    "title": "Fang das Licht",
+    "artist": "Karel Gott & Darinka",
+    "year": 1985,
+    "genre": "Schlager"
+  },
+  {
+    "id": "die-flippers-die-rote-sonne-von-barbados",
+    "title": "Die rote Sonne von Barbados",
+    "artist": "Die Flippers",
+    "year": 1985,
+    "genre": "Schlager"
   },
   {
     "id": "sts-gro-vater",
@@ -10304,6 +11389,34 @@
     "genre": "Rock"
   },
   {
+    "id": "juliane-werding-stimmen-im-wind",
+    "title": "Stimmen im Wind",
+    "artist": "Juliane Werding",
+    "year": 1986,
+    "genre": "Schlager"
+  },
+  {
+    "id": "ingrid-peters-ueber-die-bruecke-geh-n",
+    "title": "Über die Brücke geh'n",
+    "artist": "Ingrid Peters",
+    "year": 1986,
+    "genre": "Schlager"
+  },
+  {
+    "id": "g-g-anderson-maedchen-maedchen",
+    "title": "Mädchen, Mädchen",
+    "artist": "G.G. Anderson",
+    "year": 1986,
+    "genre": "Schlager"
+  },
+  {
+    "id": "roland-kaiser-midnight-lady",
+    "title": "Midnight Lady",
+    "artist": "Roland Kaiser",
+    "year": 1986,
+    "genre": "Schlager"
+  },
+  {
     "id": "eav-k-ss-die-hand-sch-ne-frau",
     "title": "Küss die Hand schöne Frau",
     "artist": "EAV",
@@ -10610,6 +11723,34 @@
     "artist": "Whitesnake",
     "year": 1987,
     "genre": "Rock"
+  },
+  {
+    "id": "wind-lass-die-sonne-in-dein-herz",
+    "title": "Lass die Sonne in dein Herz",
+    "artist": "Wind",
+    "year": 1987,
+    "genre": "Schlager"
+  },
+  {
+    "id": "juergen-von-der-lippe-guten-morgen-liebe-sorgen",
+    "title": "Guten Morgen, liebe Sorgen",
+    "artist": "Jürgen von der Lippe",
+    "year": 1987,
+    "genre": "Schlager"
+  },
+  {
+    "id": "stephan-remmler-keine-sterne-in-athen",
+    "title": "Keine Sterne in Athen",
+    "artist": "Stephan Remmler",
+    "year": 1987,
+    "genre": "Schlager"
+  },
+  {
+    "id": "juliane-werding-nacht-voll-schatten",
+    "title": "Nacht voll Schatten",
+    "artist": "Juliane Werding",
+    "year": 1987,
+    "genre": "Schlager"
   },
   {
     "id": "eav-burli",
@@ -10932,6 +12073,34 @@
     "artist": "Poison",
     "year": 1988,
     "genre": "Rock"
+  },
+  {
+    "id": "maxi-chris-garden-lied-fuer-einen-freund",
+    "title": "Lied für einen Freund",
+    "artist": "Maxi & Chris Garden",
+    "year": 1988,
+    "genre": "Schlager"
+  },
+  {
+    "id": "roland-kaiser-ich-glaub-es-geht-schon-wieder-los",
+    "title": "Ich glaub, es geht schon wieder los",
+    "artist": "Roland Kaiser",
+    "year": 1988,
+    "genre": "Schlager"
+  },
+  {
+    "id": "original-naabtal-duo-patrona-bavariae",
+    "title": "Patrona Bavariae",
+    "artist": "Original Naabtal Duo",
+    "year": 1988,
+    "genre": "Schlager"
+  },
+  {
+    "id": "g-g-anderson-haettest-du-heut-zeit-fuer-mich",
+    "title": "Hättest du heut' Zeit für mich",
+    "artist": "G.G. Anderson",
+    "year": 1988,
+    "genre": "Schlager"
   },
   {
     "id": "opus-up-and-down",
@@ -11263,6 +12432,34 @@
     "genre": "Rock"
   },
   {
+    "id": "nino-de-angelo-flieger",
+    "title": "Flieger",
+    "artist": "Nino de Angelo",
+    "year": 1989,
+    "genre": "Schlager"
+  },
+  {
+    "id": "die-flippers-lotosblume",
+    "title": "Lotosblume",
+    "artist": "Die Flippers",
+    "year": 1989,
+    "genre": "Schlager"
+  },
+  {
+    "id": "klaus-klaus-der-eiermann",
+    "title": "Der Eiermann",
+    "artist": "Klaus & Klaus",
+    "year": 1989,
+    "genre": "Schlager"
+  },
+  {
+    "id": "hanne-haller-mein-lieber-mann",
+    "title": "Mein lieber Mann",
+    "artist": "Hanne Haller",
+    "year": 1989,
+    "genre": "Schlager"
+  },
+  {
     "id": "rainhard-fendrich-i-am-from-austria",
     "title": "I Am from Austria",
     "artist": "Rainhard Fendrich",
@@ -11470,7 +12667,7 @@
     "title": "Verdammt, ich lieb' dich",
     "artist": "Matthias Reim",
     "year": 1990,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "enigma-sadeness",
@@ -11618,6 +12815,48 @@
     "artist": "Warrant",
     "year": 1990,
     "genre": "Rock"
+  },
+  {
+    "id": "matthias-reim-ich-hab-getraeumt-von-dir",
+    "title": "Ich hab' geträumt von dir",
+    "artist": "Matthias Reim",
+    "year": 1990,
+    "genre": "Schlager"
+  },
+  {
+    "id": "bernhard-brink-blondes-wunder",
+    "title": "Blondes Wunder",
+    "artist": "Bernhard Brink",
+    "year": 1990,
+    "genre": "Schlager"
+  },
+  {
+    "id": "wildecker-herzbuben-herzilein",
+    "title": "Herzilein",
+    "artist": "Wildecker Herzbuben",
+    "year": 1990,
+    "genre": "Schlager"
+  },
+  {
+    "id": "chris-kempers-daniel-kovac-frei-zu-leben",
+    "title": "Frei zu leben",
+    "artist": "Chris Kempers & Daniel Kovac",
+    "year": 1990,
+    "genre": "Schlager"
+  },
+  {
+    "id": "kastelruther-spatzen-traenen-passen-nicht-zu-dir",
+    "title": "Tränen passen nicht zu dir",
+    "artist": "Kastelruther Spatzen",
+    "year": 1990,
+    "genre": "Schlager"
+  },
+  {
+    "id": "matthias-reim-ich-hab-mich-so-auf-dich-gefreut",
+    "title": "Ich hab' mich so auf dich gefreut",
+    "artist": "Matthias Reim",
+    "year": 1990,
+    "genre": "Schlager"
   },
   {
     "id": "falco-data-de-groove",
@@ -11898,6 +13137,34 @@
     "artist": "Nirvana",
     "year": 1991,
     "genre": "Rock"
+  },
+  {
+    "id": "frank-zander-hier-kommt-kurt",
+    "title": "Hier kommt Kurt",
+    "artist": "Frank Zander",
+    "year": 1991,
+    "genre": "Schlager"
+  },
+  {
+    "id": "pe-werner-kribbeln-im-bauch",
+    "title": "Kribbeln im Bauch",
+    "artist": "Pe Werner",
+    "year": 1991,
+    "genre": "Schlager"
+  },
+  {
+    "id": "atlantis-2000-dieser-traum-darf-niemals-sterben",
+    "title": "Dieser Traum darf niemals sterben",
+    "artist": "Atlantis 2000",
+    "year": 1991,
+    "genre": "Schlager"
+  },
+  {
+    "id": "dirk-busch-liebst-du-auch-den-rauhen-wind",
+    "title": "Liebst du auch den rauhen Wind",
+    "artist": "Dirk Busch",
+    "year": 1991,
+    "genre": "Schlager"
   },
   {
     "id": "falco-titanic",
@@ -12222,6 +13489,41 @@
     "genre": "Rock"
   },
   {
+    "id": "wolfgang-petry-verlieben-verloren-vergessen-verzeih-n",
+    "title": "Verlieben, verloren, vergessen, verzeih'n",
+    "artist": "Wolfgang Petry",
+    "year": 1992,
+    "genre": "Schlager"
+  },
+  {
+    "id": "juliane-werding-sie-weiss-was-sie-will",
+    "title": "Sie weiß, was sie will",
+    "artist": "Juliane Werding",
+    "year": 1992,
+    "genre": "Schlager"
+  },
+  {
+    "id": "wind-traeume-sind-fuer-alle-da",
+    "title": "Träume sind für alle da",
+    "artist": "Wind",
+    "year": 1992,
+    "genre": "Schlager"
+  },
+  {
+    "id": "nicole-mit-dir-vielleicht",
+    "title": "Mit dir vielleicht",
+    "artist": "Nicole",
+    "year": 1992,
+    "genre": "Schlager"
+  },
+  {
+    "id": "stefanie-hertel-ueber-jedes-bacherl-geht-a-brueckerl",
+    "title": "Über jedes Bacherl geht a Brückerl",
+    "artist": "Stefanie Hertel",
+    "year": 1992,
+    "genre": "Schlager"
+  },
+  {
     "id": "eav-nie-wieder-kunst",
     "title": "Nie wieder Kunst",
     "artist": "EAV",
@@ -12507,6 +13809,41 @@
     "artist": "The Smashing Pumpkins",
     "year": 1993,
     "genre": "Rock"
+  },
+  {
+    "id": "andrea-berg-kilimandscharo",
+    "title": "Kilimandscharo",
+    "artist": "Andrea Berg",
+    "year": 1993,
+    "genre": "Schlager"
+  },
+  {
+    "id": "nicole-dann-kuess-mich-doch",
+    "title": "Dann küss mich doch",
+    "artist": "Nicole",
+    "year": 1993,
+    "genre": "Schlager"
+  },
+  {
+    "id": "ibo-kopf-oder-zahl",
+    "title": "Kopf oder Zahl",
+    "artist": "IBO",
+    "year": 1993,
+    "genre": "Schlager"
+  },
+  {
+    "id": "wolfgang-petry-du-bist-ein-wunder",
+    "title": "Du bist ein Wunder",
+    "artist": "Wolfgang Petry",
+    "year": 1993,
+    "genre": "Schlager"
+  },
+  {
+    "id": "wolfgang-petry-sehnsucht-nach-dir",
+    "title": "Sehnsucht nach dir",
+    "artist": "Wolfgang Petry",
+    "year": 1993,
+    "genre": "Schlager"
   },
   {
     "id": "hubert-von-goisern-juchitzer",
@@ -12845,6 +14182,20 @@
     "genre": "Rock"
   },
   {
+    "id": "claudia-jung-komm-und-tanz-ein-letztes-mal-mit-mir",
+    "title": "Komm und tanz ein letztes Mal mit mir",
+    "artist": "Claudia Jung",
+    "year": 1994,
+    "genre": "Schlager"
+  },
+  {
+    "id": "claudia-jung-richard-clayderman-je-t-aime-mon-amour",
+    "title": "Je t'aime mon amour",
+    "artist": "Claudia Jung & Richard Clayderman",
+    "year": 1994,
+    "genre": "Schlager"
+  },
+  {
     "id": "georg-danzer-weilst-a-herz-hast-wie-a-bergwerk",
     "title": "Weilst a Herz hast wie a Bergwerk",
     "artist": "Georg Danzer",
@@ -13109,6 +14460,27 @@
     "artist": "The Presidents of the United States of America",
     "year": 1995,
     "genre": "Rock"
+  },
+  {
+    "id": "andrea-berg-die-gefuehle-haben-schweigepflicht",
+    "title": "Die Gefühle haben Schweigepflicht",
+    "artist": "Andrea Berg",
+    "year": 1995,
+    "genre": "Schlager"
+  },
+  {
+    "id": "juergen-drews-ich-bau-dir-ein-schloss",
+    "title": "Ich bau dir ein Schloss",
+    "artist": "Jürgen Drews",
+    "year": 1995,
+    "genre": "Schlager"
+  },
+  {
+    "id": "stone-stone-verliebt-in-dich",
+    "title": "Verliebt in dich",
+    "artist": "Stone & Stone",
+    "year": 1995,
+    "genre": "Schlager"
   },
   {
     "id": "falco-mutter-der-mann-mit-dem-koks-ist-da",
@@ -13447,6 +14819,20 @@
     "genre": "Rock"
   },
   {
+    "id": "wolfgang-petry-die-laengste-single-der-welt",
+    "title": "Die längste Single der Welt",
+    "artist": "Wolfgang Petry",
+    "year": 1996,
+    "genre": "Schlager"
+  },
+  {
+    "id": "claudia-jung-rosanna-domani-l-amore-vincera",
+    "title": "L'amore vincerà",
+    "artist": "Claudia Jung & Rosanna Domani",
+    "year": 1996,
+    "genre": "Schlager"
+  },
+  {
     "id": "rainhard-fendrich-blond",
     "title": "Blond",
     "artist": "Rainhard Fendrich",
@@ -13711,6 +15097,20 @@
     "artist": "Metallica",
     "year": 1997,
     "genre": "Rock"
+  },
+  {
+    "id": "bianca-shomburg-zeit",
+    "title": "Zeit",
+    "artist": "Bianca Shomburg",
+    "year": 1997,
+    "genre": "Schlager"
+  },
+  {
+    "id": "michelle-wie-flammen-im-wind",
+    "title": "Wie Flammen im Wind",
+    "artist": "Michelle",
+    "year": 1997,
+    "genre": "Schlager"
   },
   {
     "id": "falco-out-of-the-dark",
@@ -14007,6 +15407,27 @@
     "genre": "Rock"
   },
   {
+    "id": "guildo-horn-guildo-hat-euch-lieb",
+    "title": "Guildo hat euch lieb!",
+    "artist": "Guildo Horn",
+    "year": 1998,
+    "genre": "Schlager"
+  },
+  {
+    "id": "wolfgang-petry-einfach-geil",
+    "title": "Einfach geil!",
+    "artist": "Wolfgang Petry",
+    "year": 1998,
+    "genre": "Schlager"
+  },
+  {
+    "id": "kristina-bach-schiffbruch-in-meiner-seele",
+    "title": "Schiffbruch in meiner Seele",
+    "artist": "Kristina Bach",
+    "year": 1998,
+    "genre": "Schlager"
+  },
+  {
     "id": "austria-3-jeder-f-r-sich",
     "title": "Jeder für sich",
     "artist": "Austria 3",
@@ -14165,7 +15586,7 @@
     "title": "Maschen-Draht-Zaun",
     "artist": "Stefan Raab",
     "year": 1999,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "vengaboys-we-re-going-to-ibiza",
@@ -14292,6 +15713,20 @@
     "artist": "Sugar Ray",
     "year": 1999,
     "genre": "Rock"
+  },
+  {
+    "id": "juergen-drews-wieder-alles-im-griff",
+    "title": "Wieder alles im Griff",
+    "artist": "Jürgen Drews",
+    "year": 1999,
+    "genre": "Schlager"
+  },
+  {
+    "id": "mary-roos-schau-dich-nicht-um",
+    "title": "Schau dich nicht um",
+    "artist": "Mary Roos",
+    "year": 1999,
+    "genre": "Schlager"
   },
   {
     "id": "bilderbuch-kitsch",
@@ -14630,6 +16065,27 @@
     "genre": "Rock"
   },
   {
+    "id": "juergen-drews-koenig-von-mallorca",
+    "title": "König von Mallorca",
+    "artist": "Jürgen Drews",
+    "year": 2000,
+    "genre": "Schlager"
+  },
+  {
+    "id": "nino-de-angelo-schwindelfrei",
+    "title": "Schwindelfrei",
+    "artist": "Nino de Angelo",
+    "year": 2000,
+    "genre": "Schlager"
+  },
+  {
+    "id": "mickie-krause-10-nackte-friseusen",
+    "title": "10 nackte Friseusen",
+    "artist": "Mickie Krause",
+    "year": 2000,
+    "genre": "Schlager"
+  },
+  {
     "id": "hubert-von-goisern-iwasig",
     "title": "Iwasig",
     "artist": "Hubert von Goisern",
@@ -14917,6 +16373,41 @@
     "genre": "Rock"
   },
   {
+    "id": "andrea-berg-du-hast-mich-tausendmal-belogen",
+    "title": "Du hast mich tausendmal belogen",
+    "artist": "Andrea Berg",
+    "year": 2001,
+    "genre": "Schlager"
+  },
+  {
+    "id": "michelle-wer-liebe-lebt",
+    "title": "Wer Liebe lebt",
+    "artist": "Michelle",
+    "year": 2001,
+    "genre": "Schlager"
+  },
+  {
+    "id": "olaf-henning-cowboy-und-indianer",
+    "title": "Cowboy und Indianer",
+    "artist": "Olaf Henning",
+    "year": 2001,
+    "genre": "Schlager"
+  },
+  {
+    "id": "brings-superjeilezick",
+    "title": "Superjeilezick",
+    "artist": "Brings",
+    "year": 2001,
+    "genre": "Schlager"
+  },
+  {
+    "id": "claudia-jung-auch-wenn-es-nicht-vernuenftig-ist",
+    "title": "Auch wenn es nicht vernünftig ist",
+    "artist": "Claudia Jung",
+    "year": 2001,
+    "genre": "Schlager"
+  },
+  {
     "id": "georg-danzer-gro-e-dinge",
     "title": "Große Dinge",
     "artist": "Georg Danzer",
@@ -15195,6 +16686,13 @@
     "artist": "The White Stripes",
     "year": 2002,
     "genre": "Rock"
+  },
+  {
+    "id": "michelle-matthias-reim-idiot",
+    "title": "Idiot",
+    "artist": "Michelle & Matthias Reim",
+    "year": 2002,
+    "genre": "Schlager"
   },
   {
     "id": "christina-st-rmer-mama-ana-ahabak",
@@ -15540,6 +17038,34 @@
     "genre": "Rock"
   },
   {
+    "id": "andrea-berg-diese-nacht-ist-jede-suende-wert",
+    "title": "Diese Nacht ist jede Sünde wert",
+    "artist": "Andrea Berg",
+    "year": 2003,
+    "genre": "Schlager"
+  },
+  {
+    "id": "patrick-lindner-halleluja-auf-das-leben",
+    "title": "Halleluja – Auf das Leben",
+    "artist": "Patrick Lindner",
+    "year": 2003,
+    "genre": "Schlager"
+  },
+  {
+    "id": "hoehner-viva-colonia",
+    "title": "Viva Colonia",
+    "artist": "Höhner",
+    "year": 2003,
+    "genre": "Schlager"
+  },
+  {
+    "id": "andrea-berg-ein-tag-mit-dir-im-paradies",
+    "title": "Ein Tag mit dir im Paradies",
+    "artist": "Andrea Berg",
+    "year": 2003,
+    "genre": "Schlager"
+  },
+  {
     "id": "christina-st-rmer-vorbei",
     "title": "Vorbei",
     "artist": "Christina Stürmer",
@@ -15855,6 +17381,13 @@
     "genre": "Rock"
   },
   {
+    "id": "de-randfichten-lebt-denn-dr-alte-holzmichl-noch",
+    "title": "Lebt denn dr alte Holzmichl noch?",
+    "artist": "De Randfichten",
+    "year": 2004,
+    "genre": "Schlager"
+  },
+  {
     "id": "christina-st-rmer-lebe-lauter",
     "title": "Lebe lauter",
     "artist": "Christina Stürmer",
@@ -16163,6 +17696,13 @@
     "genre": "Rock"
   },
   {
+    "id": "peter-wackel-feat-chriss-tuxi-joana",
+    "title": "Joana",
+    "artist": "Peter Wackel feat. Chriss Tuxi",
+    "year": 2005,
+    "genre": "Schlager"
+  },
+  {
     "id": "christina-st-rmer-ein-neuer-anfang",
     "title": "Ein neuer Anfang",
     "artist": "Christina Stürmer",
@@ -16441,6 +17981,34 @@
     "artist": "Hinder",
     "year": 2006,
     "genre": "Rock"
+  },
+  {
+    "id": "helene-fischer-von-hier-bis-unendlich",
+    "title": "Von hier bis unendlich",
+    "artist": "Helene Fischer",
+    "year": 2006,
+    "genre": "Schlager"
+  },
+  {
+    "id": "helene-fischer-feuer-am-horizont",
+    "title": "Feuer am Horizont",
+    "artist": "Helene Fischer",
+    "year": 2006,
+    "genre": "Schlager"
+  },
+  {
+    "id": "amigos-ich-geh-fuer-dich-durchs-feuer",
+    "title": "Ich geh' für dich durchs Feuer",
+    "artist": "Amigos",
+    "year": 2006,
+    "genre": "Schlager"
+  },
+  {
+    "id": "markus-becker-das-rote-pferd",
+    "title": "Das rote Pferd",
+    "artist": "Markus Becker",
+    "year": 2006,
+    "genre": "Schlager"
   },
   {
     "id": "hubert-von-goisern-heimatstadt",
@@ -16735,6 +18303,34 @@
     "artist": "My Chemical Romance",
     "year": 2007,
     "genre": "Rock"
+  },
+  {
+    "id": "helene-fischer-und-morgen-frueh-kuess-ich-dich-wach",
+    "title": "Und morgen früh küss ich dich wach",
+    "artist": "Helene Fischer",
+    "year": 2007,
+    "genre": "Schlager"
+  },
+  {
+    "id": "helene-fischer-mitten-im-paradies",
+    "title": "Mitten im Paradies",
+    "artist": "Helene Fischer",
+    "year": 2007,
+    "genre": "Schlager"
+  },
+  {
+    "id": "hoehner-wenn-nicht-jetzt-wann-dann",
+    "title": "Wenn nicht jetzt, wann dann?",
+    "artist": "Höhner",
+    "year": 2007,
+    "genre": "Schlager"
+  },
+  {
+    "id": "michael-wendler-sie-liebt-den-dj",
+    "title": "Sie liebt den DJ",
+    "artist": "Michael Wendler",
+    "year": 2007,
+    "genre": "Schlager"
   },
   {
     "id": "christina-st-rmer-revolution",
@@ -17094,6 +18690,20 @@
     "genre": "Rock"
   },
   {
+    "id": "helene-fischer-die-hoelle-morgen-frueh",
+    "title": "Die Hölle morgen früh",
+    "artist": "Helene Fischer",
+    "year": 2008,
+    "genre": "Schlager"
+  },
+  {
+    "id": "michelle-kopfueber-in-die-nacht",
+    "title": "Kopfüber in die Nacht",
+    "artist": "Michelle",
+    "year": 2008,
+    "genre": "Schlager"
+  },
+  {
     "id": "hubert-von-goisern-entwederoder",
     "title": "Entwederoder",
     "artist": "Hubert von Goisern",
@@ -17416,6 +19026,27 @@
     "genre": "Rock"
   },
   {
+    "id": "helene-fischer-ich-will-immer-wieder-dieses-fieber-spuer-n",
+    "title": "Ich will immer wieder... dieses Fieber spür'n",
+    "artist": "Helene Fischer",
+    "year": 2009,
+    "genre": "Schlager"
+  },
+  {
+    "id": "anna-maria-zimmermann-1000-traeume-weit-torner",
+    "title": "1000 Träume weit (Torneró)",
+    "artist": "Anna-Maria Zimmermann",
+    "year": 2009,
+    "genre": "Schlager"
+  },
+  {
+    "id": "ute-freudenberg-christian-lais-auf-den-daechern-von-berlin",
+    "title": "Auf den Dächern von Berlin",
+    "artist": "Ute Freudenberg & Christian Lais",
+    "year": 2009,
+    "genre": "Schlager"
+  },
+  {
     "id": "christina-st-rmer-wir-leben-den-moment",
     "title": "Wir leben den Moment",
     "artist": "Christina Stürmer",
@@ -17708,6 +19339,27 @@
     "artist": "The Black Keys",
     "year": 2010,
     "genre": "Rock"
+  },
+  {
+    "id": "tim-toupet-so-ein-schoener-tag-fliegerlied",
+    "title": "So ein schöner Tag (Fliegerlied)",
+    "artist": "Tim Toupet",
+    "year": 2010,
+    "genre": "Schlager"
+  },
+  {
+    "id": "andrea-berg-schwerelos",
+    "title": "Schwerelos",
+    "artist": "Andrea Berg",
+    "year": 2010,
+    "genre": "Schlager"
+  },
+  {
+    "id": "amigos-du-bist-wie-feuer-im-vulkan",
+    "title": "Du bist wie Feuer im Vulkan",
+    "artist": "Amigos",
+    "year": 2010,
+    "genre": "Schlager"
   },
   {
     "id": "hubert-von-goisern-brenna-tuats-guat",
@@ -18032,6 +19684,34 @@
     "genre": "Rock"
   },
   {
+    "id": "mickie-krause-schatzi-schenk-mir-ein-foto",
+    "title": "Schatzi, schenk mir ein Foto",
+    "artist": "Mickie Krause",
+    "year": 2011,
+    "genre": "Schlager"
+  },
+  {
+    "id": "axel-fischer-1000-herzen",
+    "title": "1000 Herzen",
+    "artist": "Axel Fischer",
+    "year": 2011,
+    "genre": "Schlager"
+  },
+  {
+    "id": "andrea-berg-schenk-mir-einen-stern",
+    "title": "Schenk mir einen Stern",
+    "artist": "Andrea Berg",
+    "year": 2011,
+    "genre": "Schlager"
+  },
+  {
+    "id": "helene-fischer-manchmal-kommt-die-liebe-einfach-so",
+    "title": "Manchmal kommt die Liebe einfach so",
+    "artist": "Helene Fischer",
+    "year": 2011,
+    "genre": "Schlager"
+  },
+  {
     "id": "parov-stelar-all-night",
     "title": "All Night",
     "artist": "Parov Stelar",
@@ -18319,6 +19999,20 @@
     "genre": "Rock"
   },
   {
+    "id": "santiano-santiano",
+    "title": "Santiano",
+    "artist": "Santiano",
+    "year": 2012,
+    "genre": "Schlager"
+  },
+  {
+    "id": "michelle-grosse-liebe",
+    "title": "Große Liebe",
+    "artist": "Michelle",
+    "year": 2012,
+    "genre": "Schlager"
+  },
+  {
     "id": "christina-st-rmer-millionen-lichter",
     "title": "Millionen Lichter",
     "artist": "Christina Stürmer",
@@ -18470,7 +20164,7 @@
     "title": "Atemlos durch die Nacht",
     "artist": "Helene Fischer",
     "year": 2013,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "idina-menzel-let-it-go",
@@ -18632,6 +20326,27 @@
     "artist": "Hozier",
     "year": 2013,
     "genre": "Rock"
+  },
+  {
+    "id": "beatrice-egli-mein-herz",
+    "title": "Mein Herz",
+    "artist": "Beatrice Egli",
+    "year": 2013,
+    "genre": "Schlager"
+  },
+  {
+    "id": "helene-fischer-phaenomen",
+    "title": "Phänomen",
+    "artist": "Helene Fischer",
+    "year": 2013,
+    "genre": "Schlager"
+  },
+  {
+    "id": "santiano-gott-muss-ein-seemann-sein",
+    "title": "Gott muss ein Seemann sein",
+    "artist": "Santiano",
+    "year": 2013,
+    "genre": "Schlager"
   },
   {
     "id": "conchita-wurst-rise-like-a-phoenix",
@@ -19012,6 +20727,27 @@
     "genre": "Rock"
   },
   {
+    "id": "helene-fischer-fehlerfrei",
+    "title": "Fehlerfrei",
+    "artist": "Helene Fischer",
+    "year": 2014,
+    "genre": "Schlager"
+  },
+  {
+    "id": "roland-kaiser-maite-kelly-warum-hast-du-nicht-nein-gesagt",
+    "title": "Warum hast du nicht nein gesagt",
+    "artist": "Roland Kaiser & Maite Kelly",
+    "year": 2014,
+    "genre": "Schlager"
+  },
+  {
+    "id": "wolkenfrei-wolke-7",
+    "title": "Wolke 7",
+    "artist": "Wolkenfrei",
+    "year": 2014,
+    "genre": "Schlager"
+  },
+  {
     "id": "wanda-bologna",
     "title": "Bologna",
     "artist": "Wanda",
@@ -19390,6 +21126,27 @@
     "genre": "Rock"
   },
   {
+    "id": "stereoact-feat-kerstin-ott-die-immer-lacht",
+    "title": "Die immer lacht",
+    "artist": "Stereoact feat. Kerstin Ott",
+    "year": 2015,
+    "genre": "Schlager"
+  },
+  {
+    "id": "mia-julia-mallorca-da-bin-ich-daheim",
+    "title": "Mallorca (Da bin ich daheim)",
+    "artist": "Mia Julia",
+    "year": 2015,
+    "genre": "Schlager"
+  },
+  {
+    "id": "vanessa-mai-mein-herz-schlaegt-schlager",
+    "title": "Mein Herz schlägt Schlager",
+    "artist": "Vanessa Mai",
+    "year": 2015,
+    "genre": "Schlager"
+  },
+  {
     "id": "christina-st-rmer-seite-an-seite",
     "title": "Seite an Seite",
     "artist": "Christina Stürmer",
@@ -19738,6 +21495,41 @@
     "artist": "Twenty One Pilots",
     "year": 2016,
     "genre": "Rock"
+  },
+  {
+    "id": "vanessa-mai-ich-sterb-fuer-dich",
+    "title": "Ich sterb für dich",
+    "artist": "Vanessa Mai",
+    "year": 2016,
+    "genre": "Schlager"
+  },
+  {
+    "id": "andrea-berg-ich-werde-laecheln-wenn-du-gehst",
+    "title": "Ich werde lächeln wenn du gehst",
+    "artist": "Andrea Berg",
+    "year": 2016,
+    "genre": "Schlager"
+  },
+  {
+    "id": "maite-kelly-sieben-leben-fuer-dich",
+    "title": "Sieben Leben für dich",
+    "artist": "Maite Kelly",
+    "year": 2016,
+    "genre": "Schlager"
+  },
+  {
+    "id": "klubbb3-du-schaffst-das-schon",
+    "title": "Du schaffst das schon",
+    "artist": "Klubbb3",
+    "year": 2016,
+    "genre": "Schlager"
+  },
+  {
+    "id": "lorenz-bueffel-johnny-daepp",
+    "title": "Johnny Däpp",
+    "artist": "Lorenz Büffel",
+    "year": 2016,
+    "genre": "Schlager"
   },
   {
     "id": "ina-regen-wie-a-kind",
@@ -20125,6 +21917,48 @@
     "genre": "Rock"
   },
   {
+    "id": "helene-fischer-herzbeben",
+    "title": "Herzbeben",
+    "artist": "Helene Fischer",
+    "year": 2017,
+    "genre": "Schlager"
+  },
+  {
+    "id": "ben-zucker-na-und",
+    "title": "Na und?!",
+    "artist": "Ben Zucker",
+    "year": 2017,
+    "genre": "Schlager"
+  },
+  {
+    "id": "vanessa-mai-regenbogen",
+    "title": "Regenbogen",
+    "artist": "Vanessa Mai",
+    "year": 2017,
+    "genre": "Schlager"
+  },
+  {
+    "id": "beatrice-egli-federleicht",
+    "title": "Federleicht",
+    "artist": "Beatrice Egli",
+    "year": 2017,
+    "genre": "Schlager"
+  },
+  {
+    "id": "andrea-berg-es-geht-mir-gut",
+    "title": "Es geht mir gut",
+    "artist": "Andrea Berg",
+    "year": 2017,
+    "genre": "Schlager"
+  },
+  {
+    "id": "helene-fischer-achterbahn",
+    "title": "Achterbahn",
+    "artist": "Helene Fischer",
+    "year": 2017,
+    "genre": "Schlager"
+  },
+  {
     "id": "josh-cordula-gr-n",
     "title": "Cordula Grün",
     "artist": "Josh.",
@@ -20489,6 +22323,55 @@
     "genre": "Rock"
   },
   {
+    "id": "ben-zucker-was-fuer-eine-geile-zeit",
+    "title": "Was für eine geile Zeit",
+    "artist": "Ben Zucker",
+    "year": 2018,
+    "genre": "Schlager"
+  },
+  {
+    "id": "kerstin-ott-regenbogenfarben",
+    "title": "Regenbogenfarben",
+    "artist": "Kerstin Ott",
+    "year": 2018,
+    "genre": "Schlager"
+  },
+  {
+    "id": "maite-kelly-die-liebe-siegt-sowieso",
+    "title": "Die Liebe siegt sowieso",
+    "artist": "Maite Kelly",
+    "year": 2018,
+    "genre": "Schlager"
+  },
+  {
+    "id": "eloy-de-jong-kopf-aus-herz-an",
+    "title": "Kopf aus - Herz an",
+    "artist": "Eloy de Jong",
+    "year": 2018,
+    "genre": "Schlager"
+  },
+  {
+    "id": "matthias-reim-michelle-nicht-verdient",
+    "title": "Nicht verdient",
+    "artist": "Matthias Reim & Michelle",
+    "year": 2018,
+    "genre": "Schlager"
+  },
+  {
+    "id": "beatrice-egli-verliebt-verlobt-verflixt",
+    "title": "Verliebt, verlobt, verflixt",
+    "artist": "Beatrice Egli",
+    "year": 2018,
+    "genre": "Schlager"
+  },
+  {
+    "id": "vanessa-mai-mein-sommer",
+    "title": "Mein Sommer",
+    "artist": "Vanessa Mai",
+    "year": 2018,
+    "genre": "Schlager"
+  },
+  {
     "id": "folkshilfe-natur",
     "title": "Natur",
     "artist": "Folkshilfe",
@@ -20825,6 +22708,41 @@
     "genre": "Rock"
   },
   {
+    "id": "roland-kaiser-stark",
+    "title": "Stark",
+    "artist": "Roland Kaiser",
+    "year": 2019,
+    "genre": "Schlager"
+  },
+  {
+    "id": "vanessa-mai-venedig-love-is-in-the-air",
+    "title": "Venedig (Love Is in the Air)",
+    "artist": "Vanessa Mai",
+    "year": 2019,
+    "genre": "Schlager"
+  },
+  {
+    "id": "beatrice-egli-terra-australia",
+    "title": "Terra Australia",
+    "artist": "Beatrice Egli",
+    "year": 2019,
+    "genre": "Schlager"
+  },
+  {
+    "id": "giovanni-zarrella-santa-maria",
+    "title": "Santa Maria",
+    "artist": "Giovanni Zarrella",
+    "year": 2019,
+    "genre": "Schlager"
+  },
+  {
+    "id": "fantasy-casanova",
+    "title": "Casanova",
+    "artist": "Fantasy",
+    "year": 2019,
+    "genre": "Schlager"
+  },
+  {
     "id": "seiler-und-speer-principessa",
     "title": "Principessa",
     "artist": "Seiler und Speer",
@@ -21117,6 +23035,34 @@
     "artist": "Twenty One Pilots",
     "year": 2020,
     "genre": "Rock"
+  },
+  {
+    "id": "thomas-anders-florian-silbereisen-sie-sagte-doch-sie-liebt-mich",
+    "title": "Sie sagte doch sie liebt mich",
+    "artist": "Thomas Anders & Florian Silbereisen",
+    "year": 2020,
+    "genre": "Schlager"
+  },
+  {
+    "id": "ramon-roselly-eine-nacht",
+    "title": "Eine Nacht",
+    "artist": "Ramon Roselly",
+    "year": 2020,
+    "genre": "Schlager"
+  },
+  {
+    "id": "michelle-vorbei-vorbei",
+    "title": "Vorbei, vorbei",
+    "artist": "Michelle",
+    "year": 2020,
+    "genre": "Schlager"
+  },
+  {
+    "id": "kerstin-ott-wegen-dir",
+    "title": "Wegen dir",
+    "artist": "Kerstin Ott",
+    "year": 2020,
+    "genre": "Schlager"
   },
   {
     "id": "seiler-und-speer-h-dn-live",
@@ -21434,6 +23380,34 @@
     "genre": "Rock"
   },
   {
+    "id": "helene-fischer-null-auf-100",
+    "title": "Null auf 100",
+    "artist": "Helene Fischer",
+    "year": 2021,
+    "genre": "Schlager"
+  },
+  {
+    "id": "maite-kelly-einfach-hello",
+    "title": "Einfach Hello",
+    "artist": "Maite Kelly",
+    "year": 2021,
+    "genre": "Schlager"
+  },
+  {
+    "id": "matthias-reim-acht-milliarden-traeumer",
+    "title": "Acht Milliarden Träumer",
+    "artist": "Matthias Reim",
+    "year": 2021,
+    "genre": "Schlager"
+  },
+  {
+    "id": "kerstin-ott-nachts-sind-alle-katzen-grau",
+    "title": "Nachts sind alle Katzen grau",
+    "artist": "Kerstin Ott",
+    "year": 2021,
+    "genre": "Schlager"
+  },
+  {
     "id": "andreas-gabalier-a-meinung-haben",
     "title": "A Meinung haben",
     "artist": "Andreas Gabalier",
@@ -21592,7 +23566,7 @@
     "title": "Layla",
     "artist": "DJ Robin & Schürze",
     "year": 2022,
-    "genre": "Pop"
+    "genre": "Schlager"
   },
   {
     "id": "david-guetta-bebe-rexha-i-m-good-blue",
@@ -21796,6 +23770,20 @@
     "artist": "The Black Keys",
     "year": 2022,
     "genre": "Rock"
+  },
+  {
+    "id": "andrea-berg-hallo-houston",
+    "title": "Hallo Houston",
+    "artist": "Andrea Berg",
+    "year": 2022,
+    "genre": "Schlager"
+  },
+  {
+    "id": "beatrice-egli-bunt",
+    "title": "Bunt",
+    "artist": "Beatrice Egli",
+    "year": 2022,
+    "genre": "Schlager"
   },
   {
     "id": "bilderbuch-checkpoint-charlie",
@@ -22134,6 +24122,34 @@
     "genre": "Rock"
   },
   {
+    "id": "helene-fischer-hand-in-hand",
+    "title": "Hand in Hand",
+    "artist": "Helene Fischer",
+    "year": 2023,
+    "genre": "Schlager"
+  },
+  {
+    "id": "beatrice-egli-balance",
+    "title": "Balance",
+    "artist": "Beatrice Egli",
+    "year": 2023,
+    "genre": "Schlager"
+  },
+  {
+    "id": "andrea-berg-viel-zu-schoen-um-wahr-zu-sein",
+    "title": "Viel zu schön, um wahr zu sein",
+    "artist": "Andrea Berg",
+    "year": 2023,
+    "genre": "Schlager"
+  },
+  {
+    "id": "anna-maria-zimmermann-zusammen-sind-wir-eins",
+    "title": "Zusammen sind wir eins",
+    "artist": "Anna-Maria Zimmermann",
+    "year": 2023,
+    "genre": "Schlager"
+  },
+  {
     "id": "andreas-gabalier-dahoam",
     "title": "Dahoam",
     "artist": "Andreas Gabalier",
@@ -22468,6 +24484,48 @@
     "artist": "Pearl Jam",
     "year": 2024,
     "genre": "Rock"
+  },
+  {
+    "id": "andrea-berg-unsere-beste-zeit",
+    "title": "Unsere beste Zeit",
+    "artist": "Andrea Berg",
+    "year": 2024,
+    "genre": "Schlager"
+  },
+  {
+    "id": "beatrice-egli-du-du-du",
+    "title": "Du, du, du",
+    "artist": "Beatrice Egli",
+    "year": 2024,
+    "genre": "Schlager"
+  },
+  {
+    "id": "andrea-berg-sag-niemals-nie",
+    "title": "Sag niemals nie",
+    "artist": "Andrea Berg",
+    "year": 2024,
+    "genre": "Schlager"
+  },
+  {
+    "id": "kerstin-ott-alte-liebe-rostet-nie",
+    "title": "Alte Liebe rostet nie",
+    "artist": "Kerstin Ott",
+    "year": 2024,
+    "genre": "Schlager"
+  },
+  {
+    "id": "mickie-krause-tim-toupet-dann-leg-ich-schlager-auf",
+    "title": "Dann leg ich Schlager auf",
+    "artist": "Mickie Krause & Tim Toupet",
+    "year": 2024,
+    "genre": "Schlager"
+  },
+  {
+    "id": "maite-kelly-es-ist-einfach-passiert",
+    "title": "Es ist einfach passiert",
+    "artist": "Maite Kelly",
+    "year": 2024,
+    "genre": "Schlager"
   },
   {
     "id": "andreas-gabalier-danke",
@@ -22867,6 +24925,48 @@
     "artist": "Twenty One Pilots",
     "year": 2025,
     "genre": "Rock"
+  },
+  {
+    "id": "helene-fischer-florian-silbereisen-schau-mal-herein",
+    "title": "Schau mal herein",
+    "artist": "Helene Fischer & Florian Silbereisen",
+    "year": 2025,
+    "genre": "Schlager"
+  },
+  {
+    "id": "beatrice-egli-au-revoir",
+    "title": "Au revoir",
+    "artist": "Beatrice Egli",
+    "year": 2025,
+    "genre": "Schlager"
+  },
+  {
+    "id": "beatrice-egli-hoer-nie-auf-damit",
+    "title": "Hör nie auf damit",
+    "artist": "Beatrice Egli",
+    "year": 2025,
+    "genre": "Schlager"
+  },
+  {
+    "id": "christin-stark-barcelona",
+    "title": "Barcelona",
+    "artist": "Christin Stark",
+    "year": 2025,
+    "genre": "Schlager"
+  },
+  {
+    "id": "sonia-liebing-jugendliebe",
+    "title": "Jugendliebe",
+    "artist": "Sonia Liebing",
+    "year": 2025,
+    "genre": "Schlager"
+  },
+  {
+    "id": "andrea-berg-wir-sehen-uns",
+    "title": "Wir sehen uns",
+    "artist": "Andrea Berg",
+    "year": 2025,
+    "genre": "Schlager"
   },
   {
     "id": "andreas-gabalier-mei-steirerland",

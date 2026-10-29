@@ -7,9 +7,9 @@ describe('songs.json', () => {
     expect(validateSongs(allSongs)).toEqual([]);
   });
 
-  it('has only Rock and Pop songs spread over several decades', () => {
+  it('has only the known genres, spread over several decades', () => {
     expect(allSongs.length).toBeGreaterThan(1000);
-    expect(listGenres(allSongs)).toEqual(['Austropop', 'Pop', 'Rock']);
+    expect(listGenres(allSongs)).toEqual(['Austropop', 'Pop', 'Rock', 'Schlager']);
     expect(listDecades(allSongs).length).toBeGreaterThanOrEqual(6);
   });
 

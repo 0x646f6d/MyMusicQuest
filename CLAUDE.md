@@ -16,7 +16,7 @@ Hitster-artiges Musik-Rate-Spiel (2 Teams, Lieder nach Jahr in eine Zeitleiste e
 
 Lieder, die Spotify nicht findet, werden automatisch übersprungen (Aktion `unavailable`): dasselbe Team bekommt kostenlos das nächste Lied, die Phase bleibt (`pending` → `placing`).
 
-Liedauswahl: filterbar nach Genre (Rock, Pop, Austropop) und Jahrzehnt. Jedes Gerät merkt sich gespielte Lieder (`mmq.played` in localStorage). Beim Spielstart kommen erst noch nie gespielte Lieder (zufällig gemischt), danach bereits gespielte, das am längsten nicht gespielte zuerst. Verlauf in der Einrichtung zurücksetzbar.
+Liedauswahl: filterbar nach Genre (Rock, Pop, Austropop, Schlager) und Jahrzehnt. Jedes Gerät merkt sich gespielte Lieder (`mmq.played` in localStorage). Beim Spielstart kommen erst noch nie gespielte Lieder (zufällig gemischt), danach bereits gespielte, das am längsten nicht gespielte zuerst. Verlauf in der Einrichtung zurücksetzbar.
 
 ## Stack & Befehle
 
@@ -33,7 +33,7 @@ Vor jedem Commit: `npx prettier --write . && npx tsc -b && npm run lint && npm t
 ## Architektur
 
 - `src/game/`: reine, framework-freie Spiellogik. `engine.ts` ist ein Reducer (`start`, `claimOpening`, `place`, `reveal`, `challenge`, `bonus`, `exactYear`, `skip`, `unavailable`, `next`), `rules.ts` enthält `isPlacementCorrect` (>= / <=) und `insertSorted`. Phasen: `opening → revealed → placing → [pending →] revealed → … → finished`. `cardOwner(result)` sagt, wer die Karte bekommen hat. `tokens`/`winner`/`challenges`/`bonus`/`exact` fehlen in alten gespeicherten Spielen (→ `tokensOf`, `cardOwner`, `canClaimBonus`, `canClaimExactYear` fangen das ab). Kosten/Belohnung als Konstanten `SKIP_COST`, `EXACT_YEAR_TOKENS`. Timelines sind immer nach Jahr sortiert.
-- `src/data/`: `songs.json` (~3300 Songs, Genres `Rock`, `Pop` und `Austropop` = österreichische Interpreten, jedes Lied nur einmal), `pool.ts` (Filter Genre/Jahrzehnt, `shuffle`), `history.ts` (Verlauf gespielter Lieder, `orderForDeck`), `validate.ts`. `loadSettings` verwirft Genres, die es in `songs.json` nicht mehr gibt.
+- `src/data/`: `songs.json` (~3600 Songs, Genres `Rock`, `Pop`, `Austropop` = österreichische Interpreten und `Schlager` = deutschsprachiger Schlager nicht-österreichischer Interpreten, jedes Lied nur einmal), `pool.ts` (Filter Genre/Jahrzehnt, `shuffle`), `history.ts` (Verlauf gespielter Lieder, `orderForDeck`), `validate.ts`. `loadSettings` verwirft Genres, die es in `songs.json` nicht mehr gibt.
 - `src/audio/`: `AudioProvider`-Interface; `spotifyConnect.ts` steuert ein Spotify-Connect-Gerät über die Web API (Track-URI per Suche, gecacht in localStorage); `mockProvider.ts` = ohne Ton.
 - `src/auth/spotifyAuth.ts`: OAuth PKCE rein im Client. Redirect-URI = App-Basis-URL, `handleRedirect()` läuft beim App-Start.
 - `src/ui/`: `SetupScreen`, `DevicePicker`, `GameScreen`, `TableLayout`, `Timeline`, `useWakeLock` (hält während des Spiels den Bildschirm an, fordert den Lock nach Sichtbarkeitswechsel und beim nächsten Tippen neu an), `useFullscreen`/`FullscreenButton` (Vollbild-Umschalter in Einrichtung und Spiel, ausgeblendet ohne Fullscreen-API, z. B. iPhone). Einspruch-Modus ist lokaler UI-State (an die Lied-ID gebunden); in der Tisch-Ansicht zeigt die Gegner-Hälfte dann die Zeitleiste des aktiven Teams, damit sie nicht auf dem Kopf steht. Zwei Ansichten (Setting `layout`): `table` (Standard; Tablet liegt quer zwischen den Teams, obere Hälfte um 180° gedreht, Steuerung in der Mitte, Texte aus Sicht des jeweiligen Teams) und `classic`. `App.tsx` hält Settings und Spielzustand (beides in localStorage persistiert, `src/storage.ts` fängt Fehler ab).
@@ -71,6 +71,7 @@ Die Tablet-Plattform betrifft nur die Bedienoberfläche:
 ## Backlog / Ideen
 
 - Automatisierte Liedauswahl: Import aus Spotify-Playlists, Jahr über MusicBrainz verifizieren.
+- Schlager-Jahreszahlen (2026 ergänzt, teils ohne Quellenzugriff) gezielt prüfen, v. a. 80er bis 2010er.
 - Jahreszahlen und Spotify-Treffer stichprobenartig prüfen, ggf. `spotifyUri` pinnen. Bei manchen Liedern liegen Album- und Single-Jahr auseinander.
 - Optional weiterer `AudioProvider` (z. B. YouTube), falls Spotify nicht verfügbar.
 
