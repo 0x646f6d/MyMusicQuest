@@ -39,6 +39,11 @@ for (const layout of ['Tisch (Teams sitzen gegenüber)', 'Klassisch']) {
     await expect(page.getByText('+1 Jeton!')).toBeVisible();
     await expect(page.getByText('✋ 4')).toBeVisible();
 
+    // "Menü" leaves without a confirmation dialog, the game can be resumed
+    await page.getByRole('button', { name: 'Menü' }).click();
+    await page.getByRole('button', { name: 'Spiel fortsetzen' }).click();
+    await expect(page.getByText('✋ 4')).toBeVisible();
+
     let challenged = false;
     for (let i = 0; i < 200; i++) {
       if (
@@ -68,6 +73,7 @@ for (const layout of ['Tisch (Teams sitzen gegenüber)', 'Klassisch']) {
     }
     await expect(page.getByText(/gewinnt!|Unentschieden!/).first()).toBeVisible();
     expect(challenged).toBe(true);
+    await expect(page.locator('canvas.fireworks')).toBeAttached();
 
     // reload keeps the finished game, "Neues Spiel" returns to setup
     await page.reload();

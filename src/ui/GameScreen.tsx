@@ -13,6 +13,7 @@ import {
 } from '../game/engine';
 import type { GameAction, GameState, TeamIndex } from '../game/types';
 import type { Layout } from '../settings';
+import { Fireworks } from './Fireworks';
 import { FullscreenButton } from './FullscreenButton';
 import { TableLayout } from './TableLayout';
 import { Timeline } from './Timeline';
@@ -83,58 +84,58 @@ export function GameScreen({ game, dispatch, provider, layout, onExit }: Props) 
     dispatch({ type: 'next' });
   };
 
+  // the game is saved, so leaving needs no confirmation
   const exit = () => {
-    if (
-      phase === 'finished' ||
-      window.confirm('Spiel verlassen? Es kann später fortgesetzt werden.')
-    ) {
-      pause();
-      onExit();
-    }
+    pause();
+    onExit();
   };
 
   if (layout === 'table') {
     return (
-      <TableLayout
-        game={game}
-        dispatch={dispatch}
-        hidden={hidden}
-        onNext={next}
-        onExit={onExit}
-        controls={
-          <>
-            <button type="button" className="btn" onClick={play}>
-              ▶ Von vorne
-            </button>
-            <button type="button" className="btn" onClick={pause}>
-              ❚❚ Pause
-            </button>
-            {provider.kind === 'mock' && current && hidden && (
-              <button type="button" className="btn link" onClick={() => setShowHost((v) => !v)}>
-                {showHost
-                  ? `${current.artist} – ${current.title}`
-                  : 'Titel für Spielleitung zeigen'}
+      <>
+        {phase === 'finished' && <Fireworks />}
+        <TableLayout
+          game={game}
+          dispatch={dispatch}
+          hidden={hidden}
+          onNext={next}
+          onExit={onExit}
+          controls={
+            <>
+              <button type="button" className="btn" onClick={play}>
+                ▶ Von vorne
               </button>
-            )}
-            <div className="row">
-              <FullscreenButton />
-              <button type="button" className="btn small" onClick={exit}>
-                Menü
+              <button type="button" className="btn" onClick={pause}>
+                ❚❚ Pause
               </button>
-            </div>
-            {audioError && (
-              <p className="error" role="alert">
-                {audioError}
-              </p>
-            )}
-          </>
-        }
-      />
+              {provider.kind === 'mock' && current && hidden && (
+                <button type="button" className="btn link" onClick={() => setShowHost((v) => !v)}>
+                  {showHost
+                    ? `${current.artist} – ${current.title}`
+                    : 'Titel für Spielleitung zeigen'}
+                </button>
+              )}
+              <div className="row">
+                <FullscreenButton />
+                <button type="button" className="btn small" onClick={exit}>
+                  Menü
+                </button>
+              </div>
+              {audioError && (
+                <p className="error" role="alert">
+                  {audioError}
+                </p>
+              )}
+            </>
+          }
+        />
+      </>
     );
   }
 
   return (
     <main className="game">
+      {phase === 'finished' && <Fireworks />}
       <header className="scoreboard">
         {([0, 1] as TeamIndex[]).map((i) => (
           <div key={i} className={`score team-${i} ${turnOf === i ? 'active' : ''}`}>
